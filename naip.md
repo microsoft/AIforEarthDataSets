@@ -1,3 +1,7 @@
+### National Agricultural Imagery Program (NAIP)
+
+#### Overview
+
 Aerial imagery from the National Agricultural Imagery Program (NAIP).
 
 [NAIP](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/) provides US-wide, high-resolution aerial imagery. This program is administered by the [Aerial Field Photography Office](https://www.fsa.usda.gov/programs-and-services/aerial-photography/) (AFPO) within the [US Department of Agriculture](https://www.usda.gov/) (USDA).  Data are available from 2010 to the present.

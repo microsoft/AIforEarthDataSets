@@ -1,3 +1,7 @@
+### GFS Warm Start Initial Conditions
+
+#### Overview
+
 Warm start initial conditions for the NOAA Global Forecast System.
 
 The NOAA [Global Forecast System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs) (GFS) Warm Start Initial Conditions are produced by the [National Centers for Environmental Prediction](https://www.ncep.noaa.gov/) (NCEP) to run operational deterministic medium-range numerical weather predictions.   The GFS is built with the [GFDL Finite­Volume Cubed-Sphere Dynamical Core](https://www.gfdl.noaa.gov/fv3/) (FV3) and the [Grid-Point Statistical Interpolation](https://ral.ucar.edu/solutions/products/gridpoint-statistical-interpolation-gsi) (GSI) data assimilation system.  The current operational GFS is run at 64 layers in the vertical dimension extending from the surface to the upper stratosphere, and on six cubic-sphere tiles at the C768 or 13-km horizontal resolution.  A new version of the GFS that has 127 layers extending to the mesopause will be implemented for operation on February 3, 2021.  These initial conditions are made available four times per day for running forecasts at the 00Z, 06Z, 12Z and 18Z cycles.

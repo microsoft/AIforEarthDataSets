@@ -1,3 +1,7 @@
+### Harmonized Landsat Sentinel-2
+
+#### Overview
+
 Satellite imagery from the Landsat 8 and Sentinel-2 satellites, aligned to a common grid and processed to compatible color spaces.
 
 The [Harmonized Landsat Sentinel-2](https://hls.gsfc.nasa.gov/) (HLS) product includes data from the Landsat-8 and Sentinel-2 satellites, aligned to a common tiling system at 30m resolution, from 2013 to the present for Landsat and 2015 to the present for Sentinel-2.  HLS is administered by the National Aeronautics and Space Administration (NASA). 

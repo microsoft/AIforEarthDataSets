@@ -1,3 +1,7 @@
+### Monitoring Trends in Burn Severity (MTBS) Mosaics
+
+#### Overview
+
 Annual burn severity mosaics for the continental United States and Alaska.
 
 [Monitoring Trends in Burn Severity](https://www.mtbs.gov/) (MTBS) is an inter-agency program whose goal is to consistently map the burn severity and extent of large fires across the United States from 1984 to the present. This includes all fires 1000 acres or greater in the Western United States and 500 acres or greater in the Eastern United States.
