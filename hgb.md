@@ -19,7 +19,7 @@ Resolution: 300m
 
 Data are stored in blobs in the West Europe Azure region, in the following blob folder:
 
-https://carbonplan.blob.core.windows.net/carbonplan-data/raw/2010-harmonized-biomass/global/300m/
+`https://cpdataeuwest.blob.core.windows.net/cpdata/raw/2010-harmonized-biomass/global/300m/`
 
 Images are stored in cloud optimized GeoTIFF format. 
 
