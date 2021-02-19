@@ -142,6 +142,16 @@ Sentinel-2 data are in preview; access is granted by request.
 * [Documentation](data/sentinel-2.md)
 * [Notebook](data/sentinel-2.ipynb)
 
+## Landsat Collection 2 Level-2
+
+Global optical imagery from the Landsat 4, 5, 7, and 8 satellites, which have imaged the Earth since 1982.
+
+Landsat data are in preview; access is granted by request.
+
+* [Source](https://landsat.gsfc.nasa.gov/)
+* [Documentation](data/landsat.md)
+* [Notebook](data/landsat.ipynb)
+
 # Legal stuff
 
 ## Contributing
