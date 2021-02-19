@@ -152,6 +152,16 @@ Landsat data are in preview; access is granted by request.
 * [Documentation](data/landsat.md)
 * [Notebook](data/landsat.ipynb)
 
+## ASTER L1T (2000-2006)
+
+Global multispectral imagery from the Advanced Spaceborne Thermal Emission and Reflection Radiometer.
+
+ASTER data are in preview; access is granted by request.
+
+* [Source](https://terra.nasa.gov/about/terra-instruments/aster)
+* [Documentation](data/aster.md)
+* [Notebook](data/aster.ipynb)
+
 # Legal stuff
 
 ## Contributing

@@ -16,7 +16,7 @@ Data are stored in blobs in the West Europe Azure region, in the following blob 
 
 `https://landsateuwest.blob.core.windows.net/landsat-c2`
 
-As per above, this container is not world-readable; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=sentinel2%20question) to request an access token.
+As per above, this container is not world-readable; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=landsat%20question) to request an access token.
 
 ##### Scene names
 
@@ -88,7 +88,7 @@ Large-scale processing is best performed in the West Europe Azure region, where 
 
 #### Contact
 
-For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=sentinel-2%20question).
+For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=landsat%20question).
 
 
 #### Notices
