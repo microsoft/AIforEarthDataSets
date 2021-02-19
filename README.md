@@ -134,6 +134,8 @@ Data for COVID-19 researchers exploring relationships between COVID-19 and envir
 
 ## Sentinel-2 L2A (preview)
 
+Global optical imagery at 10m resolution from 2016-present.
+
 Sentinel-2 data are in preview; access is granted by request.
 
 * [Source](https://sentinel.esa.int/web/sentinel/missions/sentinel-2)

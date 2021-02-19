@@ -87,7 +87,7 @@ Within a scene folder, recursively listing *.tif will enumerate all images, with
 * `WVP_60m`: water vapor (60m)
 
 
-For example the 10m image for band 2 in the example scene above is at:
+For example, the 10m image for band 2 in the example scene above is at:
 
 `https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/11/C/MM/2020/11/26/S2B_MSIL2A_20201126T154319_N0212_R125_T11CMM_20201127T152008.SAFE/GRANULE/L2A_T11CMM_A019456_20201126T154359/IMG_DATA/R10m/T11CMM_20201126T154319_B02_10m.tif`
 
@@ -106,7 +106,7 @@ Large-scale processing is best performed in the West Europe Azure region, where 
 
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/sentinel-2.png" width=350px;><br/>
 
-<p style="font-size:80%;margin-left:15px;">Topography in the Mount Fuji area.</p>
+<p style="font-size:80%;margin-left:15px;">A <i>mostly</i> cloudless day in Seattle.</p>
 
 
 #### Contact
