@@ -1,6 +1,6 @@
 # Overview
 
-This repo hosts the documentation and demonstration notebooks for all data that is managed by the <a href="http://aka.ms/aiforearth">Microsoft AI for Earth program</a> and published on <a href="https://azure.microsoft.com/en-us/services/open-datasets/catalog/?q=aiforearth">Azure Open Datasets</a>.
+The <a href="http://aka.ms/aiforearth">Microsoft AI for Earth program</a> hosts geospatial data on Azure that is important to environmental sustainability and Earth science.  This repo hosts documentation and demonstration notebooks for all the data that is managed by AI for Earth.  If you have feedback about any of this data, or want to request additions to our data program, email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=data%20question).
 
 # Data sets
 
