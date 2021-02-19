@@ -127,3 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+modissa.blob.core.windows.net/modis/sn_bound_10deg.txt
