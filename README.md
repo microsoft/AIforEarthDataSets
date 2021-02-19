@@ -126,11 +126,19 @@ Monthly climate and climatic water balance for global terrestrial surfaces from 
 
 ## UK Met Office Global Weather Data for COVID-19 Analysis
 
-Data is for COVID-19 researchers exploring relationships between COVID-19 and environmental factors.
+Data for COVID-19 researchers exploring relationships between COVID-19 and environmental factors.
 
 * [Source](https://medium.com/informatics-lab/met-office-and-partners-offer-data-and-compute-platform-for-covid-19-researchers-83848ac55f5f)
 * [Documentation](uk-met-covid-19.md)
 * [Notebook](uk-met-covid-19.ipynb)
+
+## Sentinel-2 L2A (preview)
+
+Sentinel-2 data are in preview; access is granted by request.
+
+* [Source](https://sentinel.esa.int/web/sentinel/missions/sentinel-2)
+* [Documentation](sentinel-2.md)
+* [Notebook](sentinel-2.ipynb)
 
 # Legal stuff
 
