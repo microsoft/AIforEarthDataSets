@@ -9,7 +9,7 @@ This repo hosts the documentation and demonstration notebooks for all data that 
 Estimates of daily weather parameters in North America on a one-kilometer grid, with monthly and annual summaries.
 
 * [Source](https://daymet.ornl.gov/)
-* [Documentation](daymet.md)
+* [Documentation](data/daymet.md)
 * [Notebook (Zarr)](daymet-zarr.ipynb)
 * [Notebook (NetCDF)](daymet-nc.ipynb)
 
@@ -18,127 +18,127 @@ Estimates of daily weather parameters in North America on a one-kilometer grid, 
 Status and trends on U.S. forest location, health, growth, mortality, and production, from the US Forest Service's  [Forest Inventory and Analysis](https://www.fia.fs.fed.us/) (FIA) program.  
 
 * [Source](https://www.fia.fs.fed.us/)
-* [Documentation](forest-inventory-and-analysis.md)
-* [Notebook](forest-inventory-and-analysis.ipynb)
+* [Documentation](data/forest-inventory-and-analysis.md)
+* [Notebook](data/forest-inventory-and-analysis.ipynb)
 
 ## NOAA GFS Warm Start Initial Conditions
 
 Warm start initial conditions for the [NOAA Global Forecast System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs).
 
 * [Source](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs)
-* [Documentation](gfs-warm-start.md)
+* [Documentation](data/gfs-warm-start.md)
 
 ## NOAA Global Hydro Estimator
 
 Global rainfall estimates in 15-minute intervals.
 
 * [Source](https://www.ospo.noaa.gov/Products/atmosphere/ghe/)
-* [Documentation](ghe.md)
-* [Notebook](ghe.ipynb)
+* [Documentation](data/ghe.md)
+* [Notebook](data/ghe.ipynb)
 
 ## NOAA GOES-16
 
 Weather imagery from the GOES-16 satellite.
 
 * [Source](https://www.nesdis.noaa.gov/GOES-R-Series-Satellites)
-* [Documentation](goes-16.md)
-* [Notebook](goes-16-abi-l2-mcmipf.ipynb)
+* [Documentation](data/goes-16.md)
+* [Notebook](data/goes-16-abi-l2-mcmipf.ipynb)
 
 ## Harmonized Global Biomass
 
 Global maps of aboveground and belowground biomass carbon density for the year 2010 at 300m resolution.
 
 * [Source](https://www.nature.com/articles/s41597-020-0444-4)
-* [Documentation](hgb.md)
-* [Notebook](hgb.ipynb)
+* [Documentation](data/hgb.md)
+* [Notebook](data/hgb.ipynb)
 
 ## Harmonized Landsat Sentinel-2
 
 Satellite imagery from the Landsat 8 and Sentinel-2 satellites, aligned to a common grid and processed to compatible color spaces.
 
 * [Source](https://hls.gsfc.nasa.gov/)
-* [Documentation](hls.md)
-* [Notebook](hls.ipynb)
+* [Documentation](data/hls.md)
+* [Notebook](data/hls.ipynb)
 
 ## MODIS MCD43A4 (BRDF-Corrected Surface Reflectance)
 
 Satellite imagery from the Moderate Resolution Imaging Spectroradiometer (MODIS).
 
 * [Source](https://lpdaac.usgs.gov/products/mcd43a4v006/)
-* [Documentation](modis-mcd43a4.md)
-* [Notebook](modis-mcd43a4.ipynb)
+* [Documentation](data/modis-mcd43a4.md)
+* [Notebook](data/modis-mcd43a4.ipynb)
 
 ## Monitoring Trends in Burn Severity Mosaics
 
 Annual burn severity mosaics for the continental United States and Alaska.
 
 * [Source](https://www.mtbs.gov/)
-* [Documentation](mtbs.md)
-* [Notebook](mtbs.ipynb)
+* [Documentation](data/mtbs.md)
+* [Notebook](data/mtbs.ipynb)
 
 ## National Agricultural Imagery Program
 
 Aerial imagery from the National Agricultural Imagery Program (NAIP).
 
 * [Source](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/)
-* [Documentation](naip.md)
-* [Notebook](naip.ipynb)
+* [Documentation](data/naip.md)
+* [Notebook](data/naip.ipynb)
 
 ## NASADEM
 
 Global topographic information from the NASADEM program.
 
 * [Source](https://earthdata.nasa.gov/esds/competitive-programs/measures/nasadem)
-* [Documentation](nasadem.md)
-* [Notebook](nasadem.ipynb)
+* [Documentation](data/nasadem.md)
+* [Notebook](data/nasadem.ipynb)
 
 ## NOAA NEXRAD L2
 
 Recent level II data from the NEXRAD weather radar system.
 
 * [Source](https://www.ncdc.noaa.gov/data-access/radar-data/nexrad)
-* [Documentation](nexrad-l2.md)
-* [Notebook](nexrad-l2.ipynb)
+* [Documentation](data/nexrad-l2.md)
+* [Notebook](data/nexrad-l2.ipynb)
 
 ## National Land Cover Database
 
 US-wide data on land cover and land cover change at a 30m resolution with a 16-class legend.
 
 * [Source](https://www.mrlc.gov/)
-* [Documentation](nlcd.md)
-* [Notebook](nlcd.ipynb)
+* [Documentation](data/nlcd.md)
+* [Notebook](data/nlcd.ipynb)
 
 ## Ocean Observatories Initiative CamHD
 
 Video data from the [Ocean Observatories Initiative](https://oceanobservatories.org/) seafloor camera deployed at [Axial Volcano](https://en.wikipedia.org/wiki/Axial_Seamount) on the Juan de Fuca Ridge.
 
 * [Source](https://oceanobservatories.org/instrument-class/camhd/)
-* [Documentation](ooi-camhd.md)
-* [Notebook](ooi-camhd.ipynb)
+* [Documentation](data/ooi-camhd.md)
+* [Notebook](data/ooi-camhd.ipynb)
 
 ## TerraClimate
 
 Monthly climate and climatic water balance for global terrestrial surfaces from 1958-2019.
 
 * [Source](http://www.climatologylab.org/terraclimate.html)
-* [Documentation](terraclimate.md)
-* [Notebook](terraclimate.ipynb)
+* [Documentation](data/terraclimate.md)
+* [Notebook](data/terraclimate.ipynb)
 
 ## UK Met Office Global Weather Data for COVID-19 Analysis
 
 Data for COVID-19 researchers exploring relationships between COVID-19 and environmental factors.
 
 * [Source](https://medium.com/informatics-lab/met-office-and-partners-offer-data-and-compute-platform-for-covid-19-researchers-83848ac55f5f)
-* [Documentation](uk-met-covid-19.md)
-* [Notebook](uk-met-covid-19.ipynb)
+* [Documentation](data/uk-met-covid-19.md)
+* [Notebook](data/uk-met-covid-19.ipynb)
 
 ## Sentinel-2 L2A (preview)
 
 Sentinel-2 data are in preview; access is granted by request.
 
 * [Source](https://sentinel.esa.int/web/sentinel/missions/sentinel-2)
-* [Documentation](sentinel-2.md)
-* [Notebook](sentinel-2.ipynb)
+* [Documentation](data/sentinel-2.md)
+* [Notebook](data/sentinel-2.ipynb)
 
 # Legal stuff
 

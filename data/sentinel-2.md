@@ -101,23 +101,17 @@ A complete Python example of accessing and plotting Sentinel-2 data - using the 
 
 Large-scale processing is best performed in the West Europe Azure region, where the images are stored.  If you are using Sentinel-2 data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
 
-#### License and attribution information
-
-NASADEM data may be used without restriction for any purpose whatsoever, commercial or otherwise, free of any royalties or other restrictions. No special permission or compensation is required, even for reselling the exact data, images or other derived products.
-
-If possible, when using this data, please attribute to &ldquo;Courtesy NASA/JPL-Caltech&rdquo;.
-
 
 #### Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/nasadem.png" width=350px;><br/>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/sentinel-2.png" width=350px;><br/>
 
 <p style="font-size:80%;margin-left:15px;">Topography in the Mount Fuji area.</p>
 
 
 #### Contact
 
-For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=nasadem%20question).
+For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=sentinel-2%20question).
 
 
 #### Notices
