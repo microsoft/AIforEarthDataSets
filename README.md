@@ -102,13 +102,15 @@ Recent level II data from the NEXRAD weather radar system.
 
 ## National Land Cover Database
 
+US-wide data on land cover and land cover change at a 30m resolution with a 16-class legend.
+
 * [Source](https://www.mrlc.gov/)
 * [Documentation](nlcd.md)
 * [Notebook](nlcd.ipynb)
 
 ## Ocean Observatories Initiative CamHD
 
-US-wide data on land cover and land cover change at a 30m resolution with a 16-class legend.
+Video data from the [Ocean Observatories Initiative](https://oceanobservatories.org/) seafloor camera deployed at [Axial Volcano](https://en.wikipedia.org/wiki/Axial_Seamount) on the Juan de Fuca Ridge.
 
 * [Source](https://oceanobservatories.org/instrument-class/camhd/)
 * [Documentation](ooi-camhd.md)
