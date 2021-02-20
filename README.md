@@ -124,6 +124,7 @@ Monthly climate and climatic water balance for global terrestrial surfaces from 
 * [Documentation](data/terraclimate.md)
 * [Notebook](data/terraclimate.ipynb)
 
+
 ## UK Met Office Global Weather Data for COVID-19 Analysis
 
 Data for COVID-19 researchers exploring relationships between COVID-19 and environmental factors.
@@ -131,6 +132,14 @@ Data for COVID-19 researchers exploring relationships between COVID-19 and envir
 * [Source](https://medium.com/informatics-lab/met-office-and-partners-offer-data-and-compute-platform-for-covid-19-researchers-83848ac55f5f)
 * [Documentation](data/uk-met-covid-19.md)
 * [Notebook](data/uk-met-covid-19.ipynb)
+
+
+## Labeled Information Library of Alexandria: Biology and Conservation (LILA BC)
+
+AI for Earth and partners have assembled a repository of labeled information related to wildlife conservation, particularly wildlife imagery.
+
+* [lila.science](http://lila.science)
+
 
 ## Sentinel-2 L2A (preview)
 
