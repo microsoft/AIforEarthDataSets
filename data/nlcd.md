@@ -27,7 +27,9 @@ Within that folder, data are organized according to:
 
 `year` is the four-digit year (e.g. 2014).
 
-Images are stored in cloud-optimized GeoTIFF format. 
+Images are stored in cloud-optimized GeoTIFF format.  The one and only image channel contains land cover labels according to the [NLCD legend](https://www.mrlc.gov/data/legends/national-land-cover-database-2016-nlcd2016-legend):
+
+<img src="nlcd_color_labels.jpg" style="margin-left:30px;width:300px;"/>
 
 A complete Python example of accessing and plotting NLCD data is available in the notebook provided under &ldquo;data access&rdquo;.
 
