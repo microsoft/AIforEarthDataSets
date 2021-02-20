@@ -142,7 +142,7 @@ Sentinel-2 data are in preview; access is granted by request.
 * [Documentation](data/sentinel-2.md)
 * [Notebook](data/sentinel-2.ipynb)
 
-## Landsat Collection 2 Level-2
+## Landsat Collection 2 Level-2  (preview)
 
 Global optical imagery from the Landsat 4, 5, 7, and 8 satellites, which have imaged the Earth since 1982.
 
@@ -152,7 +152,7 @@ Landsat data are in preview; access is granted by request.  Landsat 8 on-boardin
 * [Documentation](data/landsat.md)
 * [Notebook](data/landsat.ipynb)
 
-## ASTER L1T (2000-2006)
+## ASTER L1T (2000-2006) (preview)
 
 Global multispectral imagery from the Advanced Spaceborne Thermal Emission and Reflection Radiometer.
 
