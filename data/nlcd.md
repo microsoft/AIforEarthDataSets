@@ -47,6 +47,12 @@ Large-scale processing is best performed in the West Europe Azure data center, w
 For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=nlcd%20question).
 
 
+#### Pretty picture
+
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/nlcd.png">
+
+<p style="font-size:80%;margin-left:15px;">US national land cover for 2001.</p>
+
 #### Notices
 
 MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 

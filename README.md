@@ -146,7 +146,7 @@ Sentinel-2 data are in preview; access is granted by request.
 
 Global optical imagery from the Landsat 4, 5, 7, and 8 satellites, which have imaged the Earth since 1982.
 
-Landsat data are in preview; access is granted by request.
+Landsat data are in preview; access is granted by request.  Landsat 8 on-boarding will be complete in March of 2021, earlier Landsat missions will be complete by Summer of 2021.
 
 * [Source](https://landsat.gsfc.nasa.gov/)
 * [Documentation](data/landsat.md)
