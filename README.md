@@ -133,13 +133,11 @@ Data for COVID-19 researchers exploring relationships between COVID-19 and envir
 * [Documentation](data/uk-met-covid-19.md)
 * [Notebook](data/uk-met-covid-19.ipynb)
 
-
 ## Labeled Information Library of Alexandria: Biology and Conservation (LILA BC)
 
 AI for Earth and partners have assembled a repository of labeled information related to wildlife conservation, particularly wildlife imagery.
 
 * [lila.science](http://lila.science)
-
 
 ## Sentinel-2 L2A (preview)
 
