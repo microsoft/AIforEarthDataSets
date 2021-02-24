@@ -36,7 +36,7 @@ Within that container, each scene corresponds to a folder, named according to:
 * `L` is always "L" for "Landsat"
 * `X` is a sensor identifier ("C" for OLI/TIRS combined, "O" for OLI-only, "T" for TIRS-only, "E" for ETM+, "T" for TM, or "M" for MSS)
 * `SS` is a satellite identifier ("04", "05", "07", or "08")
-* `LLL` is a [processing correction level](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-levels-processing) (L1TP/L1GT/L1GS for level-1 data, L2SP/L2SR for level-2 data)
+* `LLLL` is a [processing correction level](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-levels-processing) (L1TP/L1GT/L1GS for level-1 data, L2SP/L2SR for level-2 data)
 * `PPP` is a [WRS](https://landsat.gsfc.nasa.gov/about/worldwide-reference-system) path
 * `RRR` is a [WRS](https://landsat.gsfc.nasa.gov/about/worldwide-reference-system) row
 * `YYYYMMDD` is the acquisition year, month, day
@@ -52,15 +52,15 @@ Putting that all together, a complete scene folder for a Landsat 8 image from Fe
 
 Within a Landsat 8 (OLI/TIRS) scene folder, listing *.tif will enumerate all images, with suffixes indicating bands according to the following:
 
-* `B1`: Band 1 Visible (0.43-0.45 µm) 30 m
-* `B2`: Band 2 Visible (0.450-0.51 µm) 30 m
-* `B3`: Band 3 Visible (0.53-0.59 µm) 30 m
-* `B4`: Band 4 Red (0.64-0.67 µm) 30 m
-* `B5`: Band 5 Near-Infrared (0.85-0.88 µm) 30 m
-* `B6`: Band 6 SWIR 1(1.57-1.65 µm) 30 m
-* `B7`: Band 7 SWIR 2 (2.11-2.29 µm) 30 m
-* `B8`: Band 8 Panchromatic (PAN) (0.50-0.68 µm) 15 m
-* `B10`: Band 10 TIRS 1 (10.6-11.19 µm) 100 m
+* `B1`: Band 1 Visible (0.43-0.45 µm) 30m
+* `B2`: Band 2 Visible (0.450-0.51 µm) 30m
+* `B3`: Band 3 Visible (0.53-0.59 µm) 30m
+* `B4`: Band 4 Red (0.64-0.67 µm) 30m
+* `B5`: Band 5 Near-Infrared (0.85-0.88 µm) 30m
+* `B6`: Band 6 SWIR 1(1.57-1.65 µm) 30m
+* `B7`: Band 7 SWIR 2 (2.11-2.29 µm) 30m
+* `B8`: Band 8 Panchromatic (PAN) (0.50-0.68 µm) 15m (L1 data only)
+* `B10`: Band 10 TIRS 1 (10.6-11.19 µm) 100m (resampled to 30m)
 
 * `B9`: Band 9 Cirrus (1.36-1.38 um) 30m (level-1 data only)
 * `B11`: Band 11 TIRS 2 (11.50-12.51 µm) 100m (level-1 data only)
@@ -68,6 +68,7 @@ Within a Landsat 8 (OLI/TIRS) scene folder, listing *.tif will enumerate all ima
 For example, the band 2 image in the example scene above is at:
 
 `https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2020/011/021/LC08_L2SP_011021_20200615_20200823_02_T2/LC08_L2SP_011021_20200615_20200823_02_T2_SR_B2.TIF`
+
 
 #### Sample code
 
