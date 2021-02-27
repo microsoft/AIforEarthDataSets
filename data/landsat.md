@@ -48,7 +48,9 @@ Putting that all together, a complete scene folder for a Landsat 8 image from Fe
 
 `https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2020/011/021/LC08_L2SP_011021_20200208_20200823_02_T1/`
 
-### Landsat 8 image files
+### File names
+
+#### Landsat 8 image files
 
 Within each scene, Landsat 8 files follow the [Landsat 8-9 Collection 2 Level 2 specification](https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/atoms/files/LSDS-1328_Landsat8-9-OLI-TIRS-C2-L2-DFCB-v6.pdf); see the specification for complete documentation of both data and metadata.
 
@@ -85,7 +87,7 @@ Landsat 8 Level-2 scenes include the following derived images:
 * `[sceneID]_ST_EMIS.tif`: emissivity image (level-2 only)
 * `[sceneID]_ST_EMSD.tif`: emissivity standard deviation (level-2 only)
 
-## Landsat 8 Metadata files
+#### Landsat 8 metadata files
 
 * `[sceneID]_MTL.xml`: scene metadata file, in .xml format.  The metadata file includes, among other things, geometry information, a cloud cover percentage, information about sensor saturation, and radiance/reflectance calibration information.
 * `[sceneID]_MTL.txt`: the same information in .txt format
@@ -94,14 +96,14 @@ Landsat 8 Level-2 scenes include the following derived images:
 * `[sceneID]_SR_stac.json`: [STAC](https://stacspec.org/) metadata for the surface reflectance product (level-2 only)
 * `[sceneID]_ST_stac.json`: [STAC](https://stacspec.org/) metadata for the surface temperature product (level-2 only)
 
-## Landsat 8 quality assessment files
+#### Landsat 8 quality assessment files
 
 * `[sceneID]_QA_PIXEL.tif`: [quality assessment band](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands)
 * `[sceneID]_QA_RADSAT.tif`: [saturation quality assessment image](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands), indicating which sensors were saturated on a per-pixel basis
 * `[sceneID]_SR_QA_AEROSOL.tif`: [quality assessment band](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands) indicating the aerosol correction applied in atmospheric correction (level-2 only)
 * `[sceneID]_ST_QA.tif`: [quality assessment band](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands) for the surface temperature products
 
-## Landsat 8 thumbnails
+#### Landsat 8 thumbnails
 
 * `[sceneID]_thumb_large.jpeg`: large RGB thumbnail
 * `[sceneID]_thumb_small.jpeg`: small RGB thumbnail
