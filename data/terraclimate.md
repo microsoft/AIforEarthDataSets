@@ -1,6 +1,6 @@
-### TerraClimate
+# TerraClimate
 
-#### Overview
+## Overview
 
 TerraClimate is a dataset of monthly climate and climatic water balance for global terrestrial surfaces from 1958-2019. These data provide important inputs for ecological and hydrological studies at global scales that require high spatial resolution and time-varying data. All data have monthly temporal resolution and a ~4-km (1/24th degree) spatial resolution. The data cover the period from 1958-2019.
 
@@ -14,7 +14,7 @@ Documentation and a complete description of the TerraClimate dataset are availab
 
 This dataset was curated and brought to Azure by [CarbonPlan](https://carbonplan.org/).
 
-#### Storage resources
+## Storage resources
 
 Data are stored in blobs in the West Europe Azure region, in the following folder:
 
@@ -50,19 +50,19 @@ Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azur
 Large-scale processing is best performed in the West Europe Azure data center, where the data are stored.  If you are using this data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
 
 
-#### Citation
+## Citation
 
 If you use this data in a publication, please cite:
 
 Abatzoglou JT, Dobrowski SZ, Parks SA, Hegewisch KC. TerraClimate, a high-resolution global dataset of monthly climate and climatic water balance from 1958–2015. Scientific data. 2018 Jan 9;5(1):1-2.
 
 
-#### Contact
+## Contact
 
 For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=terraclimate%20question).
 
 
-#### Notices
+## Notices
 
 MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
 

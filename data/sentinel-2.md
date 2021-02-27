@@ -1,15 +1,15 @@
-### Sentinel-2 L2A
+# Sentinel-2 L2A
 
-#### Overview
+## Overview
 
 The [Sentinel-2](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) program provides global optical imagery at 10m-60m resolution.  This dataset represents the global Sentinel-2 archive (currently from 2018-realtime), processed to L2A (bottom-of-atmosphere) using [Sen2Cor](https://step.esa.int/main/snap-supported-plugins/sen2cor/) and converted to [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.
 
 Sentinel-2 imagery is currently in preview on Azure; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=sentinel2%20question) to request access.
 
 
-#### Storage resources
+## Storage resources
 
-##### Container information
+### Container information
 
 Data are stored in blobs in the West Europe Azure region, in the following blob container:
 
@@ -17,7 +17,7 @@ Data are stored in blobs in the West Europe Azure region, in the following blob 
 
 As per above, this container is not world-readable; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=sentinel2%20question) to request an access token.
 
-##### Scene names
+### Scene names
 
 Within that container, each scene corresponds to a folder, named according to:
 
@@ -44,7 +44,7 @@ Putting that all together, a complete scene folder looks like:
 
 `https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/11/C/MM/2020/11/26/S2B_MSIL2A_20201126T154319_N0212_R125_T11CMM_20201127T152008.SAFE`
 
-##### Image files
+### Image files
 
 Within a scene folder, recursively listing *.tif will enumerate all images, with suffixes indicating bands according to the following; all of these files will be within the `GRANULE/[scene id]/IMG_DATA` folder:
 
@@ -90,7 +90,7 @@ For example, the 10m image for band 2 in the example scene above is at:
 
 `https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/11/C/MM/2020/11/26/S2B_MSIL2A_20201126T154319_N0212_R125_T11CMM_20201127T152008.SAFE/GRANULE/L2A_T11CMM_A019456_20201126T154359/IMG_DATA/R10m/T11CMM_20201126T154319_B02_10m.tif`
 
-##### Metadata files
+### Metadata files
 
 Metadata files follow the [Sentinel-2 L2A product specification](https://sentinel.esa.int/documents/247904/685211/Sentinel-2-Products-Specification-Document); see the specification for complete documentation of both data and metadata.
 
@@ -130,29 +130,29 @@ This section will provide a short summary of each file within each scene folder.
 
 
 
-#### Sample code
+## Sample code
 
 A complete Python example of accessing and plotting Sentinel-2 data - using the Copernicus Open Access Hub API to query for scenes of interest - is available in the notebook provided under the &ldquo;data access&rdquo; link.
 
 
-#### Region information
+## Region information
 
 Large-scale processing is best performed in the West Europe Azure region, where the images are stored.  If you are using Sentinel-2 data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
 
 
-#### Pretty picture
+## Pretty picture
 
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/sentinel-2.png" width=350px;><br/>
 
 <p style="font-size:80%;margin-left:15px;">A <i>mostly</i> cloudless day in Seattle.</p>
 
 
-#### Contact
+## Contact
 
 For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=sentinel-2%20question).
 
 
-#### Notices
+## Notices
 
 MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
 

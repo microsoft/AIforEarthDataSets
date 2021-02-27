@@ -1,6 +1,6 @@
-### Landsat Collection 2 Level-2
+# Landsat Collection 2 Level-2
 
-#### Overview
+## Overview
 
 The [Landsat](https://landsat.gsfc.nasa.gov/) program provides the longest continuous space-based record of Earth’s land in existence.  
 
@@ -8,9 +8,9 @@ This dataset represents the global archive of Level-2 Landsat 4, 5, 7, and 8 fro
 
 Landsat imagery is currently in preview on Azure; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=landsat%20question) to request access.
 
-#### Storage resources
+## Storage resources
 
-##### Container information
+### Container information
 
 Data are stored in blobs in the West Europe Azure region, in the following blob container:
 
@@ -18,7 +18,7 @@ Data are stored in blobs in the West Europe Azure region, in the following blob 
 
 As per above, this container is not world-readable; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=landsat%20question) to request an access token.
 
-##### Scene names
+### Scene names
 
 Within that container, each scene corresponds to a folder, named according to:
 
@@ -48,7 +48,7 @@ Putting that all together, a complete scene folder for a Landsat 8 image from Fe
 
 `https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2020/011/021/LC08_L2SP_011021_20200208_20200823_02_T1/`
 
-##### Landsat 8 image files
+### Landsat 8 image files
 
 Within each scene, Landsat 8 files follow the [Landsat 8-9 Collection 2 Level 2 specification](https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/atoms/files/LSDS-1328_Landsat8-9-OLI-TIRS-C2-L2-DFCB-v6.pdf); see the specification for complete documentation of both data and metadata.
 
@@ -85,7 +85,7 @@ Landsat 8 Level-2 scenes include the following derived images:
 * `[sceneID]_ST_EMIS.tif`: emissivity image (level-2 only)
 * `[sceneID]_ST_EMSD.tif`: emissivity standard deviation (level-2 only)
 
-###### Landsat 8 Metadata files
+## Landsat 8 Metadata files
 
 * `[sceneID]_MTL.xml`: scene metadata file, in .xml format.  The metadata file includes, among other things, geometry information, a cloud cover percentage, information about sensor saturation, and radiance/reflectance calibration information.
 * `[sceneID]_MTL.txt`: the same information in .txt format
@@ -94,42 +94,42 @@ Landsat 8 Level-2 scenes include the following derived images:
 * `[sceneID]_SR_stac.json`: [STAC](https://stacspec.org/) metadata for the surface reflectance product (level-2 only)
 * `[sceneID]_ST_stac.json`: [STAC](https://stacspec.org/) metadata for the surface temperature product (level-2 only)
 
-###### Landsat 8 quality assessment files
+## Landsat 8 quality assessment files
 
 * `[sceneID]_QA_PIXEL.tif`: [quality assessment band](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands)
 * `[sceneID]_QA_RADSAT.tif`: [saturation quality assessment image](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands), indicating which sensors were saturated on a per-pixel basis
 * `[sceneID]_SR_QA_AEROSOL.tif`: [quality assessment band](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands) indicating the aerosol correction applied in atmospheric correction (level-2 only)
 * `[sceneID]_ST_QA.tif`: [quality assessment band](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands) for the surface temperature products
 
-###### Landsat 8 thumbnails
+## Landsat 8 thumbnails
 
 * `[sceneID]_thumb_large.jpeg`: large RGB thumbnail
 * `[sceneID]_thumb_small.jpeg`: small RGB thumbnail
 
 
-#### Sample code
+## Sample code
 
 A complete Python example of accessing and plotting Landsat data - using the NASA CMR API to query for scenes of interest - is available in the notebook provided under the &ldquo;data access&rdquo; link.
 
 
-#### Region information
+## Region information
 
 Large-scale processing is best performed in the West Europe Azure region, where the images are stored.  If you are using Landsat data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
 
 
-#### Pretty picture
+## Pretty picture
 
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/landsat.png" width=350px;><br/>
 
 <p style="font-size:80%;margin-left:15px;">A <i>mostly</i> cloudless day in Seattle.</p>
 
 
-#### Contact
+## Contact
 
 For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=landsat%20question).
 
 
-#### Notices
+## Notices
 
 MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
 

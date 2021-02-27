@@ -1,13 +1,13 @@
-### National Agricultural Imagery Program (NAIP)
+# National Agricultural Imagery Program (NAIP)
 
-#### Overview
+## Overview
 
 Aerial imagery from the National Agricultural Imagery Program (NAIP).
 
 [NAIP](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/) provides US-wide, high-resolution aerial imagery. This program is administered by the [Aerial Field Photography Office](https://www.fsa.usda.gov/programs-and-services/aerial-photography/) (AFPO) within the [US Department of Agriculture](https://www.usda.gov/) (USDA).  Data are available from 2010 to the present.
 
 
-#### Storage resources
+## Storage resources
 
 Data are stored in cloud-optimized GeoTIFF files in Azure Blob Storage in the West Europe Azure region, in the following blob container:
 
@@ -59,7 +59,7 @@ A copy of NAIP is also available in the East US Azure region, and will be mainta
 `https://naipblobs.blob.core.windows.net/naip`
 
 
-#### Image server
+## Image server
 
 The entire NAIP catalog is also available in a public instance of <a href="https://enterprise.arcgis.com/en/image/latest/get-started/windows/what-is-arcgis-image-server-.htm">Esri Image Server</a>.  The Image Server base URL is:
 
@@ -68,7 +68,7 @@ The entire NAIP catalog is also available in a public instance of <a href="https
 An interactive map pulling from this Image Server is available <a href="https://www.arcgis.com/home/webmap/viewer.html?url=https%3A%2F%2Fnaip.imagery1.arcgis.com%2Farcgis%2Frest%2Fservices%2FNAIP%2FImageServer">here</a>.
 
 
-#### Index
+## Index
 
 A list of all NAIP files is available here, as a zipped .csv file:
 
@@ -79,24 +79,24 @@ We also maintain an rtree object to facilitate spatial queries for Python users;
 Data can also be browsed [here](https://naipeuwest.blob.core.windows.net/naip/v002/index.html).
 
 
-#### Where did the .mrf files go?
+## Where did the .mrf files go?
 
 In June of 2020, we updated our entire NAIP archive to improve both coverage and maintainability.  We also switched from .mrf format to cloud-optimized GeoTIFF, and made some changes to path structures.  The .mrf files are temporarily still available in another container; if they are important to your work and you need access, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=naip%20question).
 
 
-#### Pretty picture
+## Pretty picture
 
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/naip.png" width=350px;><br/>
 
 <p style="font-size:80%;margin-left:15px;">1m-resolution imagery of the area near Microsoft&rsquo;s Redmond Campus in 2017.</p>
 
 
-#### Contact
+## Contact
 
 For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=naip%20question).
 
 
-#### Notices
+## Notices
 
 MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
 

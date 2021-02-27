@@ -1,23 +1,23 @@
-### UK Met Office Global Weather Data for COVID-19 Analysis
+# UK Met Office Global Weather Data for COVID-19 Analysis
 
-#### Overview
+## Overview
 
 This data is for COVID-19 researchers to explore relationships between COVID-19 and environmental factors.
 
 For more information see our [blog post](https://medium.com/informatics-lab/met-office-and-partners-offer-data-and-platform-for-covid-19-researchers-83848ac55f5f). If you require compute resources to process this data [we might be able to help](https://medium.com/informatics-lab/met-office-and-partners-offer-data-and-platform-for-covid-19-researchers-83848ac55f5f).
 
-### Stay up to date
+# Stay up to date
 
 Stay up to date with new datasets, corrections, redactions, and other important information by subscribing to this data set's [mailing list](https://groups.google.com/forum/#!forum/met-office-covid-19-data-and-platform-updates/join).
 
-#### License
+## License
 
 Users are required to acknowledge the Met Office as the source of these data by including the following attribution statement in any resulting products, publications or applications: “Contains Met Office data licensed under the Open Government Licence v3.0”.
 
 This data is made available under the [Open Government License](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
 
-#### About the data
+## About the data
 
 Global and high-resolution UK [numerical weather model output](https://www.metoffice.gov.uk/research/approach/modelling-systems/unified-model/weather-forecasting) from the [UK Met Office](https://www.metoffice.gov.uk/). Data is from the very early time steps of the model following data assimilation, as such this data approximates a whole-Earth observation dataset.
 
@@ -56,12 +56,12 @@ For detailed information about how this data is generated and the particulars of
 There are some additional post-processed data aggregations over COVID-19 reporting regions in the UK and USA made available as CSV files. More details below.
 
 
-#### Storage location
+## Storage location
 
 This dataset is stored in the East US 2 Azure region. Allocating compute resources in East US 2 is recommended for affinity. 
 
 
-#### Quick links
+## Quick links
 
 - [Announcement by the Met Office](https://medium.com/informatics-lab/met-office-and-partners-offer-data-and-compute-platform-for-covid-19-researchers-83848ac55f5f) making this data available in response to the [RAMP](https://epcced.github.io/ramp/) initiative, asking for assistance in tackling to the COVID-19 pandemic.
 
@@ -74,7 +74,7 @@ This dataset is stored in the East US 2 Azure region. Allocating compute resourc
 - Please contact us at [covid19@informaticslab.co.uk](mailto:covid19@informaticslab.co.uk) if you have any questions or requests for additional data.
 
 
-#### Data volumes, retention, and update frequency 
+## Data volumes, retention, and update frequency 
 
 The gridded data is updated daily for the previous day.
 
@@ -82,22 +82,22 @@ As of 18/04/20 the dataset totals approximately 352G. It grows weekly by approxi
 
 We intend to retain and make this data available as long as we believe it's useful in planing the response to the COVID-19 pandemic.
 
-### Quick start
+# Quick start
 
 The data is hosted on Microsoft Azure through their AI for Earth initiative. You can access the data in many ways, such as:
 
 
-#### Point and click
+## Point and click
 
 Open the [index file](https://metdatasa.blob.core.windows.net/covid19-response/index.html) in your browser. You will see a list of links to datafiles which you can download by clicking on them in your browser.
 
 
-#### Azure Blob libraries
+## Azure Blob libraries
 
 There is a range of libraries in a range of languages for working with Azure Blobs. See the [Azure Blob documentation](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-overview) for more information.
 
 
-#### Downloading with AzCopy
+## Downloading with AzCopy
 
 There are lots of files, so we suggest installing `azcopy` command line tool, which you can download [here](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10#download-azcopy). This lets you download [whole directories](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-blobs?toc=/azure/storage/blobs/toc.json#download-the-contents-of-a-directory) or multiple files [using wildcards](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-blobs?toc=/azure/storage/blobs/toc.json#use-wildcard-characters-1).
 
@@ -113,9 +113,9 @@ To download all the US state county-averaged meteorology data which match the pa
 `azcopy cp  --recursive  --include-pattern 'us_55*.csv' https://metdatasa.blob.core.windows.net/covid19-response/regional_subset_data/us_data/ .` 
 
 
-#### How the data is organised
+## How the data is organised
 
-##### `metoffice_global_daily/`
+### `metoffice_global_daily/`
 
 ...contains the Met Office daily global gridded data files.  There is a directory for each variable.
 
@@ -125,7 +125,7 @@ Each file is named according to `global_daily_{variable}_{statistic}_{YYYYMMDD}.
 
 ...contains the gridded maximum precipitation data from Jan 1, 2020.
 
-##### `metoffice_global_hourly/`
+### `metoffice_global_hourly/`
 
 ...contains the Met Office hourly global gridded data files.
 
@@ -135,31 +135,31 @@ Each file is named according to `global_hourly_{variable}_global_{YYYYMMDD}.nc`,
 
 ...contains gridded hourly precipitation data from Jan 1, 2020.
 
-##### `metoffice_ukv_daily/`
+### `metoffice_ukv_daily/`
 
 ...contains the Met Office daily UKV gridded data files.
 
 Each file is named according to `ukv_daily_{variable}_{statistic}_{YYYYMMDD}.nc`.
 
-##### `metoffice_ukv_hourly/`
+### `metoffice_ukv_hourly/`
 
 ...contains the Met Office hourly UKV gridded data files.
 
 Each file is named according to `ukv_hourly_{variable}_{YYYYMMDD}.nc`.
 
-##### `metoffice_aqum_daily/`
+### `metoffice_aqum_daily/`
 
 ...contains the Met Office daily AQUM gridded data files.
 
 Each file is named according to `aqum_daily_{variable}_{statistic}_{YYYYMMDD}.nc`.
 
-##### `metoffice_aqum_hourly/`
+### `metoffice_aqum_hourly/`
 
 ...contains the Met Office hourly AQUM gridded data files.
 
 Each file is named according to `aqum_hourly_{variable}_{YYYYMMDD}.nc`.
 
-##### `regional_subset_data/`
+### `regional_subset_data/`
 
 ...contains processed regional daily values for the UK, the USA, Italy, Brazil, Vietnam, and Uganda as `.csv` files.
 
@@ -173,7 +173,7 @@ For example, the file:
 
 ...represents processed data for Uganda.
 
-##### `shapefiles/`
+### `shapefiles/`
 
 Contains shapefiles for the UK, the USA, Italy, Brazil, Uganda, and Vietnam.
 
@@ -187,11 +187,11 @@ Contains shapefiles for the UK, the USA, Italy, Brazil, Uganda, and Vietnam.
 Where possible, filenames are as described. However, given the short time frames in which this data has been made available, minor variations in filename descriptions may occur. Filenames should still be accurately descriptive of the data. If you find issues with any filenames, or the data itself, please contact us at [covid19@informaticslab.co.uk](mailto:covid19@informaticslab.co.uk).
 
 
-#### Getting help and contact
+## Getting help and contact
 
 For help or additional data requests please contact us at [covid19@informaticslab.co.uk](mailto:covid19@informaticslab.co.uk).
 
 
-#### Notices
+## Notices
 
 MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 

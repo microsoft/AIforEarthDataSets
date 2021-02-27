@@ -1,6 +1,6 @@
-### NOAA GOES-16
+# NOAA GOES-16
 
-#### Overview
+## Overview
 
 Weather imagery from the GOES-16 satellite.
 
@@ -11,7 +11,7 @@ This dataset currently includes the ABI-L2-MCMIPF product (<u>A</u>dvanced <u>B<
 This dataset is available on Azure thanks to the [NOAA Big Data Program](https://www.noaa.gov/organization/information-technology/big-data-program).
 
 
-#### Storage resources 
+## Storage resources 
 
 Data are stored in blobs in [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) format (one blob per image) in the East US data center, in the following blob container:
 
@@ -46,26 +46,26 @@ Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azur
 Large-scale processing using this dataset is best performed in the East US Azure data center, where the data is stored.  If you are using GOES data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
 
 
-#### Citation
+## Citation
 
 If you use this data in a publication, please cite as:
 
 GOES-R Series Program, (2019): NOAA GOES-R Series Advanced Baseline Imager (ABI) Level 0 Data. [indicate subset used]. NOAA National Centers for Environmental Information. doi:10.25921/tvws-w071.
 
 
-#### Pretty picture
+## Pretty picture
 
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/goes-16.png" width=350px;><br/>
 
 <p style="font-size:80%;margin-left:15px;">Moisture imagery of the Americas on Jan 2, 2020.</p>
 
 
-#### Contact
+## Contact
 
 For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=goes%20question).
 
 
-#### Notices
+## Notices
 
 MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
 

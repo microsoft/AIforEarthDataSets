@@ -1,6 +1,6 @@
-### Daymet
+# Daymet
 
-#### Overview
+## Overview
 
 Estimates of daily weather parameters in North America on a one-kilometer grid, with monthly and annual summaries.
 
@@ -10,7 +10,7 @@ This dataset provides Daymet Version 4 data for North America, including the isl
 We also provide the [monthly](https://daac.ornl.gov/DAYMET/guides/Daymet_V4_Monthly_Climatology.html) and [annual](https://daac.ornl.gov/DAYMET/guides/Daymet_V4_Annual_Climatology.html) climate summaries.
 
 
-#### Storage resources 
+## Storage resources 
 
 Data are stored in blobs in the West Europe Azure region, in two formats: [Zarr](https://zarr.readthedocs.io/) and netCDF, in the following blob containers:
 
@@ -22,7 +22,7 @@ If you're downloading an entire block of the data, a specific variable for a spe
 See the &ldquo;<a href="https://azure.microsoft.com/en-us/services/open-datasets/catalog/daymet?tab=data-access">example notebooks</a>&rdquo; for examples of how to use both formats.
 
 
-#### Zarr Layout
+## Zarr Layout
 
 Zarr files are named as:
 
@@ -40,7 +40,7 @@ For example:
 * `daymet-zarr/annual/pr.zarr` (Puerto Rico at daily frequency)
 
 
-#### netCDF Layout
+## netCDF Layout
 
 The netCDF files are named as:
 
@@ -65,7 +65,7 @@ For example:
 See the [Daymet User Guide](https://daac.ornl.gov/DAYMET/guides/Daymet_V4_Monthly_Climatology.html) for more details.
 
 
-#### Variables
+## Variables
 
 The following variables are available:
 
@@ -78,7 +78,7 @@ The following variables are available:
 * dayl (day length, daily frequency data only)
 
 
-#### Access
+## Access
 
 Complete Python examples of accessing and plotting Daymet data in both Zarr and NetCDF foramts are available under &ldquo;<a href="https://azure.microsoft.com/en-us/services/open-datasets/catalog/daymet?tab=data-access">data access</a>&rdquo;.
 
@@ -95,7 +95,7 @@ A copy of the Daymet v4 NetCDF data is also available in the East US Azure regio
 `https://daymet.blob.core.windows.net/daymet-nc`
 
 
-#### Citation
+## Citation
 
 If you use this data in a publication, please cite one of the following (depending on whether you're using daily, monthly, or annual data):
 
@@ -105,7 +105,7 @@ If you use this data in a publication, please cite one of the following (dependi
 
 See the Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC)'s [Data Use and Citations Policy](https://daac.ornl.gov/citation_policy.html) for more information.
 
-#### Resources
+## Resources
 
 The following resources and references may be helpful when working with the Daymet dataset:
 
@@ -115,19 +115,19 @@ The following resources and references may be helpful when working with the Daym
 * [Annual user guide](https://daac.ornl.gov/DAYMET/guides/Daymet_V4_Annual_Climatology.html)<br/>
 
 
-#### Pretty picture
+## Pretty picture
 
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/daymet.png" width=200px;><br/>
 
 <p style="font-size:80%;margin-left:15px;">Average daily maximum temperature in Hawaii in 2017.</p>
 
 
-#### Contact
+## Contact
 
 For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=daymet%20question).
 
 
-#### Notices
+## Notices
 
 MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
 

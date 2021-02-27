@@ -1,6 +1,6 @@
-### ASTER L1T
+# ASTER L1T
 
-#### Overview
+## Overview
 
 The [ASTER](https://terra.nasa.gov/about/terra-instruments/aster) instrument provides high-resolution (15 to 90 square meters per pixel) images of the Earth in 14 different wavelengths of the electromagnetic spectrum, ranging from visible to thermal infrared light. Scientists use ASTER data to create detailed maps of land surface temperature, emissivity, reflectance, and elevation.
 
@@ -8,9 +8,9 @@ This dataset represents ASTER L1T data from 2000-2006.  Images will be available
 
 ASTER imagery is currently in preview on Azure; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=aster%20question) to request access.
 
-#### Storage resources
+## Storage resources
 
-##### Container information
+### Container information
 
 Data are stored in blobs in the West Europe Azure region, in the following blob container:
 
@@ -22,7 +22,7 @@ HDF files are temporarily available in the following blob container:
 
 As per above, these containers are not world-readable; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=landsat%20question) to request an access token.
 
-##### Scene names
+### Scene names
 
 Within the COG container, each scene corresponds to a folder, named according to:
 
@@ -48,34 +48,34 @@ Putting that all together, a complete scene folder for an ASTER image from June 
 `https://astersa.blob.core.windows.net/aster-cogs/images/L1T/2003/06/04/00306042003004247_20150428235500_35366/`
 
 
-##### ASTER image files
+### ASTER image files
 
 Documentation pending finalization of the still-provisional COG format.
 
 
-#### Sample code
+## Sample code
 
 A complete Python example of accessing and plotting ASTER data - using the NASA CMR API to query for scenes of interest - is available in the notebook provided under the &ldquo;data access&rdquo; link.
 
 
-#### Region information
+## Region information
 
 Large-scale processing is best performed in the West Europe Azure region, where the images are stored.  If you are using ASTER data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
 
 
-#### Pretty picture
+## Pretty picture
 
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/aster.png" width=350px;><br/>
 
 <p style="font-size:80%;margin-left:15px;">A <i>mostly</i> cloudless day in Seattle.</p>
 
 
-#### Contact
+## Contact
 
 For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=aster%20question).
 
 
-#### Notices
+## Notices
 
 MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
 

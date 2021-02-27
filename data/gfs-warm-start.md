@@ -1,13 +1,13 @@
-### GFS Warm Start Initial Conditions
+# GFS Warm Start Initial Conditions
 
-#### Overview
+## Overview
 
 Warm start initial conditions for the NOAA Global Forecast System.
 
 The NOAA [Global Forecast System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs) (GFS) Warm Start Initial Conditions are produced by the [National Centers for Environmental Prediction](https://www.ncep.noaa.gov/) (NCEP) to run operational deterministic medium-range numerical weather predictions.   The GFS is built with the [GFDL Finite­Volume Cubed-Sphere Dynamical Core](https://www.gfdl.noaa.gov/fv3/) (FV3) and the [Grid-Point Statistical Interpolation](https://ral.ucar.edu/solutions/products/gridpoint-statistical-interpolation-gsi) (GSI) data assimilation system.  The current operational GFS is run at 64 layers in the vertical dimension extending from the surface to the upper stratosphere, and on six cubic-sphere tiles at the C768 or 13-km horizontal resolution.  A new version of the GFS that has 127 layers extending to the mesopause will be implemented for operation on February 3, 2021.  These initial conditions are made available four times per day for running forecasts at the 00Z, 06Z, 12Z and 18Z cycles.
 
 
-#### Storage resources 
+## Storage resources 
 
 <i>Overview</i>
 
@@ -77,7 +77,7 @@ Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azur
 Large-scale processing using this dataset is best performed in the East US 2 Azure data center, where the data is stored.  If you are using GFS Warm Start data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/aiforearth) to support your compute requirements.
 
 
-#### Notices
+## Notices
 
 MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
 

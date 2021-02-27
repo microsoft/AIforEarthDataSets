@@ -1,13 +1,13 @@
-### NASADEM
+# NASADEM
 
-#### Overview
+## Overview
 
 Global topographic information from the NASADEM program.
 
 [NASADEM](https://earthdata.nasa.gov/esds/competitive-programs/measures/nasadem) provides global topographic data at 1 arc-second (~30m) horizontal resolution, derived primarily from data captured via the [Shuttle Radar Topography Mission](https://www2.jpl.nasa.gov/srtm/) (SRTM).
 
 
-#### Storage resources
+## Storage resources
 
 Data are stored in blobs in the West Europe Azure region, in the following blob container:
 
@@ -44,31 +44,31 @@ A copy of NASADEM is also available in the East US Azure region, and will be mai
 `https://nasadem.blob.core.windows.net/nasadem-nc`
 
 
-#### Index
+## Index
 
 A full list of files is available [here](https://nasadem.blob.core.windows.net/nasadem-nc/v001/index/nasadem_file_list.txt).
 
 
-#### License and attribution information
+## License and attribution information
 
 NASADEM data may be used without restriction for any purpose whatsoever, commercial or otherwise, free of any royalties or other restrictions. No special permission or compensation is required, even for reselling the exact data, images or other derived products.
 
 If possible, when using this data, please attribute to &ldquo;Courtesy NASA/JPL-Caltech&rdquo;.
 
 
-#### Pretty picture
+## Pretty picture
 
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/nasadem.png" width=350px;><br/>
 
 <p style="font-size:80%;margin-left:15px;">Topography in the Mount Fuji area.</p>
 
 
-#### Contact
+## Contact
 
 For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=nasadem%20question).
 
 
-#### Notices
+## Notices
 
 MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
 

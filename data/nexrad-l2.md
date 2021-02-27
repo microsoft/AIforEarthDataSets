@@ -1,6 +1,6 @@
-### NEXRAD L2
+# NEXRAD L2
 
-#### Overview
+## Overview
 
 Recent level II data from the NEXRAD weather radar system.
 
@@ -11,7 +11,7 @@ This dataset is available on Azure thanks to the [NOAA Big Data Program](https:/
 Data are available for the most recent 90 days; older data are available in archive storage and may be made available on request (contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=nexrad%20question)).
 
 
-#### Storage resources
+## Storage resources
 
 Data are stored in blobs (one blob per scan) in the East US data center, in the following blob container:
 
@@ -40,7 +40,7 @@ Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azur
 NEXRAD data can consume hundreds of terabytes, so large-scale processing is best performed in the East US Azure data center, where the scans are stored.  If you are using NEXRAD data for environmental science applications, including weather forecasting, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
 
 
-#### Index
+## Index
 
 A list of all NEXRAD files is available here, as a zipped .txt file:
 
@@ -49,19 +49,19 @@ A list of all NEXRAD files is available here, as a zipped .txt file:
 We also maintain a SQLite database to facilitate querying images by location and time; see the [sample notebook](https://azure.microsoft.com/en-us/services/open-datasets/catalog/nexrad-l2?tab=data-access) for details.
 
 
-#### Pretty picture
+## Pretty picture
 
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/nexrad.png" width=350px;><br/>
 
 <p style="font-size:80%;margin-left:15px;">A weather scan near Oklahoma City from June 5, 1991.</p>
 
 
-#### Contact
+## Contact
 
 For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=nexrad%20question).
 
 
-#### Notices
+## Notices
 
 MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
 

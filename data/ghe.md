@@ -1,6 +1,6 @@
-### NOAA Global Hydro Estimator
+# NOAA Global Hydro Estimator
 
-#### Overview
+## Overview
 
 Global rainfall estimates in 15-minute intervals.
 
@@ -9,7 +9,7 @@ The NOAA [Global Hydro Estimator](https://www.ospo.noaa.gov/Products/atmosphere/
 This dataset is available on Azure thanks to the [NOAA Big Data Program](https://www.noaa.gov/organization/information-technology/big-data-program).
 
 
-#### Storage resources 
+## Storage resources 
 
 Data are stored in blobs in gzip'd [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) format in the East US data center, in the following blob container:
 
@@ -46,19 +46,19 @@ Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azur
 Large-scale processing using this dataset is best performed in the East US Azure data center, where the data is stored.  If you are using GHE data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
 
 
-#### Pretty picture
+## Pretty picture
 
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/ghe.png" width=350px;><br/>
 
 <p style="font-size:80%;margin-left:15px;">Global daily precipitation on April 9, 2020.</p>
 
 
-#### Contact
+## Contact
 
 For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=ghe%20question).
 
 
-#### Notices
+## Notices
 
 MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
 
