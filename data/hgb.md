@@ -34,6 +34,13 @@ Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azur
 Large-scale processing is best performed in the West Europe Azure data center, where the data are stored.  If you are using this data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
 
 
+## Pretty picture
+
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/hgb.png" width=350px;><br/>
+
+<p style="font-size:80%;margin-left:15px;">Global biomass estimates in 2010.</p>
+
+
 ## Contact
 
 For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=hgb%20question).
