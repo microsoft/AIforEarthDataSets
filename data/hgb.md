@@ -38,7 +38,7 @@ Large-scale processing is best performed in the West Europe Azure data center, w
 
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/hgb.png" width=350px;><br/>
 
-<p style="font-size:80%;margin-left:15px;">Global biomass estimates in 2010.</p>
+<p style="font-size:80%;margin-left:15px;">Global above-ground biomass estimates in 2010.</p>
 
 
 ## Contact
