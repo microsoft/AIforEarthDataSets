@@ -48,7 +48,7 @@ Putting that all together, a complete scene folder for a Landsat 8 image from Fe
 
 `https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2020/011/021/LC08_L2SP_011021_20200208_20200823_02_T1/`
 
-### File names
+### Landsat 8 file names
 
 #### Landsat 8 image files
 
