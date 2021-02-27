@@ -94,7 +94,7 @@ For example, the 10m image for band 2 in the example scene above is at:
 
 Metadata files follow the [Sentinel-2 L2A product specification](https://sentinel.esa.int/documents/247904/685211/Sentinel-2-Products-Specification-Document); see the specification for complete documentation of both data and metadata.
 
-This section will provide a short overview of the relevant folders and files within each scene folder.  It looks like a lot, but most use cases only require the image files described above.  Some use cases may require the following files as well:
+This section will provide a short summary of each file within each scene folder.  It looks like a lot, but most use cases only require the image files described above.  Some use cases may require the following files as well:
 
 * `manifest.safe`: index file listing all files in this scene and their checksums... basically the machine-readable version of this section of the documentation.
 
@@ -108,7 +108,7 @@ This section will provide a short overview of the relevant folders and files wit
   * `MSK_DDVPXL_20m.tif`: masks indicating pixels that are likely either shadows or "dark dense vegetation", at 20m resolution
   * `MSK_DDVPXL_60m.tif`: masks indicating pixels that are likely either shadows or "dark dense vegetation", at 60m resolution
   
-...but for the curious mind, the scene folder also contains the following files that most applications are very unlikely to need:
+...and for the curious mind, the scene folder also contains the following files that most applications are very unlikely to need:
 
 * `scenefilelist.txt`: flat list of all files available in this scene
 * `DATASTRIP/[scene id]/MTD_DS.xml`: low-level scene metadata following the [L2A datastrip XML schema](https://psd-14.sentinel2.eo.esa.int/PSD/S2_PDI_Level-2A_Datastrip_Metadata.xsd)

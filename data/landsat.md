@@ -50,7 +50,11 @@ Putting that all together, a complete scene folder for a Landsat 8 image from Fe
 
 ##### Landsat 8 image files
 
-Within a Landsat 8 (OLI/TIRS) scene folder, listing *.tif will enumerate all images, with suffixes indicating bands according to the following:
+Within each scene, Landsat 8 files follow the [Landsat 8-9 Collection 2 Level 2 specification](https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/atoms/files/LSDS-1328_Landsat8-9-OLI-TIRS-C2-L2-DFCB-v6.pdf); see the specification for complete documentation of both data and metadata.
+
+This section will provide a short summary of the files within each scene folder.  All filenames are prefixed with the scene ID.
+
+Listing *.tif will enumerate all images, with suffixes indicating bands according to the following:
 
 * `B1`: Band 1 Visible (0.43-0.45 µm) 30m
 * `B2`: Band 2 Visible (0.450-0.51 µm) 30m
@@ -68,6 +72,39 @@ Within a Landsat 8 (OLI/TIRS) scene folder, listing *.tif will enumerate all ima
 For example, the band 2 image in the example scene above is at:
 
 `https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2020/011/021/LC08_L2SP_011021_20200615_20200823_02_T2/LC08_L2SP_011021_20200615_20200823_02_T2_SR_B2.TIF`
+
+Level-2 files will end with "_SR_B[N]", indicating "surface reflectance"; level-1 files will end with just "_B[N].TIF".
+
+Landsat 8 Level-2 scenes include the following derived images:
+
+* `[sceneID]_ST_TRAD.tif`: thermal image (level-2 only)
+* `[sceneID]_ST_URAD.tif`: upwelled radiance image (level-2 only)
+* `[sceneID]_ST_ATRAN.tif`: atmospheric transmission image (level-2 only)
+* `[sceneID]_ST_CDIST.tif`: distance (in km) from each pixel to the nearest cloud pixel (level-2 only)
+* `[sceneID]_ST_DRAD.tif`: downwelled radiance image (level-2 only)
+* `[sceneID]_ST_EMIS.tif`: emissivity image (level-2 only)
+* `[sceneID]_ST_EMSD.tif`: emissivity standard deviation (level-2 only)
+
+###### Landsat 8 Metadata files
+
+* `[sceneID]_MTL.xml`: scene metadata file, in .xml format.  The metadata file includes, among other things, geometry information, a cloud cover percentage, information about sensor saturation, and radiance/reflectance calibration information.
+* `[sceneID]_MTL.txt`: the same information in .txt format
+* `[sceneID]_MTL.json`: the same information in .json format (level-2 only)
+* `[sceneID]_ANG.txt`: [angular coefficients file](https://www.usgs.gov/faqs/what-landsat-collections-angle-coefficient-file-and-how-it-used?qt-news_science_products=0#), which allow users to compute solar and sensor viewing angles on a per-pixel basis 
+* `[sceneID]_SR_stac.json`: [STAC](https://stacspec.org/) metadata for the surface reflectance product (level-2 only)
+* `[sceneID]_ST_stac.json`: [STAC](https://stacspec.org/) metadata for the surface temperature product (level-2 only)
+
+###### Landsat 8 quality assessment files
+
+* `[sceneID]_QA_PIXEL.tif`: [quality assessment band](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands)
+* `[sceneID]_QA_RADSAT.tif`: [saturation quality assessment image](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands), indicating which sensors were saturated on a per-pixel basis
+* `[sceneID]_SR_QA_AEROSOL.tif`: [quality assessment band](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands) indicating the aerosol correction applied in atmospheric correction (level-2 only)
+* `[sceneID]_ST_QA.tif`: [quality assessment band](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands) for the surface temperature products
+
+###### Landsat 8 thumbnails
+
+* `[sceneID]_thumb_large.jpeg`: large RGB thumbnail
+* `[sceneID]_thumb_small.jpeg`: small RGB thumbnail
 
 
 #### Sample code
