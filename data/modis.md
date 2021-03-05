@@ -1,4 +1,4 @@
-# MODIS L2 products
+# MODIS
 
 ## Overview
 
