@@ -56,7 +56,7 @@ The following MODIS products are available:
 
 ## Storage resources
 
-Data are stored in blobs in the East US data center (re-locating to West Europe in mid02021), in the following blob container:
+Data are stored in blobs in the East US data center (re-locating to West Europe in mid-2021), in the following blob container:
 
 `https://modissa.blob.core.windows.net/modis-006`
 
