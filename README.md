@@ -60,9 +60,16 @@ Satellite imagery from the Landsat 8 and Sentinel-2 satellites, aligned to a com
 * [Documentation](data/hls.md)
 * [Notebook](data/hls.ipynb)
 
-## MODIS MCD43A4 (BRDF-Corrected Surface Reflectance)
+## MODIS (40 individual products)
 
 Satellite imagery from the Moderate Resolution Imaging Spectroradiometer (MODIS).
+
+* [Source](https://modis.gsfc.nasa.gov/)
+* [Documentation](data/modis.md)
+
+### MODIS MCD43A4 (BRDF-Corrected Surface Reflectance)
+
+This is a legacy version of the MCD43A4 MODIS archive, now superseded by the availability of the full MODIS archive.
 
 * [Source](https://lpdaac.usgs.gov/products/mcd43a4v006/)
 * [Documentation](data/modis-mcd43a4.md)
