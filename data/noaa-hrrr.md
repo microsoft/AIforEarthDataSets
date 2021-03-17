@@ -17,15 +17,15 @@ GRIB files are stored as blobs in the East US Azure region, in the following blo
 
 Within that container, files are named as:
 
-`HRRR.[year][month][day]/[region]/hrrr.t[CC]z.[parameter]f[FF].grib2`
+`HRRR.[year][month][day]/[region]/hrrr.t[CC]z.[variable]f[FH].grib2`
 
 * `year` is a four-digit year
-* `month` is a two-digit month
-* `day` is a two-digit day
+* `month` is a two-digit month (one-indexed)
+* `day` is a two-digit day (one-indexed)
 * `region` can be either "conus" or "alaska"
-* `CC` is the cycle run (1 per hour, 00 to 23)
-* `parameter` is the HRRR parameter
-* `FF` represents the forecast hour (1 per hour, 00 to 23)
+* `CC` is the cycle run hour (00 to 23)
+* `variable` is the output variable (wrfprsf, wrfnatf, wrfsfcf, or wrfsubhf; see the [HRRR documentation](https://www.nco.ncep.noaa.gov/pmb/products/hrrr/) for definitions)
+* `FH` represents the forecast hour (00 to 18 for standard cycles, 00 to 48 for extended-forecast cycles (00, 06, 12, 18))
 
 For example, for the file:
 
@@ -35,9 +35,9 @@ For example, for the file:
 * Month: 12
 * Day: 01
 * Region: conus
-* CC (Cycle run): 18
-* Parameter: wrfsubh
-* FF (forecast hour): 15
+* CC (cycle run): 18
+* Variable: wrfsubh
+* FH (forecast hour): 15
 
 
 ## Region information

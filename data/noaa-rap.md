@@ -17,14 +17,14 @@ GRIB files are stored as blobs in the East US Azure region, in the following blo
 
 Within that container, files are named as:
 
-`rap.[year][month][day]/[product][year][month][day]/rap.t[CC]z.[parameter]f[FF].grib2`
+`rap.[year][month][day]/[product][year][month][day]/rap.t[CC]z.[variable]f[FH].grib2`
 
 * `year` is a four-digit year
-* `month` is a two-digit month
-* `day` is a two-digit day
-* `CC` is the cycle run
-* `parameter` is the RAP parameter (e.g. awip32)
-* `FF` represents the forecast hour
+* `month` is a two-digit month (one-indexed)
+* `day` is a two-digit day (one-indexed)
+* `CC` is the cycle run hour (00 to 23)
+* `variable` is the output variable (awp130pgrb awp252prgb, awp236prgb, awp130bgrb, awp252brgb, awip32, awp242, awp200, awp243, wrfmsl, wrfprs, or wrfnat); see the [RAP documentation](https://www.nco.ncep.noaa.gov/pmb/products/rap/) for definitions)
+* `FH` represents the forecast hour (00 to 21 for standard cycles, 00 to 51 for extended-forecast cycles (03, 09, 15, 21))
 
 For example, for the file:
 
@@ -34,8 +34,8 @@ For example, for the file:
 * Month: 03
 * Day: 15
 * CC (cycle run): 00
-* Parameter: awip32
-* FF (forecast hour): 00
+* Variable: awip32
+* FH (forecast hour): 00
 
 
 ## Region information
