@@ -176,6 +176,16 @@ ASTER data are in preview; access is granted by request.
 * [Documentation](data/aster.md)
 * [Notebook](data/aster.ipynb)
 
+## High Resolution Electricity Access (HREA)
+
+Settlement-level measures of electricity access, reliability, and usage
+derived from the complete archive of nightly VIIRS satellite imagery. 
+
+* [Source](http://www-personal.umich.edu/~brianmin/HREA/index.html)
+* [Documentation](data/HREA-readme.md)
+* [Notebook](data/HREA-documentation.ipynb)
+
+
 # Legal stuff
 
 ## Contributing
