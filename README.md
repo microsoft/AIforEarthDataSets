@@ -181,8 +181,8 @@ ASTER data are in preview; access is granted by request.
 Settlement-level measures of electricity access, reliability, and usage derived from the nightly VIIRS satellite imagery. 
 
 * [Source](http://www-personal.umich.edu/~brianmin/HREA/index.html)
-* [Documentation](data/HREA-readme.md)
-* [Notebook](data/HREA-documentation.ipynb)
+* [Documentation](data/hrea.md)
+* [Notebook](data/hrea.ipynb)
 
 
 # Legal stuff
