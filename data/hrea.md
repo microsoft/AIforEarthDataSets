@@ -56,7 +56,7 @@ Min, Brian and O'Keeffe, Zachary. 2021. High Resolution Electricity Access Indic
 
 ## Sample picture
 
-![](kisii_prplit_2019.png)
+![](hrea.png)
 
 Proportion of lights lit for Kisii in 2019.
 
