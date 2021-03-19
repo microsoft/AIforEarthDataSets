@@ -58,7 +58,7 @@ Min, Brian and O'Keeffe, Zachary. 2021. High Resolution Electricity Access Indic
 
 ![](hrea.png)
 
-Proportion of lights lit for Kisii in 2019.
+Annual composite of nighttime lights for Djibouti in 2019.
 
 ## Contact
 
