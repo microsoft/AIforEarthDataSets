@@ -54,7 +54,7 @@ If you use the HREA data, please cite as follows:
 
 Min, Brian and O'Keeffe, Zachary. 2021. High Resolution Electricity Access Indicators Dataset. Ann Arbor, MI: Center for Political Studies, University of Michigan.
 
-## Sample picture
+## Sample image
 
 ![](hrea_sample.png)
 
