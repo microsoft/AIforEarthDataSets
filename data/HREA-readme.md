@@ -24,7 +24,7 @@ For more information and methodology, please visit the [HREA website](http://www
 
 Data are stored in blobs in the West Europe data center, in the following blob container:
 
-https://len.blob.core.windows.net/hrea
+https://hreadatasa.blob.core.windows.net/hrea/
 
 Within that container, data are organized according to:
 The data is organized within folders with the names `[COUNTRY_YEAR_version]/*`
