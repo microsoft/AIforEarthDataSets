@@ -56,7 +56,7 @@ Min, Brian and O'Keeffe, Zachary. 2021. High Resolution Electricity Access Indic
 
 ## Sample picture
 
-![](hrea.png)
+![](hrea_sample.png)
 
 Annual composite of nighttime lights for Djibouti in 2019.
 
