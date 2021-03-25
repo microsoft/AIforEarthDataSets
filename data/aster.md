@@ -2,9 +2,11 @@
 
 ## Overview
 
-The [ASTER](https://terra.nasa.gov/about/terra-instruments/aster) instrument provides high-resolution (15 to 90 square meters per pixel) images of the Earth in 14 different wavelengths of the electromagnetic spectrum, ranging from visible to thermal infrared light. Scientists use ASTER data to create detailed maps of land surface temperature, emissivity, reflectance, and elevation.
+The [ASTER](https://terra.nasa.gov/about/terra-instruments/aster) instrument, launched on-board NASA's [Terra](https://terra.nasa.gov/) satellite in 1999, provides multispectral images of the Earth at 15m-90m resolution.  ASTER images provide information about land surface temperature, color, elevation, and mineral composition.
 
-This dataset represents ASTER L1T data from 2000-2006.  Images will be available in Cloud-Optimized GeoTIFF format; currently images are available in both HDF and COG format, pending finalization of the provisional COG formatting.
+This dataset represents ASTER [L1T](https://lpdaac.usgs.gov/products/ast_l1tv003/) data from 2000-2006.  L1T images have been terrain-corrected and rotated to a north-up UTM projection.
+
+Data are in [cloud-optimized GeoTIFF](https://www.cogeo.org/) format; the original HDF files are temporarily available as well, but will not be maintained permanently.
 
 ASTER imagery is currently in preview on Azure; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=aster%20question) to request access.
 
