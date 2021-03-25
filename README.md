@@ -83,9 +83,9 @@ Annual burn severity mosaics for the continental United States and Alaska.
 * [Documentation](data/mtbs.md)
 * [Notebook](data/mtbs.ipynb)
 
-## National Agricultural Imagery Program
+## National Agriculture Imagery Program
 
-Aerial imagery from the National Agricultural Imagery Program (NAIP).
+Aerial imagery from the National Agriculture Imagery Program (NAIP).
 
 * [Source](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/)
 * [Documentation](data/naip.md)
