@@ -1,14 +1,3 @@
-# Sentinel-2 L2A
-
-## Overview
-
-The [Sentinel-2](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) program provides global optical imagery at 10m-60m resolution.  This dataset represents the global Sentinel-2 archive (currently from 2018-realtime), processed to L2A (bottom-of-atmosphere) using [Sen2Cor](https://step.esa.int/main/snap-supported-plugins/sen2cor/) and converted to [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.
-
-Sentinel-2 imagery is currently in preview on Azure; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=sentinel2%20question) to request access.
-
-
-## Storage resources
-
 ### Container information
 
 Data are stored in blobs in the West Europe Azure region, in the following blob container:
@@ -126,35 +115,3 @@ This section will provide a short summary of each file within each scene folder.
 * `GRANULE/[scene id]/MTD_TL.xml`: tile metadata (e.g. geometry), following the [Sentinel-2 L2A tile metadata XML schema](https://psd-14.sentinel2.eo.esa.int/PSD/S2_PDI_Level-2A_Tile_Metadata.xsd)
 * `rep_info/*.xsd` (3 files): XML schemas for datastrip and tile metadata (the same schemas used for the .xml files listed above)
 * `INSPIRE.xml`: metadata file indicating compliance with the [INSPIRE schema](https://inspire.ec.europa.eu/XML-Schemas/Data-Specifications/2892)
-
-
-
-## Sample code
-
-A complete Python example of accessing and plotting Sentinel-2 data - using the Copernicus Open Access Hub API to query for scenes of interest - is available in the notebook provided under the &ldquo;data access&rdquo; link.
-
-
-## Region information
-
-Large-scale processing is best performed in the West Europe Azure region, where the images are stored.  If you are using Sentinel-2 data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
-
-
-## Pretty picture
-
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/sentinel-2.png" width=350px;><br/>
-
-<p style="font-size:80%;margin-left:15px;">A <i>mostly</i> cloudless day in Seattle.</p>
-
-
-## Contact
-
-For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=sentinel-2%20question).
-
-
-## Notices
-
-MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
-
-This dataset is provided under the original terms that Microsoft received source data. The dataset may include data sourced from Microsoft. 
-
-

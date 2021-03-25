@@ -1,16 +1,3 @@
-# Landsat Collection 2 Level-2
-
-## Overview
-
-The [Landsat](https://landsat.gsfc.nasa.gov/) program provides the longest continuous space-based record of Earth’s land in existence.  
-
-This dataset represents the global archive of Level-2 Landsat 4, 5, 7, and 8 from Landsat Collection 2.  Because there is some latency before Level-2 data is available, a rolling window of recent Level-1 data is available as well.  All images are in Cloud-Optimized GeoTIFF format.
-
-Landsat imagery is currently in preview on Azure; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=landsat%20question) to request access.
-
-
-## Storage resources
-
 ### Container information
 
 Data are stored in blobs in the West Europe Azure region, in the following blob container:
@@ -107,34 +94,3 @@ Landsat 8 Level-2 scenes include the following derived images:
 
 * `[sceneID]_thumb_large.jpeg`: large RGB thumbnail
 * `[sceneID]_thumb_small.jpeg`: small RGB thumbnail
-
-
-## Sample code
-
-A complete Python example of accessing and plotting Landsat data - using the NASA CMR API to query for scenes of interest - is available in the notebook provided under the &ldquo;data access&rdquo; link.
-
-
-## Region information
-
-Large-scale processing is best performed in the West Europe Azure region, where the images are stored.  If you are using Landsat data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
-
-
-## Pretty picture
-
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/landsat.png" width=350px;><br/>
-
-<p style="font-size:80%;margin-left:15px;">A <i>mostly</i> cloudless day in Seattle.</p>
-
-
-## Contact
-
-For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=landsat%20question).
-
-
-## Notices
-
-MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
-
-This dataset is provided under the original terms that Microsoft received source data. The dataset may include data sourced from Microsoft. 
-
-

@@ -8,6 +8,7 @@ This dataset represents ASTER L1T data from 2000-2006.  Images will be available
 
 ASTER imagery is currently in preview on Azure; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=aster%20question) to request access.
 
+
 ## Storage resources
 
 ### Container information
@@ -20,7 +21,6 @@ HDF files are temporarily available in the following blob container:
 
 `https://astersa.blob.core.windows.net/aster`
 
-As per above, these containers are not world-readable; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=landsat%20question) to request an access token.
 
 ### Scene names
 
