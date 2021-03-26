@@ -85,7 +85,7 @@ Annual burn severity mosaics for the continental United States and Alaska.
 
 ## National Agriculture Imagery Program
 
-Aerial imagery from the National Agriculture Imagery Program (NAIP).
+NAIP provides US-wide, high-resolution aerial imagery.  This dataset includes NAIP images from 2010 to the present.
 
 * [Source](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/)
 * [Documentation](data/naip.md)
@@ -168,7 +168,7 @@ Landsat data are in preview; access is granted by request.  Landsat 8 on-boardin
 
 ## ASTER L1T (2000-2006) (preview)
 
-Global multispectral imagery from the Advanced Spaceborne Thermal Emission and Reflection Radiometer.
+The [ASTER](https://terra.nasa.gov/about/terra-instruments/aster) instrument, launched on-board NASA's [Terra](https://terra.nasa.gov/) satellite in 1999, provides multispectral images of the Earth at 15m-90m resolution.  This data set represents ASTER data from 2000-2006.
 
 ASTER data are in preview; access is granted by request.
 
