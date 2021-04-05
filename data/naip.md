@@ -84,9 +84,8 @@ In June of 2020, we updated our entire NAIP archive to improve both coverage and
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/naip.png" width=350px;><br/>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/naip_800w.png" width=500px;><br/><span style='font-size:80%'>1m-resolution imagery of Quilcene, WA, on the Olympic Peninsula.</span>
 
-<p style="font-size:80%;margin-left:15px;">1m-resolution imagery of the area near Microsoft&rsquo;s Redmond Campus in 2017.</p>
 
 
 ## Contact

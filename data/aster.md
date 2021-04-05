@@ -67,9 +67,7 @@ Large-scale processing is best performed in the West Europe Azure region, where 
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/aster.png" width=350px;><br/>
-
-<p style="font-size:80%;margin-left:15px;">A <i>mostly</i> cloudless day in Seattle.</p>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/aster_800w.png" width=500px;><br/><span style='font-size:80%'>False-color composite (ASTER VNIR bands 3/2/1) of an area near Suruga Bay, Japan.</span>
 
 
 ## Contact
