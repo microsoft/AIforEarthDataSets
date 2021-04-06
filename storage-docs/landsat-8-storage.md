@@ -52,7 +52,7 @@ Listing *.tif will enumerate all images, with suffixes indicating bands accordin
 * `B5`: Band 5 Near-Infrared (0.85-0.88 µm) 30m
 * `B6`: Band 6 SWIR 1(1.57-1.65 µm) 30m
 * `B7`: Band 7 SWIR 2 (2.11-2.29 µm) 30m
-* `B8`: Band 8 Panchromatic (PAN) (0.50-0.68 µm) 15m (L1 data only)
+* `B8`: Band 8 Panchromatic (PAN) (0.50-0.68 µm) 15m (level-1 data only)
 * `B10`: Band 10 TIRS 1 (10.6-11.19 µm) 100m (resampled to 30m)
 
 * `B9`: Band 9 Cirrus (1.36-1.38 um) 30m (level-1 data only)
