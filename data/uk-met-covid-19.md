@@ -14,7 +14,7 @@ Stay up to date with new datasets, corrections, redactions, and other important 
 
 Users are required to acknowledge the Met Office as the source of these data by including the following attribution statement in any resulting products, publications or applications: “Contains Met Office data licensed under the Open Government Licence v3.0”.
 
-This data is made available under the [Open Government License](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+This data is made available under the [Open Government License version 3](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
 
 ## About the data
@@ -23,26 +23,26 @@ Global and high-resolution UK [numerical weather model output](https://www.metof
 
 The following variables are available:
 
-- `t1o5m` = Air temperature at 1.5m in $K$
-- `sh` = Specific humidity at 1.5m in $kg/kg$ (kg of water vapor in kg of air)
-- `sw` = Short wave radiation in $W m^{-2}$ (surrogate for sunshine)
-- `precip` = Precipitation flux in $kg m^{-2} s^{-1}$ (multiply by 3600 to get $mm / hr$)
-- `rain` = Rain flux in $kg m^{-2} s^{-1}$ (multiply by 3600 to get $mm / hr$)
-- `pmsl` = Air pressure at mean sea level in $Pa$
-- `snow` = Stratiform snowfall flux in $kg m^{-2} s^{-1}$ (multiply by 3600 to get $mm / hr$)
-- `windspeed` = Wind speed in $m s^{-1}$
-- `windgust` = Wind gust in $m s^{-1}$
-- `cldbase` = Cloud base altitude in $feet$
+- `t1o5m` = Air temperature at 1.5m in <i>K</i>
+- `sh` = Specific humidity at 1.5m in <i>kg/kg</i> (kg of water vapor in kg of air)
+- `sw` = Short wave radiation in <i>W/m<sup>2</sup></i> (surrogate for sunshine)
+- `precip` = Precipitation flux in <i>kg/(m<sup>2</sup>s)</i> (multiply by 3600 to get <i>mm/hr</i>)
+- `rain` = Rain flux in <i>kg/(m<sup>2</sup>s)</i> (multiply by 3600 to get <i>mm/hr</i>)
+- `pmsl` = Air pressure at mean sea level in <i>Pa</i>
+- `snow` = Stratiform snowfall flux in <i>kg/(m<sup>2</sup>s)</i> (multiply by 3600 to get <i>mm/hr</i>)
+- `windspeed` = Wind speed in <i>m/s</i>
+- `windgust` = Wind gust in <i>m/s</i>
+- `cldbase` = Cloud base altitude in <i>feet</i>
 - `cldfrac` = Cloud area fraction assuming maximum random overlap (unitless: 0-1)
 
 Output of the Met Office UK air quality model [AQUM](https://www.metoffice.gov.uk/research/weather/atmospheric-dispersion/atmospheric-composition) is also available. This includes the following variables:
 
 - `daqi` = Daily Air Quality Index, an integer from 1-10
-- `no2` = Nitrogen dioxide concentration, in$µg m^{-3}$
-- `o3` = Ozone concentration, in $µg m^{-3}$
-- `so2` = Sulphur dioxide concentration, in $µg m^{-3}$
-- `pm2p5` = Concentration of particulate matter less than 2.5 microns diameter, in $µg m^{-3}$
-- `pm10` = Concentration of particulate matter less than 10 microns diameter, in $µg m^{-3}$
+- `no2` = Nitrogen dioxide concentration, in <i>µg/m<sup>3</sup></i>
+- `o3` = Ozone concentration, in <i>µg/m<sup>3</sup></i>
+- `so2` = Sulphur dioxide concentration, in <i>µg/m<sup>3</sup></i>
+- `pm2p5` = Concentration of particulate matter less than 2.5 microns diameter, in <i>µg/m<sup>3</sup></i>
+- `pm10` = Concentration of particulate matter less than 10 microns diameter, in <i>µg/m<sup>3</sup></i>
 
 This data is made available as NetCDF files.
 
@@ -58,7 +58,11 @@ There are some additional post-processed data aggregations over COVID-19 reporti
 
 ## Storage location
 
-This dataset is stored in the East US 2 Azure region. Allocating compute resources in East US 2 is recommended for affinity. 
+This dataset is stored in the East US 2 Azure region, in the following blob container:
+
+`https://metdatasa.blob.core.windows.net/covid19-response`
+
+Allocating compute resources in East US 2 is recommended for affinity. 
 
 
 ## Quick links
@@ -78,13 +82,13 @@ This dataset is stored in the East US 2 Azure region. Allocating compute resourc
 
 The gridded data is updated daily for the previous day.
 
-As of 18/04/20 the dataset totals approximately 352G. It grows weekly by approximately 22G a week.
+As of 18/04/20 the dataset totals approximately 352GB, growing by approximately 22GB/week.
 
-We intend to retain and make this data available as long as we believe it's useful in planing the response to the COVID-19 pandemic.
+We intend tomake this data available as long as we believe it's useful in planning the response to the COVID-19 pandemic.
 
 # Quick start
 
-The data is hosted on Microsoft Azure through their AI for Earth initiative. You can access the data in many ways, such as:
+The data is hosted on Microsoft Azure through their AI for Earth initiative. You can access the data in several ways, such as:
 
 
 ## Point and click
@@ -113,7 +117,7 @@ To download all the US state county-averaged meteorology data which match the pa
 `azcopy cp  --recursive  --include-pattern 'us_55*.csv' https://metdatasa.blob.core.windows.net/covid19-response/regional_subset_data/us_data/ .` 
 
 
-## How the data is organised
+## How the data is organized
 
 ### `metoffice_global_daily/`
 
@@ -187,7 +191,7 @@ Contains shapefiles for the UK, the USA, Italy, Brazil, Uganda, and Vietnam.
 Where possible, filenames are as described. However, given the short time frames in which this data has been made available, minor variations in filename descriptions may occur. Filenames should still be accurately descriptive of the data. If you find issues with any filenames, or the data itself, please contact us at [covid19@informaticslab.co.uk](mailto:covid19@informaticslab.co.uk).
 
 
-## Getting help and contact
+## Contact information
 
 For help or additional data requests please contact us at [covid19@informaticslab.co.uk](mailto:covid19@informaticslab.co.uk).
 

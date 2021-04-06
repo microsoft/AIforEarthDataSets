@@ -140,6 +140,15 @@ Data for COVID-19 researchers exploring relationships between COVID-19 and envir
 * [Documentation](data/uk-met-covid-19.md)
 * [Notebook](data/uk-met-covid-19.ipynb)
 
+
+## UK Met Office CSSP China 20CRDS
+
+Historical climate data for China, from 1851-2010.
+
+* [Source](https://www.metoffice.gov.uk/research/approach/collaboration/newton/climate-science-for-service-partnership-china)
+* [Documentation](data/uk-met-20crds.md)
+
+
 ## Labeled Information Library of Alexandria: Biology and Conservation (LILA BC)
 
 AI for Earth and partners have assembled a repository of labeled information related to wildlife conservation, particularly wildlife imagery.
