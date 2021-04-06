@@ -117,7 +117,7 @@ Large-scale processing is best performed in the West Europe Azure region, where 
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/landsat-7_thumb_800w.png" width=500px;><br/><span style='font-size:80%'>Natural-color rendering (Landsat 7 bands 3/2/1) of an area near Auckland, New Zealand, carefully cropped to avoid scanline failure issues that make thumbnails less delightful.</span>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/landsat-7_thumb_800w.png" width=500px;><br/><span style='font-size:80%'>Natural-color rendering (Landsat 7 bands 3/2/1) of an area near Auckland, New Zealand, carefully cropped to avoid scan line corrector failure issues that make thumbnails less delightful.</span>
 
 
 ## Contact
