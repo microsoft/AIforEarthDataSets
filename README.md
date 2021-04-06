@@ -173,7 +173,7 @@ Landsat data are in preview; access is granted by request.
 
 * [Source](https://landsat.gsfc.nasa.gov/)
 * [Documentation](data/landsat-8.md)
-* [Notebook](data/landsat.ipynb)
+* [Notebook](data/landsat-8.ipynb)
 
 ## Landsat 7 Collection 2 Level-2  (preview)
 
@@ -183,7 +183,7 @@ Landsat data are in preview; access is granted by request.
 
 * [Source](https://landsat.gsfc.nasa.gov/)
 * [Documentation](data/landsat-7.md)
-* [Notebook](data/landsat.ipynb)
+* [Notebook](data/landsat-7.ipynb)
 
 ## ASTER L1T (2000-2006) (preview)
 
