@@ -49,7 +49,7 @@ Listing *.tif will enumerate all images, with suffixes indicating bands accordin
 * `B2`: Band 2 Visible (0.450-0.51 µm) 30m
 * `B3`: Band 3 Visible (0.53-0.59 µm) 30m
 * `B4`: Band 4 Red (0.64-0.67 µm) 30m
-* `B5`: Band 5 Near-Infrared (0.85-0.88 µm) 30m
+* `B5`: Band 5 Near-infrared (0.85-0.88 µm) 30m
 * `B6`: Band 6 SWIR 1(1.57-1.65 µm) 30m
 * `B7`: Band 7 SWIR 2 (2.11-2.29 µm) 30m
 * `B8`: Band 8 Panchromatic (PAN) (0.50-0.68 µm) 15m (level-1 data only)
@@ -66,13 +66,13 @@ Level-2 files will end with "_SR_B[N]", indicating "surface reflectance"; level-
 
 Landsat 8 Level-2 scenes include the following derived images:
 
-* `[sceneID]_ST_TRAD.tif`: thermal image (level-2 only)
-* `[sceneID]_ST_URAD.tif`: upwelled radiance image (level-2 only)
-* `[sceneID]_ST_ATRAN.tif`: atmospheric transmission image (level-2 only)
-* `[sceneID]_ST_CDIST.tif`: distance (in km) from each pixel to the nearest cloud pixel (level-2 only)
-* `[sceneID]_ST_DRAD.tif`: downwelled radiance image (level-2 only)
-* `[sceneID]_ST_EMIS.tif`: emissivity image (level-2 only)
-* `[sceneID]_ST_EMSD.tif`: emissivity standard deviation (level-2 only)
+* `[sceneID]_ST_TRAD.tif`: thermal image
+* `[sceneID]_ST_URAD.tif`: upwelled radiance image
+* `[sceneID]_ST_ATRAN.tif`: atmospheric transmission image
+* `[sceneID]_ST_CDIST.tif`: distance (in km) from each pixel to the nearest cloud pixel
+* `[sceneID]_ST_DRAD.tif`: downwelled radiance image
+* `[sceneID]_ST_EMIS.tif`: emissivity image
+* `[sceneID]_ST_EMSD.tif`: emissivity standard deviation
 
 #### Landsat 8 metadata files
 

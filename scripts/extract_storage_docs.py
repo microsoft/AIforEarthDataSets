@@ -13,7 +13,7 @@ import re
 
 #%% Constants
 
-# os.chdir('c:/git/AIforEarthDataSets/')
+# import os; os.chdir('c:/git/AIforEarthDataSets/')
 
 input_dir = 'data'
 output_dir = 'storage-docs'
