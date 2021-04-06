@@ -1,4 +1,4 @@
-# Landsat Collection 2 Level-2
+# Landsat 8 Collection 2 Level-2
 
 ## Overview
 
