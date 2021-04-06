@@ -23,7 +23,7 @@ Within that container, each scene corresponds to a folder, named according to:
 `[UTM longitude zone]/[MGRS latitude band]/[tile code]/[year]/[month]/[day]/[scene name]`
 
 * `UTM longitude zone` is a two-digit [UTM longitude code](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system) from 01 to 60
-* `MGRD latitude band` is a one-letter [UTM latitude code](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#Latitude_bands_2), from "C" to "X" (except "I" and "O")
+* `MGRS latitude band` is a one-letter [UTM latitude code](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#Latitude_bands_2), from "C" to "X" (except "I" and "O")
 * `tile code` is a two-letter code from the Sentinel-2 tiling grid ([kml](https://sentinel.esa.int/documents/247904/1955685/S2A_OPER_GIP_TILPAR_MPC__20151209T095117_V20150622T000000_21000101T000000_B00.kml),[geojson](https://github.com/bencevans/sentinel-2-grid)), which is aligned to the [Military Grid Reference System](https://en.wikipedia.org/wiki/Military_Grid_Reference_System)
 * `year`, `month`, and `day` are zero-padded to four, two, and two digits respectively
 

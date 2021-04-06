@@ -165,6 +165,16 @@ Sentinel-2 data are in preview; access is granted by request.
 * [Documentation](data/sentinel-2.md)
 * [Notebook](data/sentinel-2.ipynb)
 
+## Sentinel-1 GRD (preview)
+
+Global synthetic aperture radar (SAR) data from 2017-present.
+
+Sentinel-1 GRD data are in preview; access is granted by request.
+
+* [Source](https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-1-sar/products-algorithms/level-1-algorithms/ground-range-detected)
+* [Documentation](data/sentinel-1-grd.md)
+* [Notebook](data/sentinel-1-grd.ipynb)
+
 ## Landsat 8 Collection 2 Level-2  (preview)
 
 Global optical imagery from the Landsat 8 satellite, which has imaged the Earth since 2013.
