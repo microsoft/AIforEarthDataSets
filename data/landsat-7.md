@@ -4,7 +4,7 @@
 
 The [Landsat](https://landsat.gsfc.nasa.gov/) program has been imaging the Earth since 1972; it provides a comprehensive, continuous archive of the Earth's surface.
 
-This dataset represents the global archive of Level-2 [Landsat 8](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-8) data from [Landsat Collection 2](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2).  Landsat 4, 5, and 7 data are in progress.  Because there is some latency before Level-2 data is available, a rolling window of recent Level-1 data is available as well.  Images are stored in [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.
+This dataset represents the global archive of Level-2 [Landsat 7](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-7) data from [Landsat Collection 2](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2).  Landsat 4, 5, and 7 data are in progress.  Because there is some latency before Level-2 data is available, a rolling window of recent Level-1 data is available as well.  Images are stored in [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.
 
 Landsat imagery is currently in preview on Azure; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=landsat%20question) to request access.
 
@@ -44,50 +44,47 @@ Within that container, each scene corresponds to a folder, named according to:
 * `CC` is the collection number (always "02" in this dataset)
 * `TX`is the [collection category](https://www.usgs.gov/media/videos/landsat-collections-what-are-tiers) ("RT" for real-time, "T1" for tier 1, or "T2" for tier 2)
 
-Putting that all together, a complete scene folder for a Landsat 8 image from February 8, 2020 looks like:
+Putting that all together, a complete scene folder for a Landsat 7 image from February 16, 2020 looks like:
 
-`https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2020/011/021/LC08_L2SP_011021_20200208_20200823_02_T1/`
+`https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/etm/2020/011/021/LE07_L2SP_011021_20200216_20200822_02_T2/`
 
-### Landsat 8 file names
+### Landsat 7 file names
 
-#### Landsat 8 image files
+#### Landsat 7 image files
 
-Within each scene, Landsat 8 files follow the [Landsat 8-9 Collection 2 Level 2 specification](https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/atoms/files/LSDS-1328_Landsat8-9-OLI-TIRS-C2-L2-DFCB-v6.pdf); see the specification for complete documentation of both data and metadata.
+Within each scene, Landsat 7 files follow the [Landsat 7 Collection 2 Level 2 specification](https://www.usgs.gov/media/files/landsat-7-etm-collection-2-level-2-data-format-control-book); see the specification for complete documentation of both data and metadata.
 
 This section will provide a short summary of the files within each scene folder.  All filenames are prefixed with the scene ID.
 
 Listing *.tif will enumerate all images, with suffixes indicating bands according to the following:
 
-* `B1`: Band 1 Visible (0.43-0.45 µm) 30m
-* `B2`: Band 2 Visible (0.450-0.51 µm) 30m
-* `B3`: Band 3 Visible (0.53-0.59 µm) 30m
-* `B4`: Band 4 Red (0.64-0.67 µm) 30m
-* `B5`: Band 5 Near-infrared (0.85-0.88 µm) 30m
-* `B6`: Band 6 SWIR 1(1.57-1.65 µm) 30m
-* `B7`: Band 7 SWIR 2 (2.11-2.29 µm) 30m
-* `B8`: Band 8 Panchromatic (PAN) (0.50-0.68 µm) 15m (level-1 data only)
-* `B10`: Band 10 TIRS 1 (10.6-11.19 µm) 100m (resampled to 30m)
-
-* `B9`: Band 9 Cirrus (1.36-1.38 um) 30m (level-1 data only)
-* `B11`: Band 11 TIRS 2 (11.50-12.51 µm) 100m (level-1 data only)
+* `B1`: Band 1 Visible (0.45-0.52 µm) 30m
+* `B2`: Band 2 Visible (0.52-0.60 µm) 30m
+* `B3`: Band 3 Visible (0.63-0.69 µm) 30m
+* `B4`: Band 4 Near infrared (0.77-0.90 µm) 30m
+* `B5`: Band 5 Short-wave infrared (1.55-1.75 µm) 30m
+* `B6`: Band 6 Thermal (10.4-12.5 um) 30m
+* `B7`: Band 7 Mid infrared (2.08-2.35 µm) 30m
+* `B8`: Band 8 Panchromatic (PAN) (0.52-0.9 µm) 15m (level-1 data only)
 
 For example, the band 2 image in the example scene above is at:
 
-`https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2020/011/021/LC08_L2SP_011021_20200615_20200823_02_T2/LC08_L2SP_011021_20200615_20200823_02_T2_SR_B2.TIF`
+`https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/etm/2020/011/021/LE07_L2SP_011021_20200216_20200822_02_T2/LE07_L2SP_011021_20200216_20200822_02_T2_SR_B2.TIF`
 
 Level-2 files will end with "_SR_B[N]", indicating "surface reflectance"; level-1 files will end with just "_B[N].TIF".
 
-Landsat 8 Level-2 scenes include the following derived images:
+Landsat 7 Level-2 scenes include the following derived images:
 
-* `[sceneID]_ST_TRAD.tif`: thermal image
-* `[sceneID]_ST_URAD.tif`: upwelled radiance image
-* `[sceneID]_ST_ATRAN.tif`: atmospheric transmission image
-* `[sceneID]_ST_CDIST.tif`: distance (in km) from each pixel to the nearest cloud pixel
-* `[sceneID]_ST_DRAD.tif`: downwelled radiance image
-* `[sceneID]_ST_EMIS.tif`: emissivity image
-* `[sceneID]_ST_EMSD.tif`: emissivity standard deviation
+* `[sceneID]_ST_TRAD.tif`: thermal image 
+* `[sceneID]_ST_URAD.tif`: upwelled radiance image 
+* `[sceneID]_ST_ATRAN.tif`: atmospheric transmission image 
+* `[sceneID]_ST_CDIST.tif`: distance (in km) from each pixel to the nearest cloud pixel 
+* `[sceneID]_ST_DRAD.tif`: downwelled radiance image 
+* `[sceneID]_ST_EMIS.tif`: emissivity image 
+* `[sceneID]_ST_EMSD.tif`: emissivity standard deviation 
+* `[sceneID]_SR_ATMOS_OPACITY.tif`: atmospheric opacity estimates
 
-#### Landsat 8 metadata files
+#### Landsat 7 metadata files
 
 * `[sceneID]_MTL.xml`: scene metadata file, in .xml format.  The metadata file includes, among other things, geometry information, a cloud cover percentage, information about sensor saturation, and radiance/reflectance calibration information.
 * `[sceneID]_MTL.txt`: the same information in .txt format
@@ -96,14 +93,13 @@ Landsat 8 Level-2 scenes include the following derived images:
 * `[sceneID]_SR_stac.json`: [STAC](https://stacspec.org/) metadata for the surface reflectance product (level-2 only)
 * `[sceneID]_ST_stac.json`: [STAC](https://stacspec.org/) metadata for the surface temperature product (level-2 only)
 
-#### Landsat 8 quality assessment files
+#### Landsat 7 quality assessment files
 
 * `[sceneID]_QA_PIXEL.tif`: [quality assessment band](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands)
 * `[sceneID]_QA_RADSAT.tif`: [saturation quality assessment image](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands), indicating which sensors were saturated on a per-pixel basis
-* `[sceneID]_SR_QA_AEROSOL.tif`: [quality assessment band](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands) indicating the aerosol correction applied in atmospheric correction (level-2 only)
 * `[sceneID]_ST_QA.tif`: [quality assessment band](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands) for the surface temperature products
 
-#### Landsat 8 thumbnails
+#### Landsat 7 thumbnails
 
 * `[sceneID]_thumb_large.jpeg`: large RGB thumbnail
 * `[sceneID]_thumb_small.jpeg`: small RGB thumbnail

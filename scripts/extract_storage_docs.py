@@ -13,9 +13,11 @@ import re
 
 #%% Constants
 
+# os.chdir('c:/git/AIforEarthDataSets/')
+
 input_dir = 'data'
 output_dir = 'storage-docs'
-datasets = ['naip','aster','landsat','sentinel-2']
+datasets = ['naip','aster','landsat-8','sentinel-2']
 
 # Capture the entire "storage resources" section, up to the next ## heading
 start_token = '## Storage resources'

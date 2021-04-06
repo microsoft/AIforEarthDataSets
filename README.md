@@ -165,14 +165,24 @@ Sentinel-2 data are in preview; access is granted by request.
 * [Documentation](data/sentinel-2.md)
 * [Notebook](data/sentinel-2.ipynb)
 
-## Landsat Collection 2 Level-2  (preview)
+## Landsat 8 Collection 2 Level-2  (preview)
 
-Global optical imagery from the Landsat 4, 5, 7, and 8 satellites, which have imaged the Earth since 1982.
+Global optical imagery from the Landsat 8 satellite, which has imaged the Earth since 2013.
 
-Landsat data are in preview; access is granted by request.  Landsat 8 on-boarding will be complete in March of 2021, earlier Landsat missions will be complete by Summer of 2021.
+Landsat data are in preview; access is granted by request.
 
 * [Source](https://landsat.gsfc.nasa.gov/)
-* [Documentation](data/landsat.md)
+* [Documentation](data/landsat-8.md)
+* [Notebook](data/landsat.ipynb)
+
+## Landsat 7 Collection 2 Level-2  (preview)
+
+Global optical imagery from the Landsat 7 satellite, which has imaged the Earth since 1999.
+
+Landsat data are in preview; access is granted by request.
+
+* [Source](https://landsat.gsfc.nasa.gov/)
+* [Documentation](data/landsat-7.md)
 * [Notebook](data/landsat.ipynb)
 
 ## ASTER L1T (2000-2006) (preview)
