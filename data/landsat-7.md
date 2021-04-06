@@ -4,7 +4,7 @@
 
 The [Landsat](https://landsat.gsfc.nasa.gov/) program has been imaging the Earth since 1972; it provides a comprehensive, continuous archive of the Earth's surface.
 
-This dataset represents the global archive of Level-2 [Landsat 7](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-7) data from [Landsat Collection 2](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2).  Landsat 4, 5, and 7 data are in progress.  Because there is some latency before Level-2 data is available, a rolling window of recent Level-1 data is available as well.  Images are stored in [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.
+This dataset represents the global archive of Level-2 [Landsat 7](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-7) data from [Landsat Collection 2](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2).  Because there is some latency before Level-2 data is available, a rolling window of recent Level-1 data is available as well.  Images are stored in [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.
 
 Landsat imagery is currently in preview on Azure; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=landsat%20question) to request access.
 
