@@ -4,7 +4,9 @@
 
 The [Landsat](https://landsat.gsfc.nasa.gov/) program has been imaging the Earth since 1972; it provides a comprehensive, continuous archive of the Earth's surface.
 
-This dataset represents the global archive of Level-2 [Landsat 7](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-7) data from [Landsat Collection 2](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2).  Because there is some latency before Level-2 data is available, a rolling window of recent Level-1 data is available as well.  Images are stored in [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.
+This dataset represents the global archive of Level-2 [Landsat 7](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-7) data from [Landsat Collection 2](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2); this dataset includes all Landsat 7 images, from 1999 to the present.  Because there is some latency before Level-2 data is available, a rolling window of recent Level-1 data is available as well.  Images are stored in [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.
+
+In 2003, Landsat 7 experienced a hardware failure that resulted in lost pixels.  All images since 2003 have had approximately 22% of their pixels removed; see the <a href="https://www.usgs.gov/faqs/what-landsat-7-etm-slc-data?qt-news_science_products=0#qt-news_science_products">USGS documentation on this issue</a> for more details.
 
 Landsat imagery is currently in preview on Azure; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=landsat%20question) to request access.
 
@@ -118,6 +120,12 @@ Large-scale processing is best performed in the West Europe Azure region, where 
 ## Pretty picture
 
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/landsat-7_thumb_800w.png" width=500px;><br/><span style='font-size:80%'>Natural-color rendering (Landsat 7 bands 3/2/1) of an area near Auckland, New Zealand, carefully cropped to avoid scan line corrector failure issues that make thumbnails less delightful.</span>
+
+## Pretty picture, with 22% of its pixels missing
+
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/landsat-7_slc_failure_800w.png" width=500px;><br/><span style='font-size:80%'>The area from which the above image was cropped, showing the SLC failure issue.</span>
+
+
 
 
 ## Contact
