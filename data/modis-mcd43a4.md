@@ -18,7 +18,7 @@ Within that container, data are organized according to:
 
 `product` is the MODIS product name; currently `MCD43A4` is available on Azure.
 
-`htile` and `vtile` refer to tile numbers in the [MODIS sinusoidal grid system](https://modis-land.gsfc.nasa.gov/MODLAND_grid.html).  The notebook available under &ldquo;Data Access&rdquo; demonstrates one way to map latitude and longitude into this grid system.
+`htile` and `vtile` refer to tile numbers in the [MODIS sinusoidal grid system](https://modis-land.gsfc.nasa.gov/MODLAND_grid.html).  The accompanying [sample notebook](modis-mcd43a4.ipynb) demonstrates one way to map latitude and longitude into this grid system.
 
 `daynum` is a four-digit year plus a three-digit day of year (from 001 to 365), e.g. `2019001` represents January 1, 2019.
 
@@ -36,7 +36,7 @@ As per that document, spectral band 1 corresponds channel 7 for MCD43A4, so in t
 
 ...contains information from spectral band 1.
 
-A complete Python example of accessing and plotting a MODIS image is available in the notebook provided under &ldquo;<a href="https://azure.microsoft.com/en-us/services/open-datasets/catalog/modis?tab=data-access">data access</a>&rdquo;.
+A complete Python example of accessing and plotting a MODIS image is available in the notebook provided in the accompanying [sample notebook](modis-mcd43a4.ipynb).
 
 We also provide a read-only SAS (shared access signature) token to allow access to MODIS data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 
@@ -61,8 +61,5 @@ For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](m
 
 ## Notices
 
-MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
-
-This dataset is provided under the original terms that Microsoft received source data. The dataset may include data sourced from Microsoft. 
-
+Microsoft provides this dataset on an "as is" basis.  Microsoft makes no warranties (express or implied), guarantees, or conditions with respect to your use of the dataset.  To the extent permitted under your local law, Microsoft disclaims all liability for any damages or losses - including direct, consequential, special, indirect, incidental, or punitive - resulting from your use of this dataset.  This dataset is provided under the original terms that Microsoft received source data.
 

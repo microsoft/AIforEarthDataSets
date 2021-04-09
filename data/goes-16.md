@@ -35,7 +35,7 @@ https://goes.blob.core.windows.net/noaa-goes16/ABI-L2-MCMIPF/2020/003/00/OR_ABI-
 
 Data channels and wavelengths are described [here](https://www.ncdc.noaa.gov/data-access/satellite-data/goes-r-series-satellites/glossary).
 
-A complete Python example of accessing and plotting a GOES-16 image is available in the notebook provided under &ldquo;<a href="https://azure.microsoft.com/en-us/services/open-datasets/catalog/goes-16?tab=data-access">data access</a>&rdquo;.
+A complete Python example of accessing and plotting a GOES-16 image is available is available in the accompanying [sample notebook](goes-16.ipynb).
 
 We also provide a read-only SAS (shared access signature) token to allow access to GOES-16 data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 
@@ -67,6 +67,5 @@ For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](m
 
 ## Notices
 
-MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
+Microsoft provides this dataset on an "as is" basis.  Microsoft makes no warranties (express or implied), guarantees, or conditions with respect to your use of the dataset.  To the extent permitted under your local law, Microsoft disclaims all liability for any damages or losses - including direct, consequential, special, indirect, incidental, or punitive - resulting from your use of this dataset.  This dataset is provided under the original terms that Microsoft received source data.
 
-This dataset is provided under the original terms that Microsoft received source data. The dataset may include data sourced from Microsoft.

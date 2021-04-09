@@ -18,11 +18,12 @@ Specifically HREA provides the following annual datasets at country-level granul
 
 For more information and methodology, please visit the [HREA website](http://www-personal.umich.edu/~brianmin/HREA/index.html).
 
+
 ## Storage structure
 
-Data are stored in blobs in the West Europe data center, in the following blob container:
+Data are stored in blobs in the West Europe Azure region, in the following blob container:
 
-https://hreadatasa.blob.core.windows.net/hrea
+`https://hreadatasa.blob.core.windows.net/hrea`
 
 Within that container, data are organized within folders named according to:
 
@@ -48,11 +49,13 @@ For example, the nighttime light annual composite for Djibouti in 2019 is locate
 
 The data hosted on Azure is derived from the [source](http://www-personal.umich.edu/~brianmin/HREA/index.html) by converting each file into cloud-optimized GeoTIFF format file using [rio cogeo 2.1.2](https://github.com/cogeotiff/rio-cogeo).
 
+
 ## How to cite
 
 If you use the HREA data, please cite as follows:
 
 Min, Brian and O'Keeffe, Zachary. 2021. High Resolution Electricity Access Indicators Dataset. Ann Arbor, MI: Center for Political Studies, University of Michigan.
+
 
 ## Sample image
 
@@ -60,15 +63,18 @@ Min, Brian and O'Keeffe, Zachary. 2021. High Resolution Electricity Access Indic
 
 Annual composite of nighttime lights for Djibouti in 2019.
 
+
 ## Contact
 
 For questions about this hosted instance of the dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=hrea%20question).
 
 For questions about the dataset contents or methodology, see the [project website](http://www-personal.umich.edu/~brianmin/HREA/data.html) .
 
+
 ## License
 
 This data set is licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
+
 
 ## List of countries for which HREA data are available
 
@@ -98,8 +104,7 @@ South_Africa
 Tanzania
 Zambia
 
+
 ## Notices
 
-MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN “AS IS” BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS.
-
-This dataset is provided under the original terms that Microsoft received source data. The dataset may include data sourced from Microsoft.
+Microsoft provides this dataset on an "as is" basis.  Microsoft makes no warranties (express or implied), guarantees, or conditions with respect to your use of the dataset.  To the extent permitted under your local law, Microsoft disclaims all liability for any damages or losses - including direct, consequential, special, indirect, incidental, or punitive - resulting from your use of this dataset.  This dataset is provided under the original terms that Microsoft received source data.

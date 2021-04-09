@@ -10,6 +10,7 @@ This dataset is maintained by [Ag-Analytics®](https://analytics.ag). Ag-Analyti
 
 This dataset is updated weekly.
 
+
 ## Storage resources
 
 Data are stored as [cloud-optimized GeoTIFF](https://www.cogeo.org/) files in the East US 2 data center, in the following blob container:
@@ -27,7 +28,7 @@ Within that container, data are organized according to:
 * `version` is always `v1.4`
 * `subdataset` is a two-character, 1-indexed string indicating a subdataset (see below)
 
-A mapping from lat/lon to tile IDs can be found [here](https://hls.gsfc.nasa.gov/wp-content/uploads/2016/10/S2_TilingSystem2-1.txt); the notebook provided under &ldquo;<a href="?tab=data-access">data access</a>&rdquo; demonstrates the use of this table to look up a tile ID by lat/lon.  Tile IDs can also be found using the [Ag-Analytics® API]([API](https://ag-analytics.portal.azure-api.net/docs/services/harmonized-landsat-sentinel-service/operations/hls-service)).
+A mapping from lat/lon to tile IDs can be found [here](https://hls.gsfc.nasa.gov/wp-content/uploads/2016/10/S2_TilingSystem2-1.txt); the accompanying [sample notebook](hls.ipynb) demonstrates the use of this table to look up a tile ID by lat/lon.  Tile IDs can also be found using the [Ag-Analytics® API]([API](https://ag-analytics.portal.azure-api.net/docs/services/harmonized-landsat-sentinel-service/operations/hls-service)).
 
 Data are provided for the United States, northern Mexico, southern Canada, France, Ireland, Germany, Ukraine, South Africa, and southeastern Australia; see the [HLS coverage map](https://hls.gsfc.nasa.gov/wp-content/uploads/2018/10/hls1.4_coverage.jpg) for coverage areas.
 
@@ -69,14 +70,13 @@ Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azur
 
 HLS data can consume hundreds of terabytes, so large-scale processing is best performed in the East US 2 Azure data center where the images are stored. If you are using HLS data for environmental science applications, consider applying for an [AI for Earth grant](https://aka.ms/ai4egrants) to support your compute requirements.
 
+
 ## Contact
 
 For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=hls%20question).
 
+
 ## Notices
 
-MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
-
-This dataset is provided under the original terms that Microsoft received source data. The dataset may include data sourced from Microsoft.
-
+Microsoft provides this dataset on an "as is" basis.  Microsoft makes no warranties (express or implied), guarantees, or conditions with respect to your use of the dataset.  To the extent permitted under your local law, Microsoft disclaims all liability for any damages or losses - including direct, consequential, special, indirect, incidental, or punitive - resulting from your use of this dataset.  This dataset is provided under the original terms that Microsoft received source data.
 

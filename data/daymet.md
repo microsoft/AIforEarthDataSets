@@ -19,7 +19,11 @@ Data are stored in blobs in the West Europe Azure region, in two formats: [Zarr]
 
 We recommend the Zarr format if you're analyzing part or all of the data directly from Azure Blob Storage, without downloading the data locally.
 If you're downloading an entire block of the data, a specific variable for a specific time period, then either Zarr or netCDF format is appropriate.
-See the &ldquo;<a href="https://azure.microsoft.com/en-us/services/open-datasets/catalog/daymet?tab=data-access">example notebooks</a>&rdquo; for examples of how to use both formats.
+
+Sample notebooks are provided to demonstrate both approaches to accessing Daymet data:
+
+* [Zarr notebok](daymet-zarr.ipynb)
+* [NetCDF notebok](daymet-nc.ipynb)
 
 
 ## Zarr Layout
@@ -80,8 +84,6 @@ The following variables are available:
 
 ## Access
 
-Complete Python examples of accessing and plotting Daymet data in both Zarr and NetCDF foramts are available under &ldquo;<a href="https://azure.microsoft.com/en-us/services/open-datasets/catalog/daymet?tab=data-access">data access</a>&rdquo;.
-
 We also provide a read-only SAS (shared access signature) token to allow access to Daymet data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 
 `?sv=2019-12-12&si=daymet-ro&sr=c&sig=V85jbO5Ajj46%2BOwM3SYIA2MfXFvr8qq6Hvse3U9kJfc%3D`
@@ -104,6 +106,7 @@ If you use this data in a publication, please cite one of the following (dependi
 * Thornton, M.M., R. Shrestha, Y. Wei, P.E. Thornton, S. Kao, and B.E. Wilson. 2020. Daymet: Annual Climate Summaries on a 1-km Grid for North America, Version 4. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1852
 
 See the Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC)'s [Data Use and Citations Policy](https://daac.ornl.gov/citation_policy.html) for more information.
+
 
 ## Resources
 
@@ -129,6 +132,5 @@ For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](m
 
 ## Notices
 
-MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
+Microsoft provides this dataset on an "as is" basis.  Microsoft makes no warranties (express or implied), guarantees, or conditions with respect to your use of the dataset.  To the extent permitted under your local law, Microsoft disclaims all liability for any damages or losses - including direct, consequential, special, indirect, incidental, or punitive - resulting from your use of this dataset.  This dataset is provided under the original terms that Microsoft received source data.
 
-This dataset is provided under the original terms that Microsoft received source data. The dataset may include data sourced from Microsoft.

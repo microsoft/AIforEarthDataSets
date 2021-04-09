@@ -30,7 +30,7 @@ Within the COG container, each scene corresponds to a folder, named according to
 
 images/L1T/`[year]`/`[month]`/`[day]`/`[scene name]`
 
-* `[year]`, `[month]`, and `[day]` are the four-digit year and two-digit month/day
+`[year]`, `[month]`, and `[day]` are the four-digit year and two-digit month/day.
 
 `scene name` follows the [ASTER naming convention](https://lpdaac.usgs.gov/data/get-started-data/collection-overview/missions/aster-overview/#aster-naming-conventions), with the exception that the "AST_L1T" prefix has been removed.  So scene names look like:
 
@@ -57,7 +57,7 @@ Documentation pending finalization of the still-provisional COG format.
 
 ## Sample code
 
-A complete Python example of accessing and plotting ASTER data - using the NASA CMR API to query for scenes of interest - is available in the notebook provided under the &ldquo;data access&rdquo; link.
+A complete Python example of accessing and plotting ASTER data - using the NASA CMR API to query for scenes of interest - is available in the accompanying [sample notebook](aster.ipynb).
 
 
 ## Region information
@@ -77,8 +77,4 @@ For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](m
 
 ## Notices
 
-MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
-
-This dataset is provided under the original terms that Microsoft received source data. The dataset may include data sourced from Microsoft. 
-
-
+Microsoft provides this dataset on an "as is" basis.  Microsoft makes no warranties (express or implied), guarantees, or conditions with respect to your use of the dataset.  To the extent permitted under your local law, Microsoft disclaims all liability for any damages or losses - including direct, consequential, special, indirect, incidental, or punitive - resulting from your use of this dataset.  This dataset is provided under the original terms that Microsoft received source data.

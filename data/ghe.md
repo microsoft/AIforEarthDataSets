@@ -35,11 +35,11 @@ Latitude and longitude are not perfectly uniformly sampled, so an additional fil
 
 <https://ghe.blob.core.windows.net/noaa-ghe/NPR.GEO.GHE.v1.Navigation.netcdf.gz>
 
-A complete Python example of accessing and plotting a GHE image (i.e., an instantaneous global estimate) is available in the notebook provided under &ldquo;<a href="https://azure.microsoft.com/en-us/services/open-datasets/catalog/ghe?tab=data-access">data access</a>&rdquo;.
+A complete Python example of accessing and plotting a GHE image (i.e., an instantaneous global estimate) is available in the accompanying [sample notebook](ghe.ipynb).
 
 We also provide a read-only SAS (shared access signature) token to allow access to GHE data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 
-`st=2020-04-14T00%3A09%3A17Z&se=2034-04-15T00%3A09%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=%2F1X7FhDPqwF9TYzXVvB8D%2BX%2F%2B3OYbDdMkXpKU37T6eI%3D`
+`?sv=2020-04-08&si=noaa-ghe-ro&sr=c&sig=q9K1gGIRSmhbDcm27PEXo%2F%2BYGK8%2BkYhuiCJvZbOPdOs%3D`
 
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
@@ -60,6 +60,5 @@ For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](m
 
 ## Notices
 
-MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
+Microsoft provides this dataset on an "as is" basis.  Microsoft makes no warranties (express or implied), guarantees, or conditions with respect to your use of the dataset.  To the extent permitted under your local law, Microsoft disclaims all liability for any damages or losses - including direct, consequential, special, indirect, incidental, or punitive - resulting from your use of this dataset.  This dataset is provided under the original terms that Microsoft received source data.
 
-This dataset is provided under the original terms that Microsoft received source data. The dataset may include data sourced from Microsoft.

@@ -15,7 +15,7 @@ Within the COG container, each scene corresponds to a folder, named according to
 
 images/L1T/`[year]`/`[month]`/`[day]`/`[scene name]`
 
-* `[year]`, `[month]`, and `[day]` are the four-digit year and two-digit month/day
+`[year]`, `[month]`, and `[day]` are the four-digit year and two-digit month/day.
 
 `scene name` follows the [ASTER naming convention](https://lpdaac.usgs.gov/data/get-started-data/collection-overview/missions/aster-overview/#aster-naming-conventions), with the exception that the "AST_L1T" prefix has been removed.  So scene names look like:
 

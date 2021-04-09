@@ -167,3 +167,8 @@ The root of the container includes folders for each time scale: `hourly`, `3hrly
 
 For questions, please contact us at <a href="mailto:enquiries@metoffice.gov.uk">enquiries@metoffice.gov.uk</a>.</p>
 
+
+## Notices
+
+Microsoft provides this dataset on an "as is" basis.  Microsoft makes no warranties (express or implied), guarantees, or conditions with respect to your use of the dataset.  To the extent permitted under your local law, Microsoft disclaims all liability for any damages or losses - including direct, consequential, special, indirect, incidental, or punitive - resulting from your use of this dataset.  This dataset is provided under the original terms that Microsoft received source data.
+

@@ -29,11 +29,11 @@ For example, the following file contains one scan from the KHPX station, on July
 
 `https://nexradsa.blob.core.windows.net/nexrad-l2/1997/07/07/KHPX/KHPX19970707_000827.gz`
 
-A complete Python example of accessing and plotting a NEXRAD scan is available in the notebook provided under &ldquo;<a href="https://azure.microsoft.com/en-us/services/open-datasets/catalog/nexrad-l2?tab=data-access">data access</a>&rdquo;.
+A complete Python example of accessing and plotting a NEXRAD scan is available in is available in the accompanying [sample notebook](nexrad-l2.ipynb)
 
 We also provide a read-only SAS (shared access signature) token to allow access to NEXRAD data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 
-`https://nexradsa.blob.core.windows.net/nexrad-l2?st=2019-07-26T22%3A26%3A29Z&se=2034-07-27T22%3A26%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=oHaHPOVn3hs9Dm2WtAKAT64zmZkwwceam8XD8HSVrSg%3D`
+`?sv=2020-04-08&si=nexrad-l2-ro&sr=c&sig=uAQbYwtg1BZyw%2FPp2DiELzDa9%2FK%2FiFonTM905wag7uI%3D`
 
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
@@ -46,7 +46,7 @@ A list of all NEXRAD files is available here, as a zipped .txt file:
 
 `https://nexradsa.blob.core.windows.net/nexrad-index/nexrad-index.zip`
 
-We also maintain a SQLite database to facilitate querying images by location and time; see the [sample notebook](https://azure.microsoft.com/en-us/services/open-datasets/catalog/nexrad-l2?tab=data-access) for details.
+We also maintain a SQLite database to facilitate querying images by location and time; see the accompanying [sample notebook](nexrad-l2.ipynb) for details.
 
 
 ## Pretty picture
@@ -63,6 +63,5 @@ For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](m
 
 ## Notices
 
-MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
+Microsoft provides this dataset on an "as is" basis.  Microsoft makes no warranties (express or implied), guarantees, or conditions with respect to your use of the dataset.  To the extent permitted under your local law, Microsoft disclaims all liability for any damages or losses - including direct, consequential, special, indirect, incidental, or punitive - resulting from your use of this dataset.  This dataset is provided under the original terms that Microsoft received source data.
 
-This dataset is provided under the original terms that Microsoft received source data. The dataset may include data sourced from Microsoft.

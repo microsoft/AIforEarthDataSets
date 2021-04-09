@@ -131,8 +131,7 @@ This section will provide a short summary of each file within each scene folder.
 
 ## Sample code
 
-A complete Python example of accessing and plotting Sentinel-2 data - using the Copernicus Open Access Hub API to query for scenes of interest - is available in the notebook provided under the &ldquo;data access&rdquo; link.
-
+A complete Python example of accessing and plotting Sentinel-2 data - using the Copernicus Open Access Hub API to query for scenes of interest - is available in the accompanying [sample notebook](sentinel-2.ipynb).
 
 ## Region information
 
@@ -151,8 +150,4 @@ For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](m
 
 ## Notices
 
-MICROSOFT PROVIDES AZURE OPEN DATASETS ON AN "AS IS" BASIS. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE DATASETS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THE DATASETS. 
-
-This dataset is provided under the original terms that Microsoft received source data. The dataset may include data sourced from Microsoft. 
-
-
+Microsoft provides this dataset on an "as is" basis.  Microsoft makes no warranties (express or implied), guarantees, or conditions with respect to your use of the dataset.  To the extent permitted under your local law, Microsoft disclaims all liability for any damages or losses - including direct, consequential, special, indirect, incidental, or punitive - resulting from your use of this dataset.  This dataset is provided under the original terms that Microsoft received source data.

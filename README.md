@@ -204,6 +204,14 @@ Settlement-level measures of electricity access, reliability, and usage derived 
 * [Documentation](data/hrea.md)
 * [Notebook](data/hrea.ipynb)
 
+## NatureServe Map of Biodiversity Importance (MoBI)
+
+AI for Earth and partners have assembled a repository of labeled information related to wildlife conservation, particularly wildlife imagery.
+
+* [Source](https://www.natureserve.org/conservation-tools/projects/map-biodiversity-importance)
+* [Documentation](data/mobi.md)
+* [Notebook](data/mobi.ipynb)
+
 ## Labeled Information Library of Alexandria: Biology and Conservation (LILA BC)
 
 AI for Earth and partners have assembled a repository of labeled information related to wildlife conservation, particularly wildlife imagery.
