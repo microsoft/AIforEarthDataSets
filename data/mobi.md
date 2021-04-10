@@ -71,6 +71,11 @@ This dataset was created by NatureServe in collaboration with NatureServe networ
 NatureServe reserves all rights in all intellectual property provided.  Distribution of the data or any intellectual property in whole or in part, or any products derived from the data or any intellectual property for commercial purposes is strictly prohibited. To see the full terms of use click [here](http://natureserve.maps.arcgis.com/sharing/rest/content/items/8992236b63184422905ed208f050a12e/data). 
 
 
+## Pretty picture
+
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/mobi_800w.png" width=500px;><br/><span style='font-size:80%'>MoBI vertebrate species richness layer.</span>
+
+
 ## Notices
 
 Microsoft provides this dataset on an "as is" basis.  Microsoft makes no warranties (express or implied), guarantees, or conditions with respect to your use of the dataset.  To the extent permitted under your local law, Microsoft disclaims all liability for any damages or losses - including direct, consequential, special, indirect, incidental, or punitive - resulting from your use of this dataset.  This dataset is provided under the original terms that Microsoft received source data.
