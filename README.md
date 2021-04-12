@@ -218,6 +218,14 @@ AI for Earth and partners have assembled a repository of labeled information rel
 
 * [lila.science](http://lila.science)
 
+## Global Biodiversity Information Facility (GBIF)
+
+Exports of global species occurrence data from the GBIF network.
+
+* [Source](https://www.gbif.org)
+* [Documentation](data/gbif.md)
+* [Notebook](data/gbif.ipynb)
+
 # Legal stuff
 
 ## Contributing
