@@ -115,8 +115,8 @@ Estimates of daily weather parameters in North America on a one-kilometer grid, 
 
 * [Source](https://daymet.ornl.gov/)
 * [Documentation](data/daymet.md)
-* [Notebook (Zarr)](daymet-zarr.ipynb)
-* [Notebook (NetCDF)](daymet-nc.ipynb)
+* [Notebook (Zarr)](data/daymet-zarr.ipynb)
+* [Notebook (NetCDF)](data/daymet-nc.ipynb)
 
 ## USFS Forest Inventory and Analysis
 
