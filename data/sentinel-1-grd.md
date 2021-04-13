@@ -6,7 +6,7 @@ The [Sentinel-1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1) prog
 
 This dataset represents the global Sentinel-1 GRD archive, from 2017 to the present, converted to [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.
 
-Sentinel-1 data on Azure are maintained on by [Sinergise](https://sinergise.com/).
+Sentinel-1 data on Azure are maintained by [Sinergise](https://sinergise.com/).
 
 Sentinel-1 GRD imagery is currently in preview on Azure; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=sentinel1%20question) to request access.
 
