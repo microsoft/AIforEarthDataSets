@@ -46,19 +46,34 @@ For example:
 
 ## netCDF Layout
 
-The netCDF files are named as:
+There are three folders at the root level of the `daymet-nc` container:
 
-`daymet-nc/daymet_v4_[frequency]/daymet_v4_[variable]_[frequency]_[region]_[year].nc`
+* `daymet-nc/daymet_v4_daily` (daily variables)
+* `daymet-nc/daymet_v4_monthly` (monthly summaries)
+* `daymet-nc/daymet_v4_annual` (annual summaries)
 
-`region` has the same definition for netCDF as for Zarr (see above).
+Within the `daily` folder, files are named as:
 
-`frequency` is one of:
+`daymet_v4_daily_[region]_[variable]_[year].nc`
 
-* `daily` (daily totals)
-* `monttl` (monthly totals)
-* `monavg` (monthly averages)
-* `annttl` (annual totals)
-* `annavg` (annual averages)
+`region` is `hi`, `na`, or `pr`, for Hawaii, North America, or Puerto Rico, respectively.
+
+For example:
+
+`daymet-nc/daymet_v4_daily/daymet_v4_daily_hi_prcp_1980.nc`
+
+...contains daily precipitation data for Hawaii in 1980.
+
+Within the `monthly` and `annual` folders, filed are named as:
+
+`daymet_v4_[variable]_[aggregation]_[region]_[year].nc`
+
+`aggregation` is one of:
+
+* `monttl` (monthly totals, `monthly` folder only)
+* `monavg` (monthly averages, `monthly` folder only)
+* `annttl` (annual totals, `annual` folder only)
+* `annavg` (annual averages, `annual` folder only)
 
 For example:
 
