@@ -77,12 +77,14 @@ Within the `monthly` and `annual` folders, filed are named as:
 
 For example:
 
-* `daymet-nc/daymet_v4_daily/daymet_v4_daily_hi_prcp_1980.nc` (daily precipitation in Hawaii for 1980)
 * `daymet-nc/daymet_v4_monthly/daymet_v4_prcp_monttl_pr_1980.nc` (monthly total precipitation in Puerto Rico in 1980)
 * `daymet-nc/daymet_v4_annual/daymet_v4_prcp_annavg_na_1980.nc` (annual average precipitation for North America in 1980)
 
 See the [Daymet User Guide](https://daac.ornl.gov/DAYMET/guides/Daymet_V4_Monthly_Climatology.html) for more details.
 
+Putting all of the above together, this is a complete URL to a NetCDF file:
+
+[https://daymeteuwest.blob.core.windows.net/daymet-nc/daymet_v4_monthly/daymet_v4_prcp_monttl_pr_1980.nc](https://daymeteuwest.blob.core.windows.net/daymet-nc/daymet_v4_monthly/daymet_v4_prcp_monttl_pr_1980.nc)
 
 ## Variables
 
@@ -137,7 +139,7 @@ The following resources and references may be helpful when working with the Daym
 
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/daymet.png" width=200px;><br/>
 
-<p style="font-size:80%;margin-left:15px;">Average daily maximum temperature in Hawaii in 2017.</p>
+<p style="font-size:80%;margin-left:15px;">Average daily maximum temperature in North America in 2009.</p>
 
 
 ## Contact
