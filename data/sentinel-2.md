@@ -36,7 +36,7 @@ Within that container, each scene corresponds to a folder, named according to:
 * `YYYYMMDDHHMMSS` is the sensing start time (UTC)
 * `Nxxyy` indicates the version of the processing toolset
 * `ROOO` is the [relative orbit number](https://sentinel.esa.int/web/sentinel/missions/sentinel-2/satellite-description/orbit), from R001 to R143
-* `Txxxxx` is the five-digit tile identifier, will match the UTM longitude zone, MGRS latitude band, and two-letter tile code from the folde rname
+* `Txxxxx` is the five-digit tile identifier, will match the UTM longitude zone, MGRS latitude band, and two-letter tile code from the folder name
 * `Product discriminator` is a processing date
 
 Putting that all together, a complete scene folder looks like:
