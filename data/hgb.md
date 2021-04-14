@@ -21,7 +21,13 @@ Data are stored in blobs in the West Europe Azure region, in the following blob 
 
 `https://cpdataeuwest.blob.core.windows.net/cpdata/raw/2010-harmonized-biomass/global/300m/`
 
-Images are stored in cloud optimized GeoTIFF format. 
+
+Within that folder, there are four [cloud-optimized GeoTIFF](https://www.cogeo.org/) files:
+
+* aboveground.tif (global above-ground biomass)
+* belowground.tif (global below-ground biomass)
+* aboveground_uncertainty.tif (uncertainty associated with global above-ground biomass)
+* belowground_uncertainty.tif (uncertainty associated with global below-ground biomass)
 
 A complete Python example of accessing and plotting HGB data is available is available in the accompanying [sample notebook](hgb.ipynb).
 
@@ -43,7 +49,7 @@ Spawn, S.A., and H.K. Gibbs. 2020. Global Aboveground and Belowground Biomass Ca
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/hgb.png" width=350px;><br/>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/hgb.png" width=550px;><br/>
 
 <p style="font-size:80%;margin-left:15px;">Global above-ground biomass estimates in 2010.</p>
 

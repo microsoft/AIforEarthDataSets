@@ -46,28 +46,45 @@ For example:
 
 ## netCDF Layout
 
-The netCDF files are named as:
+There are three folders at the root level of the `daymet-nc` container:
 
-`daymet-nc/daymet_v4_[frequency]/daymet_v4_[variable]_[frequency]_[region]_[year].nc`
+* `daymet-nc/daymet_v4_daily` (daily variables)
+* `daymet-nc/daymet_v4_monthly` (monthly summaries)
+* `daymet-nc/daymet_v4_annual` (annual summaries)
 
-`region` has the same definition for netCDF as for Zarr (see above).
+Within the `daily` folder, files are named as:
 
-`frequency` is one of:
+`daymet_v4_daily_[region]_[variable]_[year].nc`
 
-* `daily` (daily totals)
-* `monttl` (monthly totals)
-* `monavg` (monthly averages)
-* `annttl` (annual totals)
-* `annavg` (annual averages)
+`region` is `hi`, `na`, or `pr`, for Hawaii, North America, or Puerto Rico, respectively.
 
 For example:
 
-* `daymet-nc/daymet_v4_daily/daymet_v4_daily_hi_prcp_1980.nc` (daily precipitation in Hawaii for 1980)
+`daymet-nc/daymet_v4_daily/daymet_v4_daily_hi_prcp_1980.nc`
+
+...contains daily precipitation data for Hawaii in 1980.
+
+Within the `monthly` and `annual` folders, filed are named as:
+
+`daymet_v4_[variable]_[aggregation]_[region]_[year].nc`
+
+`aggregation` is one of:
+
+* `monttl` (monthly totals, `monthly` folder only)
+* `monavg` (monthly averages, `monthly` folder only)
+* `annttl` (annual totals, `annual` folder only)
+* `annavg` (annual averages, `annual` folder only)
+
+For example:
+
 * `daymet-nc/daymet_v4_monthly/daymet_v4_prcp_monttl_pr_1980.nc` (monthly total precipitation in Puerto Rico in 1980)
 * `daymet-nc/daymet_v4_annual/daymet_v4_prcp_annavg_na_1980.nc` (annual average precipitation for North America in 1980)
 
 See the [Daymet User Guide](https://daac.ornl.gov/DAYMET/guides/Daymet_V4_Monthly_Climatology.html) for more details.
 
+Putting all of the above together, this is a complete URL to a NetCDF file:
+
+[https://daymeteuwest.blob.core.windows.net/daymet-nc/daymet_v4_monthly/daymet_v4_prcp_monttl_pr_1980.nc](https://daymeteuwest.blob.core.windows.net/daymet-nc/daymet_v4_monthly/daymet_v4_prcp_monttl_pr_1980.nc)
 
 ## Variables
 
@@ -122,7 +139,7 @@ The following resources and references may be helpful when working with the Daym
 
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/daymet.png" width=200px;><br/>
 
-<p style="font-size:80%;margin-left:15px;">Average daily maximum temperature in Hawaii in 2017.</p>
+<p style="font-size:80%;margin-left:15px;">Average daily maximum temperature in North America in 2009.</p>
 
 
 ## Contact

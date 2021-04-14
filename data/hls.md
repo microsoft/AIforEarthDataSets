@@ -19,9 +19,8 @@ Data are stored as [cloud-optimized GeoTIFF](https://www.cogeo.org/) files in th
 
 Within that container, data are organized according to:
 
-`<folder>/HLS.<product>.T<tileid>.<daynum>.<version>_<subdataset>.tif`
+`<product>/HLS.<product>.T<tileid>.<daynum>.<version>_<subdataset>.tif`
 
-* `folder` is `L30` for Landsat, `S30` for Sentinel-2
 * `product` is `L30` for Landsat, `S30` for Sentinel-2
 * `tileid` is a four-character tile code from the [Sentinel-2 tiling system](https://hls.gsfc.nasa.gov/wp-content/uploads/2016/10/S2_TilingSystem2-1.txt)
 * `daynum` is a four-digit year plus a three-digit day of year (from 001 to 365), e.g. 2019001 represents January 1, 2019
