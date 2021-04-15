@@ -8,11 +8,11 @@ GBIF currently integrates datasets documenting over 1.6 billion species occurren
 
 ![GBIF world map](https://labs.gbif.org/~mblissett/2019/10/analytics-maps/world-2021-01-01.png)
 
-The GBIF occurrence dataset combines data from a wide array of sources including specimen-related data from natural history museums, observations from citizen science networks and environment recording schemes. While these data are constantly changing in [GBIF.org](https://www.gbif.org), periodic snapshots are taken and made available here.
+The GBIF occurrence dataset combines data from a wide array of sources including specimen-related data from natural history museums, observations from citizen science networks and environment recording schemes. While these data are constantly changing at [GBIF.org](https://www.gbif.org), periodic snapshots are taken and made available here.
 
 ## Storage resources
 
-Data are stored in Parquet format files in Azure Blob Storage in the West Europe Azure region, in the following blob container:
+Data are stored in [Parquet](https://parquet.apache.org/) files in Azure Blob Storage in the West Europe Azure region, in the following blob container:
 
 `https://ai4edataeuwest.blob.core.windows.net/gbif`
 
@@ -30,8 +30,7 @@ and the citation information is at
 
 `https://ai4edataeuwest.blob.core.windows.net/gbif/occurrence/2021-04-13/citation.txt`
 
-The Parquet file schema is described here.
-Most field names correspond to [terms from the Darwin Core standard](https://dwc.tdwg.org/terms/), and have been interpreted by GBIF's systems to align taxonomy, location, dates etc.
+The Parquet file schema is described below.  Most field names correspond to [terms from the Darwin Core standard](https://dwc.tdwg.org/terms/), and have been interpreted by GBIF's systems to align taxonomy, location, dates etc.
 Additional information may be retrived using the [GBIF API](https://www.gbif.org/developer/summary).
 
 |              Field¹              |     Type      | Nullable | Description                   |
@@ -95,24 +94,22 @@ Additional information may be retrived using the [GBIF API](https://www.gbif.org
 
 ⁴ The array may be empty.
 
-Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
-
 
 ## Sample code
 
-A preliminary Python example of accessing and querying the GBIF data is in the accompanying [sample notebook](gbif.ipynb). This example shows how to access and perform basic querying of a one file-part, and future examples will show how to run full scale analysis.
+A preliminary Python example of accessing and querying the GBIF data is in the accompanying [sample notebook](gbif.ipynb). This example shows how to access and perform basic querying of one file-part, and future examples will show how to run full scale analysis.
 
 
 ## License and attribution
 
 This dataset is available under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license and with the GBIF [terms of use](https://www.gbif.org/terms).
 
-
 Please refer to the GBIF [citation guidelines](https://www.gbif.org/citation-guidelines). For analyses using the whole dataset please use the following citation:
 
 > GBIF.org ([Date]) GBIF Occurrence Data [DOI of dataset]
 
 For analyses where data are significantly filtered, please track the datasetKeys used and use a “[derived dataset](https://www.gbif.org/citation-guidelines#derivedDatasets)” record for citing the data.
+
 
 ## Contact
 

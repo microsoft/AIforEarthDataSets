@@ -212,12 +212,6 @@ AI for Earth and partners have assembled a repository of labeled information rel
 * [Documentation](data/mobi.md)
 * [Notebook](data/mobi.ipynb)
 
-## Labeled Information Library of Alexandria: Biology and Conservation (LILA BC)
-
-AI for Earth and partners have assembled a repository of labeled information related to wildlife conservation, particularly wildlife imagery.
-
-* [lila.science](http://lila.science)
-
 ## Global Biodiversity Information Facility (GBIF)
 
 Exports of global species occurrence data from the GBIF network.
@@ -225,6 +219,12 @@ Exports of global species occurrence data from the GBIF network.
 * [Source](https://www.gbif.org)
 * [Documentation](data/gbif.md)
 * [Notebook](data/gbif.ipynb)
+
+## Labeled Information Library of Alexandria: Biology and Conservation (LILA BC)
+
+AI for Earth and partners have assembled a repository of labeled information related to wildlife conservation, particularly wildlife imagery.
+
+* [lila.science](http://lila.science)
 
 # Legal stuff
 
