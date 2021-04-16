@@ -115,8 +115,8 @@ Estimates of daily weather parameters in North America on a one-kilometer grid, 
 
 * [Source](https://daymet.ornl.gov/)
 * [Documentation](data/daymet.md)
-* [Notebook (Zarr)](daymet-zarr.ipynb)
-* [Notebook (NetCDF)](daymet-nc.ipynb)
+* [Notebook (Zarr)](data/daymet-zarr.ipynb)
+* [Notebook (NetCDF)](data/daymet-nc.ipynb)
 
 ## USFS Forest Inventory and Analysis
 
@@ -211,6 +211,14 @@ AI for Earth and partners have assembled a repository of labeled information rel
 * [Source](https://www.natureserve.org/conservation-tools/projects/map-biodiversity-importance)
 * [Documentation](data/mobi.md)
 * [Notebook](data/mobi.ipynb)
+
+## Global Biodiversity Information Facility (GBIF)
+
+Exports of global species occurrence data from the GBIF network.
+
+* [Source](https://www.gbif.org)
+* [Documentation](data/gbif.md)
+* [Notebook](data/gbif.ipynb)
 
 ## Labeled Information Library of Alexandria: Biology and Conservation (LILA BC)
 
