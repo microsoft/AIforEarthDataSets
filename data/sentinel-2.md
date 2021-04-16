@@ -43,6 +43,7 @@ Putting that all together, a complete scene folder looks like:
 
 `https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/11/C/MM/2020/11/26/S2B_MSIL2A_20201126T154319_N0212_R125_T11CMM_20201127T152008.SAFE`
 
+
 ### Image files
 
 Within a scene folder, recursively listing *.tif will enumerate all images, with suffixes indicating bands according to the following; all of these files will be within the `GRANULE/[scene id]/IMG_DATA` folder:
