@@ -10,6 +10,7 @@ Satellite imagery from the Moderate Resolution Imaging Spectroradiometer (MODIS)
 
 * [Source](https://modis.gsfc.nasa.gov/)
 * [Documentation](data/modis.md)
+* [Notebook](data/modis.ipynb)
 
 ## National Agriculture Imagery Program
 
