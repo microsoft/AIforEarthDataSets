@@ -11,14 +11,6 @@ Satellite imagery from the Moderate Resolution Imaging Spectroradiometer (MODIS)
 * [Source](https://modis.gsfc.nasa.gov/)
 * [Documentation](data/modis.md)
 
-### MODIS MCD43A4 (BRDF-Corrected Surface Reflectance)
-
-This is a legacy version of the MCD43A4 MODIS archive, now superseded by the availability of the full MODIS archive.
-
-* [Source](https://lpdaac.usgs.gov/products/mcd43a4v006/)
-* [Documentation](data/modis-mcd43a4.md)
-* [Notebook](data/modis-mcd43a4.ipynb)
-
 ## National Agriculture Imagery Program
 
 NAIP provides US-wide, high-resolution aerial imagery.  This dataset includes NAIP images from 2010 to the present.
@@ -148,14 +140,6 @@ Annual burn severity mosaics for the continental United States and Alaska.
 * [Source](https://www.mtbs.gov/)
 * [Documentation](data/mtbs.md)
 * [Notebook](data/mtbs.ipynb)
-
-## NOAA NEXRAD L2
-
-Recent level II data from the NEXRAD weather radar system.
-
-* [Source](https://www.ncdc.noaa.gov/data-access/radar-data/nexrad)
-* [Documentation](data/nexrad-l2.md)
-* [Notebook](data/nexrad-l2.ipynb)
 
 ## National Land Cover Database
 
