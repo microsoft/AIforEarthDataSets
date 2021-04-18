@@ -56,6 +56,16 @@ Sentinel-1 GRD data are in preview; access is granted by request.
 * [Documentation](data/sentinel-1-grd.md)
 * [Notebook](data/sentinel-1-grd.ipynb)
 
+## Sentinel-5P (preview)
+
+Global atmospheric data from 2018-present.
+
+Sentinel-5P data are in preview; access is granted by request.
+
+* [Source](https://sentinel.esa.int/web/sentinel/missions/sentinel-5p)
+* [Documentation](data/sentinel-5p.md)
+* [Notebook](data/sentinel-5p.ipynb)
+
 ## Landsat 8 Collection 2 Level-2  (preview)
 
 Global optical imagery from the Landsat 8 satellite, which has imaged the Earth since 2013.
