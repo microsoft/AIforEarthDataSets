@@ -83,7 +83,7 @@ Large-scale processing is best performed in the West Europe Azure region, where 
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/sentinel-1-grd.png" width=500px;><br/><span style='font-size:80%'>False color rendering of Sentinel-1 GRD data near Seattle, WA, USA.</span>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/sentinel-5p.png" width=500px;><br/><span style='font-size:80%'></span>
 
 
 ## Contact
