@@ -71,9 +71,9 @@ An interactive map pulling from this Image Server is available <a href="https://
 
 ## Index
 
-A list of all NAIP files is available here, as a zipped .csv file:
+A list of all NAIP files is available here, as a zipped, tab-delimited text file with file names and sizes:
 
-`https://naipeuwest.blob.core.windows.net/naip-index/naip_v002_index.zip`
+`https://naipeuwest.blob.core.windows.net/naip-index/naip-files-2021-04-19.zip`
 
 We also maintain an rtree object to facilitate spatial queries for Python users; see the accompanying [sample notebook](naip.ipynb) for details.
 
