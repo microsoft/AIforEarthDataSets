@@ -20,14 +20,6 @@ NAIP provides US-wide, high-resolution aerial imagery.  This dataset includes NA
 * [Documentation](data/naip.md)
 * [Notebook](data/naip.ipynb)
 
-## NOAA GOES-16
-
-Weather imagery from the GOES-16 satellite.
-
-* [Source](https://www.nesdis.noaa.gov/GOES-R-Series-Satellites)
-* [Documentation](data/goes-16.md)
-* [Notebook](data/goes-16-abi-l2-mcmipf.ipynb)
-
 ## Harmonized Landsat Sentinel-2
 
 Satellite imagery from the Landsat 8 and Sentinel-2 satellites, aligned to a common grid and processed to compatible color spaces.
@@ -104,14 +96,6 @@ Global topographic information from the NASADEM program.
 * [Documentation](data/nasadem.md)
 * [Notebook](data/nasadem.ipynb)
 
-## NOAA Global Hydro Estimator
-
-Global rainfall estimates in 15-minute intervals.
-
-* [Source](https://www.ospo.noaa.gov/Products/atmosphere/ghe/)
-* [Documentation](data/ghe.md)
-* [Notebook](data/ghe.ipynb)
-
 ## Daymet
 
 Estimates of daily weather parameters in North America on a one-kilometer grid, with monthly and annual summaries.
@@ -129,12 +113,42 @@ Status and trends on U.S. forest location, health, growth, mortality, and produc
 * [Documentation](data/forest-inventory-and-analysis.md)
 * [Notebook](data/forest-inventory-and-analysis.ipynb)
 
+## NOAA GOES-16
+
+Weather imagery from the GOES-16 satellite.
+
+* [Source](https://www.nesdis.noaa.gov/GOES-R-Series-Satellites)
+* [Documentation](data/goes-16.md)
+* [Notebook](data/goes-16-abi-l2-mcmipf.ipynb)
+
 ## NOAA GFS Warm Start Initial Conditions
 
 Warm start initial conditions for the [NOAA Global Forecast System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs).
 
 * [Source](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs)
 * [Documentation](data/gfs-warm-start.md)
+
+## NOAA Global Hydro Estimator
+
+Global rainfall estimates in 15-minute intervals.
+
+* [Source](https://www.ospo.noaa.gov/Products/atmosphere/ghe/)
+* [Documentation](data/ghe.md)
+* [Notebook](data/ghe.ipynb)
+
+## NOAA Rapid Refresh (RAP)
+
+Weather forecasts for North America at 13km resolution.
+
+* [Source](https://www.nco.ncep.noaa.gov/pmb/products/rap/)
+* [Documentation](data/noaa-rap.md)
+
+## NOAA High-Resolution Rapid Refresh (HRRR)
+
+Weather forecasts for North America at 3km spatial resolution and 15 minute temporal resolution.
+
+* [Source](https://www.nco.ncep.noaa.gov/pmb/products/hrrr/)
+* [Documentation](data/noaa-hrrr.md)
 
 ## Harmonized Global Biomass
 
