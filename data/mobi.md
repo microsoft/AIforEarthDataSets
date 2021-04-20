@@ -44,6 +44,26 @@ Within that folder, files are named according to:
 * `taxonomic-grouping` is one of &lsquo;All&rsquo;, &lsquo;AquaticInverts&rsquo;, &lsquo;Plants&rsquo;, &lsquo;PollinatorInverts&rsquo;, or &lsquo;Vertebrates&rsquo;
 
 
+## Symbology files
+
+ArcGIS symbology (.lyrx) files are provided to facilitate rendering MoBI data in ArcGIS tools, within the folder:
+
+`https://ai4edataeuwest.blob.core.windows.net/mobi/symbology`
+
+That folder contains the following files:
+
+* `PWRSR_bright_15class.lyrx` (for rendering PWRSR data for all taxonomic groupings)
+* `RSR_bright_15class.lyrx` (for rendering RSR data for all taxonomic groupings)
+
+...plus one file for each taxonomic grouping for the "Species Richness" layers:
+
+* SpeciesRichness_All.tif.lyrx
+* SpeciesRichness_AquaticInverts.tif.lyrx
+* SpeciesRichness_Plants.tif.lyrx
+* SpeciesRichness_PollinatorInverts.tif.lyrx
+* SpeciesRichness_Verterbrates.tif.lyrx
+
+
 ## Sample code
 
 A complete Python example of accessing and plotting MoBI data is available in the accompanying [sample notebook](mobi.ipynb).
