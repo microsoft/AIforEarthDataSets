@@ -61,7 +61,7 @@ That folder contains the following files:
 * SpeciesRichness_AquaticInverts.tif.lyrx
 * SpeciesRichness_Plants.tif.lyrx
 * SpeciesRichness_PollinatorInverts.tif.lyrx
-* SpeciesRichness_Verterbrates.tif.lyrx
+* SpeciesRichness_Vertebrates.tif.lyrx
 
 
 ## Sample code
