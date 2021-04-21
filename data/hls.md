@@ -50,10 +50,10 @@ Bands are as follows:
 <tr><td>Red-edge 3</td><td></td><td>7</td><td></td><td>07</td></tr>
 <tr><td>NIR broad</td><td></td><td>8</td><td></td><td>08</td></tr>
 <tr><td>NIR narrow</td><td>5</td><td>8A</td><td>05</td><td>09</td></tr>
-<tr><td>SWIR 1</td><td>6</td><td>11</td><td>06</td><td>10</td></tr>
-<tr><td>SWIR 2</td><td>7</td><td>12</td><td>07</td><td>11</td></tr>
-<tr><td>Water vapor</td><td></td><td>9</td><td></td><td>12</td></tr>
-<tr><td>Cirrus</td><td>9</td><td>10</td><td>08</td><td>13</td></tr>
+<tr><td>SWIR 1</td><td>6</td><td>11</td><td>06</td><td>12</td></tr>
+<tr><td>SWIR 2</td><td>7</td><td>12</td><td>07</td><td>13</td></tr>
+<tr><td>Water vapor</td><td></td><td>9</td><td></td><td>10</td></tr>
+<tr><td>Cirrus</td><td>9</td><td>10</td><td>08</td><td>11</td></tr>
 <tr><td>Thermal infrared 1</td><td>10</td><td></td><td>09</td><td></td></tr>
 <tr><td>Thermal infrared 2</td><td>11</td><td></td><td>10</td><td></td></tr>
 <tr><td>QA</td><td></td><td></td><td>11</td><td>14</td></tr>
