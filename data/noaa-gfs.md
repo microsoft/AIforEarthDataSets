@@ -22,11 +22,11 @@ Within that container, top-level folders are named as:
 `[product].[date]`
 
 * `product` is one of:
-  * gfs: forecast data from the [Global Forecast System](https://www.nco.ncep.noaa.gov/pmb/products/gfs/#GFS) (GFS)
-  * gdas: forecast data gridded with the [Global Data Assimilation System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-data-assimilation-system-gdas) (GDAS)
-  * gfsmos: model output statistics from the [GFS MOS](https://www.weather.gov/mdl/mos_gfsmos_home) suite
-  * sst: sea surface temperature forecasts produced by the [NCEP Sea Surface Temperature](https://www.nco.ncep.noaa.gov/pmb/products/sst/) (SST) models
-  * enkfgdas
+  * `gfs`: forecast data from the [Global Forecast System](https://www.nco.ncep.noaa.gov/pmb/products/gfs/#GFS) (GFS)
+  * `gdas`: forecast data gridded with the [Global Data Assimilation System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-data-assimilation-system-gdas) (GDAS)
+  * `gfsmos`: model output statistics from the [GFS MOS](https://www.weather.gov/mdl/mos_gfsmos_home) suite
+  * `sst`: sea surface temperature forecasts produced by the [NCEP Sea Surface Temperature](https://www.nco.ncep.noaa.gov/pmb/products/sst/) (SST) models
+  * `enkfgdas`
 * `date` is the model execution date in YYYYMMDD format
 
 File format within a folder varies by product; documentation for the primary products (GFS and GFS-GDAS) can be found at:
