@@ -121,6 +121,13 @@ Weather imagery from the GOES-16 satellite.
 * [Documentation](data/goes-16.md)
 * [Notebook](data/goes-16-abi-l2-mcmipf.ipynb)
 
+## NOAA Global Forecast System (GFS)
+
+Model output data from the [NOAA Global Forecast System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs).
+
+* [Source](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs)
+* [Documentation](data/noaa-gfs.md)
+
 ## NOAA GFS Warm Start Initial Conditions
 
 Warm start initial conditions for the [NOAA Global Forecast System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs).
