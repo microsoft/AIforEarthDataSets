@@ -2,7 +2,9 @@
 
 ## Overview
 
-The NOAA [Global Forecast System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs) (GFS) is a weather forecast model produced by the National Centers for Environmental Prediction (NCEP). Dozens of atmospheric and land-soil variables are available through this dataset, from temperatures, winds, and precipitation to soil moisture and atmospheric ozone concentration. The entire globe is covered by the GFS at a base horizontal resolution of 18 miles (28 kilometers) between grid points, which is used by the operational forecasters who predict weather out to 16 days in the future. Horizontal resolution drops to 44 miles (70 kilometers) between grid point for forecasts between one week and two weeks.
+The NOAA [Global Forecast System](https://www.emc.ncep.noaa.gov/emc/pages/numerical_forecast_systems/gfs.php) (GFS) is a global numerical weather prediction system containing a global computer model and variational analysis run by the U.S. National Weather Service (NWS). The model is divided into 127 vertical layers extending from the surface to the mesopause (~80km).   The entire globe is covered by the GFS at a base horizontal resolution of 13 kilometers between grid points. The GFS is run operationally four times a day and produces forecasts for up to 16 days in advance. Hundreds Of atmospheric and land-soil variables are available through this dataset, from temperatures, winds, and precipitation to soil moisture and atmospheric ozone concentration. 
+
+The current operational GFS is an atmospheric model coupled to a near sea surface temperature model (NSST) over the ocean and lakes, a thermodynamic ice model,  and a land/soil model elsewhere.   Changes are regularly made to the GFS to improve its performance and forecast accuracy. It is a constantly evolving and improving weather prediction model.
 
 Data are retained for 30 days.
 
@@ -15,7 +17,7 @@ Data are stored primarily in [GRIB](https://en.wikipedia.org/wiki/GRIB) format.
 
 GRIB files are stored as blobs in the East US Azure region, in the following blob container:
 
-`https://noaarap.blob.core.windows.net/gfs`
+`https://noaagfs.blob.core.windows.net/gfs`
 
 Within that container, top-level folders are named as:
 
