@@ -26,7 +26,8 @@ Within that container, top-level folders are named as:
   * `gdas`: forecast data gridded with the [Global Data Assimilation System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-data-assimilation-system-gdas) (GDAS)
   * `gfsmos`: model output statistics from the [GFS MOS](https://www.weather.gov/mdl/mos_gfsmos_home) suite
   * `sst`: sea surface temperature forecasts produced by the [NCEP Sea Surface Temperature](https://www.nco.ncep.noaa.gov/pmb/products/sst/) (SST) models
-  * `enkfgdas`
+  * `enkfgdas`: data assimilated using the [GSI Hybrid/4DenVar Data Assimilation](https://dtcenter.ucar.edu/com-GSI/users/docs/presentations/2017_tutorial/D3-L12_GSI_Hybrid4DEnVarDA_Kleist.pdf) system
+  
 * `date` is the model execution date in YYYYMMDD format
 
 File format within a folder varies by product; documentation for the primary products (GFS and GFS-GDAS) can be found at:
