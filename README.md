@@ -1,6 +1,9 @@
 # Overview
 
-The <a href="http://aka.ms/aiforearth">Microsoft AI for Earth program</a> hosts geospatial data on Azure that is important to environmental sustainability and Earth science.  This repo hosts documentation and demonstration notebooks for all the data that is managed by AI for Earth.  If you have feedback about any of this data, or want to request additions to our data program, email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=data%20question).
+The <a href="http://aka.ms/aiforearth">Microsoft AI for Earth program</a> hosts geospatial data on Azure that is important to environmental sustainability and Earth science.  This repo hosts documentation and demonstration notebooks for all the data that is managed by AI for Earth.  It also serves as a "staging ground" for the [Planetary Computer Data Catalog](https://planetarycomputer.microsoft.com/catalog).
+
+If you have feedback about any of this data, or want to request additions to our data program, email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=data%20question).
+
 
 # Data sets
 
