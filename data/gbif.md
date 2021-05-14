@@ -10,6 +10,8 @@ GBIF currently integrates datasets documenting over 1.6 billion species occurren
 
 The GBIF occurrence dataset combines data from a wide array of sources including specimen-related data from natural history museums, observations from citizen science networks and environment recording schemes. While these data are constantly changing at [GBIF.org](https://www.gbif.org), periodic snapshots are taken and made available here.
 
+The [GBIF data blog](https://data-blog.gbif.org/categories/gbif/) containts a number of articles that can help you analyze GBIF data. See for example, this recent blog post titled [Common things to look out for when post-processing GBIF downloads](https://data-blog.gbif.org/post/gbif-filtering-guide/).
+
 ## Storage resources
 
 Data are stored in [Parquet](https://parquet.apache.org/) files in Azure Blob Storage in the West Europe Azure region, in the following blob container:
@@ -81,7 +83,7 @@ Additional information may be retrived using the [GBIF API](https://www.gbif.org
 | identifiedby                     | String        | Y        | See [dwc:identifiedBy](https://dwc.tdwg.org/terms/#identifiedBy). |
 | dateidentified                   | String        | Y        | See [dwc:dateIdentified](https://dwc.tdwg.org/terms/#dateIdentified). An ISO 8601 date. |
 | mediatype                        | String array  | N⁴       | See [dwc:mediaType](https://dwc.tdwg.org/terms/#mediaType).  May contain `StillImage`, `MovingImage` or `Sound` (from [enumeration](http://api.gbif.org/v1/enumeration/basic/MediaType), detailing whether the occurrence has this media available. |
-| issue                            | String array  | N⁴       | A list of [issues](https://gbif.github.io/gbif-api/apidocs/org/gbif/api/vocabulary/OccurrenceIssue.html) encountered by GBIF in processing this record. |
+| issue                            | String array  | N⁴       | A list of [issues](https://gbif.github.io/gbif-api/apidocs/org/gbif/api/vocabulary/OccurrenceIssue.html) encountered by GBIF in processing this record. More details available on these issues and flags on [this blog post](https://data-blog.gbif.org/post/issues-and-flags/)|
 | license                          | String        | N        | See [dwc:license](https://dwc.tdwg.org/terms/#license). Either [`CC0_1_0`](https://creativecommons.org/publicdomain/zero/1.0/) or [`CC_BY_4_0`](https://creativecommons.org/licenses/by/4.0/).  (`CC_BY_NC_4_0` records are not present in this snapshot.) |
 | rightsholder                     | String        | Y        | See [dwc:rightsHolder](https://dwc.tdwg.org/terms/#rightsHolder). |
 | lastinterpreted                  | String        | N        | The ISO 8601 date when the record was last processed by GBIF. Data are reprocessed for several reasons, including changes to the backbone taxonomy, so this date is not necessarily the date the occurrence record last changed. |
