@@ -159,6 +159,7 @@ Weather forecasts for North America at 3km spatial resolution and 15 minute temp
 
 * [Source](https://www.nco.ncep.noaa.gov/pmb/products/hrrr/)
 * [Documentation](data/noaa-hrrr.md)
+* [Notebook](data/noaa-hrrr.ipynb)
 
 ## Harmonized Global Biomass
 
