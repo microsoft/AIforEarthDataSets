@@ -10,6 +10,8 @@ GBIF currently integrates datasets documenting over 1.6 billion species occurren
 
 The GBIF occurrence dataset combines data from a wide array of sources including specimen-related data from natural history museums, observations from citizen science networks and environment recording schemes. While these data are constantly changing at [GBIF.org](https://www.gbif.org), periodic snapshots are taken and made available here.
 
+A [post on the GBIF data blog](https://data-blog.gbif.org/post/microsoft-azure-and-gbif/) demonstrates how to work with this data on Azure via Apache Spark.
+
 ## Storage resources
 
 Data are stored in [Parquet](https://parquet.apache.org/) files in Azure Blob Storage in the West Europe Azure region, in the following blob container:
