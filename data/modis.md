@@ -65,7 +65,7 @@ Within that container, data are organized according to:
 
 `[product]/[htile]/[vtile]/[daynum]/[filename]`
 
-`product` is the MODIS product name; currently `MCD43A4` is available on Azure.
+`product` is the MODIS product name (see list above).
 
 `htile` and `vtile` refer to tile numbers in the [MODIS sinusoidal grid system](https://modis-land.gsfc.nasa.gov/MODLAND_grid.html).  The accompanying [sample notebook](modis.ipynb) demonstrates one way to map latitude and longitude into this grid system.
 
