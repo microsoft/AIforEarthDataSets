@@ -84,7 +84,7 @@ Data are stored in [Parquet](https://parquet.apache.org/) format.  Within the ab
 - veg_quadrat
 - veg_subplot
 - veg_subplot_spp
-- veg_visit.parquet
+- veg_visit
 
 A complete Python example of accessing and plotting FIA data is available in the accompanying [sample notebook](forest-inventory-and-analysis.ipynb).
 
