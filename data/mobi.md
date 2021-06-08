@@ -32,7 +32,7 @@ Protection-weighted range-size rarity (PWRSR) maps combine information on both r
 
 ## Storage structure
 
-Data are stored as GeoTIFF images in Blob Storage in the West Europe Azure region, in the following folder:
+Data are stored as cloud-optimized GeoTIFF images in Blob Storage in the West Europe Azure region, in the following folder:
 
 `https://ai4edataeuwest.blob.core.windows.net/mobi/spatial_data`
 
