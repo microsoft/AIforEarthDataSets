@@ -33,6 +33,8 @@ We also provide a read-only SAS (shared access signature) token to allow access 
 
 A full list of COG files is available [here](https://nasademeuwest.blob.core.windows.net/nasadem-cog/v001/index/nasadem_cog_list.txt).
 
+COG files were acquired via [OpenTopography](https://opentopography.org/).
+
 
 ## Storage resources (NetCDF)
 
