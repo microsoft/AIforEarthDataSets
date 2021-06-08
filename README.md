@@ -97,7 +97,8 @@ Global topographic information from the NASADEM program.
 
 * [Source](https://earthdata.nasa.gov/esds/competitive-programs/measures/nasadem)
 * [Documentation](data/nasadem.md)
-* [Notebook](data/nasadem.ipynb)
+* [Notebook (COG)](data/nasadem-cog.ipynb)
+* [Notebook (NetCDF)](data/nasadem-nc.ipynb)
 
 ## Daymet
 
