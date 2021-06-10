@@ -227,7 +227,7 @@ Settlement-level measures of electricity access, reliability, and usage derived 
 
 ## NatureServe Map of Biodiversity Importance (MoBI)
 
-AI for Earth and partners have assembled a repository of labeled information related to wildlife conservation, particularly wildlife imagery.
+The Map of Biodiversity Importance (MoBI) consists of a series of raster maps that combine habitat information for 2,216 imperiled species occurring in the conterminous United States, using weightings based on range size and degree of protection to identify areas of high importance for biodiversity conservation.
 
 * [Source](https://www.natureserve.org/conservation-tools/projects/map-biodiversity-importance)
 * [Documentation](data/mobi.md)
