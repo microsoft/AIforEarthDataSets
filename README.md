@@ -227,7 +227,7 @@ Settlement-level measures of electricity access, reliability, and usage derived 
 
 ## NatureServe Map of Biodiversity Importance (MoBI)
 
-The Map of Biodiversity Importance (MoBI) consists of a series of raster maps that combine habitat information for 2,216 imperiled species occurring in the conterminous United States, using weightings based on range size and degree of protection to identify areas of high importance for biodiversity conservation.
+Habitat information for 2,216 imperiled species occurring in the conterminous United States.
 
 * [Source](https://www.natureserve.org/conservation-tools/projects/map-biodiversity-importance)
 * [Documentation](data/mobi.md)
