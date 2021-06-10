@@ -2,7 +2,7 @@
 
 ## Overview
 
-Settlement-level measures of electricity access, reliability, and usage derived from the complete archive of nightly VIIRS satellite imagery. 
+Settlement-level measures of electricity access, reliability, and usage for several nations in Africa (plus Ecuador), derived from the complete archive of nightly VIIRS satellite imagery. 
 
 The [HREA](http://www-personal.umich.edu/~brianmin/HREA/index.html) project aims to provide open access to new indicators of electricity access and reliability across the world. Leveraging satellite imagery with computational methods, these high-resolution data provide new tools to track progress toward reliable and sustainable energy access across the world.
 
@@ -78,31 +78,31 @@ This data set is licensed under [CC BY 4.0](http://creativecommons.org/licenses/
 
 ## List of countries for which HREA data are available
 
-Algeria
-Angola
-Botswana
-Burkina_Faso
-Burundi
-Cameroon
-Central_African_Republic
-Chad
-Comoros
-Congo_Republic
-DR_Congo
-Djibouti
-Ecuador
-Egypt
-Ghana
-Ivory_Coast
-Kenya
-Madagascar
-Mali
-Mauritania
-Mozambique
-Nigeria
-South_Africa
-Tanzania
-Zambia
+* Algeria
+* Angola
+* Botswana
+* Burkina_Faso
+* Burundi
+* Cameroon
+* Central_African_Republic
+* Chad
+* Comoros
+* Congo_Republic
+* DR_Congo
+* Djibouti
+* Ecuador
+* Egypt
+* Ghana
+* Ivory_Coast
+* Kenya
+* Madagascar
+* Mali
+* Mauritania
+* Mozambique
+* Nigeria
+* South_Africa
+* Tanzania
+* Zambia
 
 
 ## Notices
