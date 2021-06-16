@@ -29,11 +29,11 @@ Within that container, each scene corresponds to a folder, named according to:
 
 `scene name` follows the [Sentinel-2 scene name convention](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/naming-convention):
 
-`MMM_MSIXXX_YYYYMMDDHHMMSS_Nxxyy_ROOO_Txxxxx_[Product Discriminator].SAFE`
+`MMM_MSIXXX_YYYYMMDDTHHMMSS_Nxxyy_ROOO_Txxxxx_[Product Discriminator].SAFE`
 
 * `MMM` is satellite (S2A or S2B)
 * `MSIXXX` is always "MSIL2A", indicating the Level-2A product level
-* `YYYYMMDDHHMMSS` is the sensing start time (UTC)
+* `YYYYMMDDTHHMMSS` is the sensing start time (UTC)
 * `Nxxyy` indicates the version of the processing toolset
 * `ROOO` is the [relative orbit number](https://sentinel.esa.int/web/sentinel/missions/sentinel-2/satellite-description/orbit), from R001 to R143
 * `Txxxxx` is the five-digit tile identifier, will match the UTM longitude zone, MGRS latitude band, and two-letter tile code from the folder name
