@@ -6,7 +6,9 @@ Global topographic information from the NASADEM program.
 
 [NASADEM](https://earthdata.nasa.gov/esds/competitive-programs/measures/nasadem) provides global topographic data at 1 arc-second (~30m) horizontal resolution, derived primarily from data captured via the [Shuttle Radar Topography Mission](https://www2.jpl.nasa.gov/srtm/) (SRTM).
 
-NASADEM is available in both NetCDF and cloud-optimized GeoTIFF format.
+NASADEM is available in both NetCDF and cloud-optimized GeoTIFF (COG) format.
+
+COG files were acquired via [OpenTopography](https://opentopography.org/), supported by the National Science Foundation under award numbers 1948997, 1948994 & 1948857.
 
 
 ## Storage resources (COG)
@@ -32,8 +34,6 @@ We also provide a read-only SAS (shared access signature) token to allow access 
 `?sv=2020-04-08&si=nasadem-cog-ro&sr=c&sig=RkEC4wi6sOdMEP6uj59wocpwiE4%2BBwrjt5qn5lEFov8%3D`
 
 A full list of COG files is available [here](https://nasademeuwest.blob.core.windows.net/nasadem-cog/v001/index/nasadem_cog_list.txt).
-
-COG files were acquired via [OpenTopography](https://opentopography.org/).
 
 
 ## Storage resources (NetCDF)
@@ -77,6 +77,10 @@ Large-scale processing is best performed in the West Europe Azure data center, w
 NASADEM data may be used without restriction for any purpose whatsoever, commercial or otherwise, free of any royalties or other restrictions. No special permission or compensation is required, even for reselling the exact data, images or other derived products.
 
 If possible, when using this data, please attribute to &ldquo;Courtesy NASA/JPL-Caltech&rdquo;.
+
+If you are using the COG-formatted files, please attribute to:
+
+<div style="margin-left:20px;">NASA JPL (2021). NASADEM Merged DEM Global 1 arc second V001. Distributed by OpenTopography. <https://doi.org/10.5067/10.5069/G93T9FD9> Accessed: 2021-06-12.</div>
 
 
 ## Pretty picture
