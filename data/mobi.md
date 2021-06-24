@@ -8,7 +8,7 @@ MoBI data are not available via anonymous access to Azure storage; email [`aifor
 
 ## About MoBI
 
-The Map of Biodiversity Importance (MoBI) consists of a series of raster maps that combine habitat information for 2,216 imperiled species occurring in the conterminous United States, using weightings based on range size and degree of protection to identify areas of high importance for biodiversity conservation. Species included in the project are those which, as of September 2018, had a global conservation status of G1 (critical imperiled) or G2 (imperiled) or which are listed as threatened or endangered at the full species level under the United States Endangered Species Act. Taxonomic groups included in the project are vertebrates (birds, mammals, amphibians, reptiles, turtles, crocodilians, and freshwater and anadromous fishes), vascular plants, selected aquatic invertebrates (freshwater mussels and crayfish) and selected pollinators (bumblebees, butterflies, and skippers).
+The [Map of Biodiversity Importance](https://www.natureserve.org/conservation-tools/projects/map-biodiversity-importance) (MoBI) consists of a series of raster maps that combine habitat information for 2,216 imperiled species occurring in the conterminous United States, using weightings based on range size and degree of protection to identify areas of high importance for biodiversity conservation. Species included in the project are those which, as of September 2018, had a global conservation status of G1 (critical imperiled) or G2 (imperiled) or which are listed as threatened or endangered at the full species level under the United States Endangered Species Act. Taxonomic groups included in the project are vertebrates (birds, mammals, amphibians, reptiles, turtles, crocodilians, and freshwater and anadromous fishes), vascular plants, selected aquatic invertebrates (freshwater mussels and crayfish) and selected pollinators (bumblebees, butterflies, and skippers).
 
 There are three types of spatial data provided, described in more detail below: species richness, range-size rarity, and protection-weighted range-size rarity.  For each type, this data set includes five different layers &ndash; one for all species combined, and four additional tiffs that break the data down by taxonomic group (vertebrates, plants, freshwater invertebrates, and pollinators) &ndash; for a total of fifteen layers.
 
@@ -30,7 +30,7 @@ Range-size rarity (RSR) explicitly considers range-size. Each species is assigne
 Protection-weighted range-size rarity (PWRSR) maps combine information on both range-size rarity and the degree to which habitat for the species is protected. We defined protected habitat as that occurring within protected areas managed for biodiversity (i.e., Gap Status 1 and 2 lands in the USGS Protected Areas Database; PAD-US 2.0).  Each species was assigned a PWRSR score equal to the product of range-size rarity and the percent of habitat that is unprotected. The PWRSR raster sums these scores for all species with habitat in a cell to identify areas of greatest conservation need – i.e. locations with species that have limited conservation opportunities due to both restricted range size and falling outside of protected areas.
 
 
-## Storage structure
+## Storage resources
 
 Data are stored as cloud-optimized GeoTIFF images in Blob Storage in the West Europe Azure region, in the following folder:
 
