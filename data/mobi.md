@@ -30,7 +30,7 @@ Range-size rarity (RSR) explicitly considers range-size. Each species is assigne
 Protection-weighted range-size rarity (PWRSR) maps combine information on both range-size rarity and the degree to which habitat for the species is protected. We defined protected habitat as that occurring within protected areas managed for biodiversity (i.e., Gap Status 1 and 2 lands in the USGS Protected Areas Database; PAD-US 2.0).  Each species was assigned a PWRSR score equal to the product of range-size rarity and the percent of habitat that is unprotected. The PWRSR raster sums these scores for all species with habitat in a cell to identify areas of greatest conservation need – i.e. locations with species that have limited conservation opportunities due to both restricted range size and falling outside of protected areas.
 
 
-## Storage structure
+## Storage resources
 
 Data are stored as cloud-optimized GeoTIFF images in Blob Storage in the West Europe Azure region, in the following folder:
 
