@@ -31,7 +31,7 @@ Satellite imagery from the Landsat 8 and Sentinel-2 satellites, aligned to a com
 * [Documentation](data/hls.md)
 * [Notebook](data/hls.ipynb)
 
-## Sentinel-2 L2A (preview)
+## Sentinel-2 L2A
 
 Global optical imagery at 10m resolution from 2016-present.
 
@@ -61,11 +61,9 @@ Sentinel-5P data are in preview; access is granted by request.
 * [Documentation](data/sentinel-5p.md)
 * [Notebook](data/sentinel-5p.ipynb)
 
-## Landsat 8 Collection 2 Level-2  (preview)
+## Landsat 8 Collection 2 Level-2
 
 Global optical imagery from the Landsat 8 satellite, which has imaged the Earth since 2013.
-
-Landsat data are in preview; access is granted by request.
 
 * [Source](https://landsat.gsfc.nasa.gov/)
 * [Documentation](data/landsat-8.md)
@@ -81,7 +79,7 @@ Landsat data are in preview; access is granted by request.
 * [Documentation](data/landsat-7.md)
 * [Notebook](data/landsat-7.ipynb)
 
-## ASTER L1T (2000-2006) (preview)
+## ASTER L1T (2000-2006)
 
 The [ASTER](https://terra.nasa.gov/about/terra-instruments/aster) instrument, launched on-board NASA's [Terra](https://terra.nasa.gov/) satellite in 1999, provides multispectral images of the Earth at 15m-90m resolution.  This data set represents ASTER data from 2000-2006.
 
