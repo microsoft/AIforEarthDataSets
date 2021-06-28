@@ -2,11 +2,9 @@
 
 ## Overview
 
-Settlement-level measures of electricity access, reliability, and usage for several nations in Africa (plus Ecuador), derived from the complete archive of nightly VIIRS satellite imagery. 
-
 The [HREA](http://www-personal.umich.edu/~brianmin/HREA/index.html) project aims to provide open access to new indicators of electricity access and reliability across the world. Leveraging satellite imagery with computational methods, these high-resolution data provide new tools to track progress toward reliable and sustainable energy access across the world.
 
-Specifically HREA provides the following annual datasets at country-level granularity:
+This dataset includes settlement-level measures of electricity access, reliability, and usage for several nations in Africa (plus Ecuador), derived from the complete archive of nightly VIIRS satellite imagery. Specifically, this dataset provides the following annual values at country-level granularity:
 
 1. **Access**: Predicted likelihood that a settlement is electrified, based on night-by-night comparisons of each settlement against matched uninhabited areas over a calendar year.
 
