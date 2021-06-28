@@ -217,7 +217,7 @@ Historical climate data for China, from 1851-2010.
 
 ## High Resolution Electricity Access (HREA)
 
-Settlement-level measures of electricity access, reliability, and usage derived from the nightly VIIRS satellite imagery. 
+Settlement-level measures of electricity access, reliability, and usage derived from VIIRS satellite imagery. 
 
 * [Source](http://www-personal.umich.edu/~brianmin/HREA/index.html)
 * [Documentation](data/hrea.md)
