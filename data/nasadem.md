@@ -11,7 +11,9 @@ NASADEM is available in both NetCDF and cloud-optimized GeoTIFF (COG) format.
 COG files were acquired via [OpenTopography](https://opentopography.org/), supported by the National Science Foundation under award numbers 1948997, 1948994 & 1948857.
 
 
-## Storage resources (COG)
+## Storage resources
+
+### COG files
 
 Data are stored in blobs in the West Europe Azure region, in the following blob container:
 
@@ -36,7 +38,7 @@ We also provide a read-only SAS (shared access signature) token to allow access 
 A full list of COG files is available [here](https://nasademeuwest.blob.core.windows.net/nasadem-cog/v001/index/nasadem_cog_list.txt).
 
 
-## Storage resources (NetCDF)
+### NetCDF files
 
 Data are stored in blobs in the West Europe Azure region, in the following blob container:
 

@@ -17,7 +17,7 @@ This dataset includes settlement-level measures of electricity access, reliabili
 For more information and methodology, please visit the [HREA website](http://www-personal.umich.edu/~brianmin/HREA/index.html).
 
 
-## Storage structure
+## Storage resources
 
 Data are stored in blobs in the West Europe Azure region, in the following blob container:
 

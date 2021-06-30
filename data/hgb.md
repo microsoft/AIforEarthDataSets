@@ -21,7 +21,6 @@ Data are stored in blobs in the West Europe Azure region, in the following blob 
 
 `https://cpdataeuwest.blob.core.windows.net/cpdata/raw/2010-harmonized-biomass/global/300m/`
 
-
 Within that folder, there are four [cloud-optimized GeoTIFF](https://www.cogeo.org/) files:
 
 * aboveground.tif (global above-ground biomass)
