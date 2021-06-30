@@ -8,7 +8,7 @@ Annual burn severity mosaics for the continental United States and Alaska.
 
 The burn severity mosaics consist of thematic raster images of MTBS burn severity classes for all currently completed MTBS fires for the continental United States, Alaska, Hawaii, and Puerto Rico. Mosaicked burn severity images are compiled annually for each year by US State and the continental United States.  This Azure dataset contains the CONUS and Alaska mosaics.
 
-Source: US Forest Service
+Source: Monitoring Trends in Burn Severity program (U.S. Geological Survey and USDA Forest Service)
 
 Domain: CONUS and Alaska, 1984-2018
 
