@@ -48,14 +48,19 @@ For example, the nighttime light annual composite for Djibouti in 2019 is locate
 The data hosted on Azure is derived from the [source](http://www-personal.umich.edu/~brianmin/HREA/index.html) by converting each file into cloud-optimized GeoTIFF format file using [rio cogeo 2.1.2](https://github.com/cogeotiff/rio-cogeo).
 
 
-## How to cite
+## Sample code
+
+A complete Python example of accessing and plotting HREA data is available in the accompanying [sample notebook](hrea.ipynb).
+
+
+## Citation
 
 If you use the HREA data, please cite as follows:
 
 Min, Brian and O'Keeffe, Zachary. 2021. High Resolution Electricity Access Indicators Dataset. Ann Arbor, MI: Center for Political Studies, University of Michigan.
 
 
-## Sample image
+## Pretty picture
 
 ![](hrea_sample.png)
 

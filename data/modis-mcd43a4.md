@@ -36,8 +36,6 @@ As per that document, spectral band 1 corresponds channel 7 for MCD43A4, so in t
 
 ...contains information from spectral band 1.
 
-A complete Python example of accessing and plotting a MODIS image is available in the notebook provided in the accompanying [sample notebook](modis-mcd43a4.ipynb).
-
 We also provide a read-only SAS (shared access signature) token to allow access to MODIS data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 
 `st=2019-07-26T22%3A24%3A15Z&se=2032-07-27T22%3A24%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=ENT24qUY%2BlxL93XMykFQwfq4ctHDPLmYPDaaAn7YI3Q%3D`
@@ -45,6 +43,11 @@ We also provide a read-only SAS (shared access signature) token to allow access 
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
 MODIS data can consume hundreds of terabytes, so large-scale processing is best performed in the East US Azure data center, where the images are stored.  If you are using MODIS data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
+
+
+## Sample code
+
+A complete Python example of accessing and plotting a MODIS image is available in the notebook provided in the accompanying [sample notebook](modis-mcd43a4.ipynb).
 
 
 ## Pretty picture

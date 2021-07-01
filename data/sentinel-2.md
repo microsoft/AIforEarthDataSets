@@ -134,6 +134,7 @@ This section will provide a short summary of each file within each scene folder.
 
 A complete Python example of accessing and plotting Sentinel-2 data - using the Copernicus Open Access Hub API to query for scenes of interest - is available in the accompanying [sample notebook](sentinel-2.ipynb).
 
+
 ## Region information
 
 Large-scale processing is best performed in the West Europe Azure region, where the images are stored.  If you are using Sentinel-2 data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.

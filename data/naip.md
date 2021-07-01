@@ -57,7 +57,7 @@ A copy of NAIP is also available in the East US Azure region, and will be mainta
 
 ## Sample code
 
-A complete Python example of accessing and plotting a NAIP image is available is available in the accompanying [sample notebook](naip.ipynb).
+A complete Python example of accessing and plotting a NAIP image is available in the accompanying [sample notebook](naip.ipynb).
 
 
 ## Image server

@@ -29,8 +29,6 @@ For example, the following file contains one scan from the KHPX station, on July
 
 `https://nexradsa.blob.core.windows.net/nexrad-l2/1997/07/07/KHPX/KHPX19970707_000827.gz`
 
-A complete Python example of accessing and plotting a NEXRAD scan is available in is available in the accompanying [sample notebook](nexrad-l2.ipynb)
-
 We also provide a read-only SAS (shared access signature) token to allow access to NEXRAD data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 
 `?sv=2020-04-08&si=nexrad-l2-ro&sr=c&sig=uAQbYwtg1BZyw%2FPp2DiELzDa9%2FK%2FiFonTM905wag7uI%3D`
@@ -47,6 +45,11 @@ A list of all NEXRAD files is available here, as a zipped .txt file:
 `https://nexradsa.blob.core.windows.net/nexrad-index/nexrad-index.zip`
 
 We also maintain a SQLite database to facilitate querying images by location and time; see the accompanying [sample notebook](nexrad-l2.ipynb) for details.
+
+
+## Sample code
+
+A complete Python example of accessing and plotting a NEXRAD scan is available in the accompanying [sample notebook](nexrad-l2.ipynb)
 
 
 ## Pretty picture

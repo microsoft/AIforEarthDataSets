@@ -25,6 +25,11 @@ Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azur
 Large-scale processing using this dataset is best performed in the East US Azure data center, where the data are stored. Computational resources are available at [ooi.pangeo.io](https://ooi.pangeo.io/), and if you are using CamHD data for environmental science applications, you may also consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
 
 
+## Sample code
+
+A complete Python example of accessing and rendering a video is available in the accompanying [sample notebook](ooi-camhd.ipynb).
+
+
 ## Pretty picture
 
 <img src="https://oceanobservatories.org/wp-content/uploads/2016/01/HD_Camera_Thermisor_OSMO.jpg" width=650px;><br/>

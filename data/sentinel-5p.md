@@ -76,6 +76,7 @@ Each scene folder contains a single NetCDF file whose name matches the scene nam
 
 A complete Python example of accessing and plotting Sentinel-5P data is available in the accompanying [sample notebook](sentinel-5p.ipynb).
 
+
 ## Region information
 
 Large-scale processing is best performed in the West Europe Azure region, where the images are stored.  If you are using Sentinel-5P data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.

@@ -109,7 +109,7 @@ Landsat 7 Level-2 scenes include the following derived images:
 
 ## Sample code
 
-A complete Python example of accessing and plotting Landsat data - using the NASA CMR API to query for scenes of interest - is available is available in the accompanying [sample notebook](landsat-7.ipynb).
+A complete Python example of accessing and plotting Landsat data - using the NASA CMR API to query for scenes of interest - is available in the accompanying [sample notebook](landsat-7.ipynb).
 
 
 ## Region information
@@ -124,8 +124,6 @@ Large-scale processing is best performed in the West Europe Azure region, where 
 ## Pretty picture, with 22% of its pixels missing
 
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/landsat-7_slc_failure_800w.png" width=500px;><br/><span style='font-size:80%'>The area from which the above image was cropped, showing the SLC failure issue.</span>
-
-
 
 
 ## Contact

@@ -94,6 +94,11 @@ Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azur
 MODIS data can consume hundreds of terabytes, so large-scale processing is best performed in the East US Azure data center, where the images are stored.  If you are using MODIS data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
 
 
+## Sample code
+
+A complete Python example of accessing and plotting MODIS  data is available in the accompanying [sample notebook](modis.ipynb).
+
+
 ## Pretty picture
 
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/modis.png" width=350px;><br/>

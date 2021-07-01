@@ -70,6 +70,11 @@ Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azur
 HLS data can consume hundreds of terabytes, so large-scale processing is best performed in the East US 2 Azure data center where the images are stored. If you are using HLS data for environmental science applications, consider applying for an [AI for Earth grant](https://aka.ms/ai4egrants) to support your compute requirements.
 
 
+## Sample code
+
+A complete Python example of accessing and plotting HLS data is available in the accompanying [sample notebook](hls.ipynb).
+
+
 ## Contact
 
 For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=hls%20question).

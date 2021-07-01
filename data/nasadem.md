@@ -29,8 +29,6 @@ Within that container, data are organized according to:
 
 Images in this container are stored in [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.
 
-A complete Python example of accessing and plotting NASADEM data in COG format is available is available in the accompanying [sample notebook (COG)](nasadem-cog.ipynb).
-
 We also provide a read-only SAS (shared access signature) token to allow access to NASADEM data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 
 `?sv=2020-04-08&si=nasadem-cog-ro&sr=c&sig=RkEC4wi6sOdMEP6uj59wocpwiE4%2BBwrjt5qn5lEFov8%3D`
@@ -58,8 +56,6 @@ For each tile, filenames with three extensions are present:
 
 Images in this container are stored in [NetCDF](https://en.wikipedia.org/wiki/NetCDF) format.
 
-A complete Python example of accessing and plotting NASADEM data in NetCDF format is available is available in the accompanying [sample notebook (NetCDF)](nasadem-nc.ipynb).
-
 We also provide a read-only SAS (shared access signature) token to allow access to NASADEM data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 
 `?sv=2019-12-12&si=nasadem-ro&sr=c&sig=6rAbZIvIjQVTov2bGUpqH9T0fzTipRahkooOSf2XCuo%3D`
@@ -72,6 +68,13 @@ A full list of NetCDF files is available [here](https://nasademeuwest.blob.core.
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
 Large-scale processing is best performed in the West Europe Azure data center, where the images are stored.  If you are using NASADEM data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
+
+
+## Sample code
+
+A complete Python example of accessing and plotting NASADEM data in COG format is available in the accompanying [sample notebook (COG)](nasadem-cog.ipynb).
+
+A complete Python example of accessing and plotting NASADEM data in NetCDF format is available in the accompanying [sample notebook (NetCDF)](nasadem-nc.ipynb).
 
 
 ## License and attribution information

@@ -99,7 +99,7 @@ Additional information may be retrived using the [GBIF API](https://www.gbif.org
 
 ## Sample code
 
-A preliminary Python example of accessing and querying the GBIF data is in the accompanying [sample notebook](gbif.ipynb). This example shows how to access and perform basic querying of one file-part, and future examples will show how to run full scale analysis.
+A Python example of accessing and querying the GBIF data is in the accompanying [sample notebook](gbif.ipynb).
 
 
 ## License and attribution

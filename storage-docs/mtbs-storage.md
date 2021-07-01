@@ -12,8 +12,6 @@ Within that container, data are organized according to:
 
 Images are stored in cloud optimized GeoTIFF format. 
 
-A complete Python example of accessing and plotting MTBS data is available is available in the accompanying [sample notebook](mtbs.ipynb).
-
 We also provide a read-only SAS (<a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview">shared access signature</a>) token to allow access to this data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 
 `?sv=2019-12-12&si=cpdata-ro&sr=c&sig=tqRGrmdYYa9WYkaPi0wWOD0nalRdNGTZNe97GL2enDA%3D`

@@ -35,8 +35,6 @@ Latitude and longitude are not perfectly uniformly sampled, so an additional fil
 
 <https://ghe.blob.core.windows.net/noaa-ghe/NPR.GEO.GHE.v1.Navigation.netcdf.gz>
 
-A complete Python example of accessing and plotting a GHE image (i.e., an instantaneous global estimate) is available in the accompanying [sample notebook](ghe.ipynb).
-
 We also provide a read-only SAS (shared access signature) token to allow access to GHE data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 
 `?sv=2020-04-08&si=noaa-ghe-ro&sr=c&sig=q9K1gGIRSmhbDcm27PEXo%2F%2BYGK8%2BkYhuiCJvZbOPdOs%3D`
@@ -44,6 +42,11 @@ We also provide a read-only SAS (shared access signature) token to allow access 
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
 Large-scale processing using this dataset is best performed in the East US Azure data center, where the data is stored.  If you are using GHE data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
+
+
+## Sample code
+
+A complete Python example of accessing and plotting a GHE image (i.e., an instantaneous global estimate) is available in the accompanying [sample notebook](ghe.ipynb).
 
 
 ## Pretty picture

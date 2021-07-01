@@ -50,6 +50,12 @@ Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azur
 Large-scale processing is best performed in the West Europe Azure data center, where the data are stored.  If you are using this data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
 
 
+## Sample code
+
+A complete Python example of accessing and plotting TerraClimate data is available in the accompanying [sample notebook](terraclimate.ipynb).
+
+
+
 ## Citation
 
 If you use this data in a publication, please cite:

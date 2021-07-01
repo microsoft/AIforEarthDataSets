@@ -75,9 +75,11 @@ This section will provide a short summary of each file within each scene folder.
 * `preview/map-overlay.html`: kml-formatted scene footprint
 * `annotation/*.xml`: metadata associated with the GRD production (detection, projection)
 
+
 ## Sample code
 
 A complete Python example of accessing and plotting Sentinel-1 GRD data - using the Copernicus Open Access Hub API to query for scenes of interest - is available in the accompanying [sample notebook](sentinel-1-grd.ipynb).
+
 
 ## Region information
 

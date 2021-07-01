@@ -14,8 +14,6 @@ Within that container, data are organized according to:
 
 Images in this container are stored in [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.
 
-A complete Python example of accessing and plotting NASADEM data in COG format is available is available in the accompanying [sample notebook (COG)](nasadem-cog.ipynb).
-
 We also provide a read-only SAS (shared access signature) token to allow access to NASADEM data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 
 `?sv=2020-04-08&si=nasadem-cog-ro&sr=c&sig=RkEC4wi6sOdMEP6uj59wocpwiE4%2BBwrjt5qn5lEFov8%3D`
@@ -42,8 +40,6 @@ For each tile, filenames with three extensions are present:
 * nc.xml (tile creation metadata)
 
 Images in this container are stored in [NetCDF](https://en.wikipedia.org/wiki/NetCDF) format.
-
-A complete Python example of accessing and plotting NASADEM data in NetCDF format is available is available in the accompanying [sample notebook (NetCDF)](nasadem-nc.ipynb).
 
 We also provide a read-only SAS (shared access signature) token to allow access to NASADEM data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 

@@ -35,8 +35,6 @@ https://goes.blob.core.windows.net/noaa-goes16/ABI-L2-MCMIPF/2020/003/00/OR_ABI-
 
 Data channels and wavelengths are described [here](https://www.ncdc.noaa.gov/data-access/satellite-data/goes-r-series-satellites/glossary).
 
-A complete Python example of accessing and plotting a GOES-16 image is available is available in the accompanying [sample notebook](goes-16.ipynb).
-
 We also provide a read-only SAS (shared access signature) token to allow access to GOES-16 data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 
 `st=2020-04-11T23%3A55%3A25Z&se=2032-04-12T23%3A55%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=IVSoHKVscKyu8K99I7xfman%2Bzp0ISkFbnbAqE6wkv6A%3D`
@@ -44,6 +42,11 @@ We also provide a read-only SAS (shared access signature) token to allow access 
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
 Large-scale processing using this dataset is best performed in the East US Azure data center, where the data is stored.  If you are using GOES data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
+
+
+## Sample code
+
+A complete Python example of accessing and plotting a GOES-16 image is available in the accompanying [sample notebook](goes-16.ipynb).
 
 
 ## Citation

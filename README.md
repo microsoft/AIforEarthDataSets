@@ -22,6 +22,7 @@ NAIP provides US-wide, high-resolution aerial imagery.  This dataset includes NA
 * [Source](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/)
 * [Documentation](data/naip.md)
 * [Notebook](data/naip.ipynb)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/naip)
 
 ## Harmonized Landsat Sentinel-2
 
@@ -35,11 +36,10 @@ Satellite imagery from the Landsat 8 and Sentinel-2 satellites, aligned to a com
 
 Global optical imagery at 10m resolution from 2016-present.
 
-Sentinel-2 data are in preview; access is granted by request.
-
 * [Source](https://sentinel.esa.int/web/sentinel/missions/sentinel-2)
 * [Documentation](data/sentinel-2.md)
 * [Notebook](data/sentinel-2.ipynb)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a)
 
 ## Sentinel-1 GRD (preview)
 
@@ -68,12 +68,13 @@ Global optical imagery from the Landsat 8 satellite, which has imaged the Earth 
 * [Source](https://landsat.gsfc.nasa.gov/)
 * [Documentation](data/landsat-8.md)
 * [Notebook](data/landsat-8.ipynb)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/landsat-8-c2-l2)
 
 ## Landsat 7 Collection 2 Level-2  (preview)
 
 Global optical imagery from the Landsat 7 satellite, which has imaged the Earth since 1999.
 
-Landsat data are in preview; access is granted by request.
+Landsat 7 data are in preview; access is granted by request.
 
 * [Source](https://landsat.gsfc.nasa.gov/)
 * [Documentation](data/landsat-7.md)
@@ -83,11 +84,10 @@ Landsat data are in preview; access is granted by request.
 
 The [ASTER](https://terra.nasa.gov/about/terra-instruments/aster) instrument, launched on-board NASA's [Terra](https://terra.nasa.gov/) satellite in 1999, provides multispectral images of the Earth at 15m-90m resolution.  This data set represents ASTER data from 2000-2006.
 
-ASTER data are in preview; access is granted by request.
-
 * [Source](https://terra.nasa.gov/about/terra-instruments/aster)
 * [Documentation](data/aster.md)
 * [Notebook](data/aster.ipynb)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/aster-l1t)
 
 ## NASADEM
 

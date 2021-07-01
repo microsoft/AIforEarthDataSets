@@ -9,8 +9,6 @@ Within that folder, there are four [cloud-optimized GeoTIFF](https://www.cogeo.o
 * aboveground_uncertainty.tif (uncertainty associated with global above-ground biomass)
 * belowground_uncertainty.tif (uncertainty associated with global below-ground biomass)
 
-A complete Python example of accessing and plotting HGB data is available is available in the accompanying [sample notebook](hgb.ipynb).
-
 We also provide a read-only SAS (<a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview">shared access signature</a>) token to allow access to this data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 
 `?sv=2019-12-12&si=cpdata-ro&sr=c&sig=tqRGrmdYYa9WYkaPi0wWOD0nalRdNGTZNe97GL2enDA%3D`
