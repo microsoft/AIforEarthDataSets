@@ -97,6 +97,7 @@ Global topographic information from the NASADEM program.
 * [Documentation](data/nasadem.md)
 * [Notebook (COG)](data/nasadem-cog.ipynb)
 * [Notebook (NetCDF)](data/nasadem-nc.ipynb)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/nasadem)
 
 ## Daymet
 
@@ -106,6 +107,7 @@ Estimates of daily weather parameters in North America on a one-kilometer grid, 
 * [Documentation](data/daymet.md)
 * [Notebook (Zarr)](data/daymet-zarr.ipynb)
 * [Notebook (NetCDF)](data/daymet-nc.ipynb)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/group/daymet)
 
 ## USFS Forest Inventory and Analysis
 
@@ -167,6 +169,7 @@ Global maps of aboveground and belowground biomass carbon density for the year 2
 * [Source](https://www.nature.com/articles/s41597-020-0444-4)
 * [Documentation](data/hgb.md)
 * [Notebook](data/hgb.ipynb)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/hgb)
 
 ## Monitoring Trends in Burn Severity Mosaics
 
@@ -175,6 +178,15 @@ Annual burn severity mosaics for the continental United States and Alaska.
 * [Source](https://www.mtbs.gov/)
 * [Documentation](data/mtbs.md)
 * [Notebook](data/mtbs.ipynb)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/mtbs)
+
+## Esri 10m Land Cover
+
+Global estimates of 10-class land use/land cover (LULC) for 2020, derived from ESA Sentinel-2 imagery at 10m resolution, produced by [Impact Observatory](impactobservatory.com).
+
+* [Source](https://livingatlas.arcgis.com/landcover/)
+* [Notebook](https://planetarycomputer.microsoft.com/dataset/io-lulc#Example-Notebook)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/io-lulc)
 
 ## National Land Cover Database
 
@@ -199,6 +211,7 @@ Monthly climate and climatic water balance for global terrestrial surfaces from 
 * [Source](http://www.climatologylab.org/terraclimate.html)
 * [Documentation](data/terraclimate.md)
 * [Notebook](data/terraclimate.ipynb)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/terraclimate)
 
 ## UK Met Office Global Weather Data for COVID-19 Analysis
 
@@ -222,6 +235,7 @@ Settlement-level measures of electricity access, reliability, and usage derived 
 * [Source](http://www-personal.umich.edu/~brianmin/HREA/index.html)
 * [Documentation](data/hrea.md)
 * [Notebook](data/hrea.ipynb)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/hrea)
 
 ## NatureServe Map of Biodiversity Importance (MoBI)
 
@@ -230,6 +244,7 @@ Habitat information for 2,216 imperiled species occurring in the conterminous Un
 * [Source](https://www.natureserve.org/conservation-tools/projects/map-biodiversity-importance)
 * [Documentation](data/mobi.md)
 * [Notebook](data/mobi.ipynb)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/mobi)
 
 ## Global Biodiversity Information Facility (GBIF)
 
@@ -238,6 +253,16 @@ Exports of global species occurrence data from the GBIF network.
 * [Source](https://www.gbif.org)
 * [Documentation](data/gbif.md)
 * [Notebook](data/gbif.ipynb)
+
+## USGS 3DEP Seamless DEMs
+
+* [Source](https://www.usgs.gov/core-science-systems/ngp/3dep)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/3dep-seamless)
+
+## USGS Gap Land Cover
+
+* [Source](https://www.usgs.gov/core-science-systems/science-analytics-and-synthesis/gap/science/land-cover-data-download)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/gap)
 
 ## Labeled Information Library of Alexandria: Biology and Conservation (LILA BC)
 
