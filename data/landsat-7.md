@@ -8,7 +8,7 @@ This dataset represents the global archive of Level-2 [Landsat 7](https://www.us
 
 In 2003, Landsat 7 experienced a hardware failure that resulted in lost pixels.  All images since 2003 have had approximately 22% of their pixels removed; see the <a href="https://www.usgs.gov/faqs/what-landsat-7-etm-slc-data?qt-news_science_products=0#qt-news_science_products">USGS documentation on this issue</a> for more details.
 
-Landsat imagery is currently in preview on Azure; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=landsat%20question) to request access.
+Landsat 7 imagery is currently in preview on Azure; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=landsat%20question) to request access.
 
 
 ## Storage resources
