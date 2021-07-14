@@ -185,7 +185,8 @@ Annual burn severity mosaics for the continental United States and Alaska.
 Global estimates of 10-class land use/land cover (LULC) for 2020, derived from ESA Sentinel-2 imagery at 10m resolution, produced by [Impact Observatory](impactobservatory.com).
 
 * [Source](https://livingatlas.arcgis.com/landcover/)
-* [Notebook](https://planetarycomputer.microsoft.com/dataset/io-lulc#Example-Notebook)
+* [Documentation](data/io-lulc.md)
+* [Notebook](data/io-lulc.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/io-lulc)
 
 ## National Land Cover Database
