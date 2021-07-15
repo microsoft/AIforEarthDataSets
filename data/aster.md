@@ -6,8 +6,6 @@ The [ASTER](https://terra.nasa.gov/about/terra-instruments/aster) instrument, la
 
 This dataset represents ASTER [L1T](https://lpdaac.usgs.gov/products/ast_l1tv003/) data from 2000-2006.  L1T images have been terrain-corrected and rotated to a north-up UTM projection.  Data are in [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.
 
-ASTER imagery is currently in preview on Azure; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=aster%20question) to request access.
-
 
 ## Storage resources
 
