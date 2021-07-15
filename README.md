@@ -99,6 +99,14 @@ Global topographic information from the NASADEM program.
 * [Notebook (NetCDF)](data/nasadem-nc.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/nasadem)
 
+## Deltares Global Flood Maps
+
+Global estimates of coastal inundation under various sea level rise conditions and return periods at 90m, 1km, and 5km resolutions. Also includes estimated coastal inundation caused by named historical storm events going back several decades.
+
+* Source: TBD
+* [Documentation](data/deltares-floods.md)
+* [Notebook (NetCDF)](data/deltares-floods.ipynb)
+
 ## Daymet
 
 Estimates of daily weather parameters in North America on a one-kilometer grid, with monthly and annual summaries.
@@ -293,4 +301,3 @@ trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
-
