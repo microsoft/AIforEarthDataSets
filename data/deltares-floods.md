@@ -79,7 +79,7 @@ Both global and historical storm event netCDF files have the same attributes and
 | projection | information on the coordinate system (WGS84, EPSG: 4326)             | -                | -                              |
 | inun       | coastal flooding in water surface height above reference datum (MSL) | lat, lon         | m                              |
 
-## Sample Code
+## Sample code
 
 A complete Python example of accessing and plotting inundation data is available in the accompanying [sample notebook](deltares-floods.ipynb).
 
