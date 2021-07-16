@@ -103,7 +103,7 @@ Global topographic information from the NASADEM program.
 
 Global estimates of coastal inundation under various sea level rise conditions and return periods at 90m, 1km, and 5km resolutions. Also includes estimated coastal inundation caused by named historical storm events going back several decades.
 
-* Source: TBD
+* [Source](https://www.deltares.nl/en/)
 * [Documentation](data/deltares-floods.md)
 * [Notebook (NetCDF)](data/deltares-floods.ipynb)
 
