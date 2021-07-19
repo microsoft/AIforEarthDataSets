@@ -6,6 +6,8 @@
 
 In its current version, the model does not account for varying roughness over land and permanent water bodies such as rivers and lakes, and it does not account for the compound effects of waves, rainfall, and river discharge on coastal flooding. It also does not include the mitigating effect of coastal flood protection. Flood extents must thus be interpreted as the area that is potentially exposed to flooding without coastal protection.
 
+Complete methodology documentation is available [here](https://deltaresfloodssa.blob.core.windows.net/floods/v2021.06/11206409-002_Deltares_GFM_v2.pdf).
+
 ### Digital elevation models (DEMs)
 
 This documentation will refer to three DEMs:
