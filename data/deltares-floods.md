@@ -2,69 +2,59 @@
 
 ## Overview
 
-[Deltares](https://www.deltares.nl/en/) has produced inundation maps of flood
-depth using a geographic information system-based inundation model that takes
-into account water level attenuation and is forced by sea level. At the
-coastline, the model is forced by extreme water levels containing surge and tide
-from GTSMip6. The water level at the coastline is extended landwards to all
-areas that are hydrodynamically connected to the coast following a ‘bathtub’
-like approach and calculates the flood depth as the difference between the water
-level and the topography. Unlike a simple ‘bathtub’ model, this model attenuates
-the water level over land with a maximum attenuation factor of 0.5 m km-1
-consistent with other studies (Vafeidis et al., 2018). The attenuation factor
-simulates the dampening of the flood levels due to the roughness over land.  In
-its current version, the model does not account for varying roughness over land
-and permanent water bodies such as rivers and lakes.
+[Deltares](https://www.deltares.nl/en/) has produced inundation maps of flood depth using a model that takes into account water level attenuation and is forced by sea level. At the coastline, the model is forced by extreme water levels containing surge and tide from GTSMip6. The water level at the coastline is extended landwards to all areas that are hydrodynamically connected to the coast following a ‘bathtub’ like approach and calculates the flood depth as the difference between the water level and the topography. Unlike a simple 'bathtub' model, this model attenuates the water level over land with a maximum attenuation factor of 0.5 m km-1. The attenuation factor simulates the dampening of the flood levels due to the roughness over land.
 
-The model does not account for the compound effects of waves, rainfall and river
-discharge on coastal flooding. It also does not include the mitigating effect of
-coastal flood protection. Flood extents must thus be interpreted as the area
-that is potentially exposed to flooding without coastal protection.
+In its current version, the model does not account for varying roughness over land and permanent water bodies such as rivers and lakes, and it does not account for the compound effects of waves, rainfall, and river discharge on coastal flooding. It also does not include the mitigating effect of coastal flood protection. Flood extents must thus be interpreted as the area that is potentially exposed to flooding without coastal protection.
+
+### Digital elevation models (DEMs)
+
+This documentation will refer to three DEMs:
+
+* `NASADEM` is the SRTM-derived [NASADEM](https://lpdaac.usgs.gov/products/nasadem_hgtv001/) product.
+* `MERITDEM` is the [Multi-Error-Removed Improved Terrain DEM](http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/), derived from SRTM and AW3D.
+* `LIDAR` is the [Global LiDAR Lowland DTM (GLL_DTM_v1)](https://data.mendeley.com/datasets/v5x4vpnzds/1).
 
 ## Storage resources
 
-Data are stored in netCDF files in Azure Blob Storage in the West Europe Azure region, in the following blob container:
+Data are stored in netCDF files in Azure Blob Storage in the West Europe Azure region, in the following folder:
 
 <https://deltaresfloodssa.blob.core.windows.net/floods/v2021.06/>
 
-Within that container, data are organized under several directories representing covered regions:
+Within that folder, data are organized according to one path structure for [global datasets](#global-datasets) and one path structure for [historic event datasets](#historic-event-datasets).
 
 ### Global datasets
 
-There are multiple global flood datasets derived from different DEMs and at different resolutions. Not all DEMs have all resolutions:
+This collection includes multiple global flood datasets derived from three different DEMs (`NASA`, `MERIT`, and `LIDAR`) and at different resolutions. Not all DEMs have all resolutions:
 
-- `NASA` and `MERIT` are available at `90m` and `1km` resolutions
+- `NASADEM` and `MERITDEM` are available at `90m` and `1km` resolutions
 - `LIDAR` is available at `5km` resolution
 
-All DEM
+Each global dataset - i.e., each DEM/resolution pair - is in a folder named according to:
 
 `global/[DEM]/[resolution]/`
 
-Within those directories, all files follow the same naming convention:
+Within those folders, all files follow the same naming convention:
 
 `GFM_global_[DEM][resolution]_[sealevelyear]slr_rp[returnperiod]_masked.nc`
 
-...for example
+* `DEM` is the name of the DEM, and will match the folder name; valid DEMs are `NASADEM`, `MERITDEM`, and `LIDAR`.
+* `Resolution is `90m`, `1km`, or `5km`, and will match the folder name.
+* `sealevelyear` is the sea level rise scenario, either `2018` or `2050`.
+* `returnperiod` is the [return period](https://en.wikipedia.org/wiki/Return_period) in years; valid return periods are `0000`, `0002`, `0005`, `0010`, `0025`, `0050`, `0100`, and `0250`.
 
-`GFM_global_MERIT1km_2050slr_rp0050.nc`
+For example, a 100 year return period based off of current (2018) sea level rise conditions, derived from NASADEM at 90m resolution can be accessed at:
 
-Valid return periods (RP) are: `0000`, `0002`, `0005`, `0010`, `0025`, `0050`, `0100`, and `0250`.
-
-Valid sea level rise years (SLR) are: `2018` and `2050`.
-
-For example, a 100 year return period based off of current SLR conditions (2018), derived from NASADEM at 90m resolution can be accessed at:
-
-`/floods/v2021.06/global/NASA/90m/GFM_global_NASADEM90m_2018slr_rp0100_masked.nc`
+<https://deltaresfloodssa.blob.core.windows.net/floods/v2021.06/global/NASA/90m/GFM_global_NASADEM90m_2018slr_rp0100_masked.nc>
 
 ### Historic event datasets
 
-Also included in the `floods` container are historical storm event data files that follow similar DEM and resolution conventions. Not all storms events are available for each DEM and resolution combination, but generally follow the format of:
+This collection also includes historical storm event data files that follow similar DEM and resolution conventions. Not all storms events are available for each DEM and resolution combination, but generally follow the format of:
 
-`[DEM]_[resolution]-wm_final/[storm_name]_[event_year]_masked.nc`
+`events/[DEM]_[resolution]-wm_final/[storm_name]_[event_year]_masked.nc`
 
-...for example:
+For example, a flood map for the MERITDEM-derived 90m flood data for the "Omar" storm in 2008 is available at:
 
-`/floods/v2021.06/MERIT_90m-wm_final/Omar_2008_masked.nc`
+<https://deltaresfloodssa.blob.core.windows.net/floods/v2021.06/events/MERITDEM_90m-wm_final/Omar_2008_masked.nc>
 
 ### File contents
 
