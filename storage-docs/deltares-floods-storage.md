@@ -1,21 +1,3 @@
-# Deltares Global Flood Map
-
-## Overview
-
-[Deltares](https://www.deltares.nl/en/) has produced inundation maps of flood depth using a model that takes into account water level attenuation and is forced by sea level. At the coastline, the model is forced by extreme water levels containing surge and tide from GTSMip6. The water level at the coastline is extended landwards to all areas that are hydrodynamically connected to the coast following a ‘bathtub’ like approach and calculates the flood depth as the difference between the water level and the topography. Unlike a simple 'bathtub' model, this model attenuates the water level over land with a maximum attenuation factor of 0.5 m km-1. The attenuation factor simulates the dampening of the flood levels due to the roughness over land.
-
-In its current version, the model does not account for varying roughness over land and permanent water bodies such as rivers and lakes, and it does not account for the compound effects of waves, rainfall, and river discharge on coastal flooding. It also does not include the mitigating effect of coastal flood protection. Flood extents must thus be interpreted as the area that is potentially exposed to flooding without coastal protection.
-
-### Digital elevation models (DEMs)
-
-This documentation will refer to three DEMs:
-
-* `NASADEM` is the SRTM-derived [NASADEM](https://lpdaac.usgs.gov/products/nasadem_hgtv001/) product.
-* `MERITDEM` is the [Multi-Error-Removed Improved Terrain DEM](http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/), derived from SRTM and AW3D.
-* `LIDAR` is the [Global LiDAR Lowland DTM (GLL_DTM_v1)](https://data.mendeley.com/datasets/v5x4vpnzds/1).
-
-## Storage resources
-
 Data are stored in netCDF files in Azure Blob Storage in the West Europe Azure region, in the following folder:
 
 <https://deltaresfloodssa.blob.core.windows.net/floods/v2021.06/>
@@ -67,15 +49,3 @@ Both global and historical storm event netCDF files have the same attributes and
 | `lon`        | longitude in WGS84 spherical coordinates                             | lon              | degrees_east                   |
 | `projection` | information on the coordinate system (WGS84, EPSG: 4326)             | -                | -                              |
 | `inun`       | coastal flooding in water surface height above reference datum (MSL) | lat, lon         | m                              |
-
-## Sample code
-
-A complete Python example of accessing and plotting inundation data is available in the accompanying [sample notebook](deltares-floods.ipynb).
-
-## Contact
-
-For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=deltares-floods%20question).
-
-## Notices
-
-Microsoft provides this dataset on an "as is" basis.  Microsoft makes no warranties (express or implied), guarantees, or conditions with respect to your use of the dataset. To the extent permitted under your local law, Microsoft disclaims all liability for any damages or losses - including direct, consequential, special, indirect, incidental, or punitive - resulting from your use of this dataset. This dataset is provided under the original terms that Microsoft received source data.

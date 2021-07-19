@@ -17,7 +17,7 @@ import re
 
 input_dir = 'data'
 output_dir = 'storage-docs'
-datasets = ['naip','aster','landsat-8','sentinel-2','mobi','hgb','hrea','mtbs','nasadem','io-lulc']
+datasets = ['naip','aster','landsat-8','sentinel-2','mobi','hgb','hrea','mtbs','nasadem','io-lulc','deltares-floods']
 
 # Capture the entire "storage resources" section, up to the next ## heading
 start_token = '## Storage resources'
