@@ -58,8 +58,8 @@ Global multispectral imagery at 300m resolution, with a revisit rate of less tha
 Sentinel-3 data are in preview; access is granted by request.
 
 * [Source](https://sentinel.esa.int/web/sentinel/missions/sentinel-3)
-* [Documentation](data/sentinel-3-L2.md)
-* [Notebook](data/sentinel-3-L2.ipynb)
+* [Documentation](data/sentinel-3.md)
+* [Notebook](data/sentinel-3.ipynb)
 
 ## Sentinel-5P (preview)
 
