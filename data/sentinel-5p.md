@@ -15,7 +15,7 @@ Sentinel-5P data are currently in preview on Azure; email [`aiforearthdatasets@m
 
 ### Container information
 
-Data are stored in blobs in the West Europe Azure region, in the following blob container:
+Data are stored as NetCDF files in Azure Blob Storage in the West Europe Azure region, in the following blob container:
 
 `https://sentinel5euwest.blob.core.windows.net/sentinel-5p`
 

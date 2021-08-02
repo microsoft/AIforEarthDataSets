@@ -51,6 +51,16 @@ Sentinel-1 GRD data are in preview; access is granted by request.
 * [Documentation](data/sentinel-1-grd.md)
 * [Notebook](data/sentinel-1-grd.ipynb)
 
+## Sentinel-3 L2
+
+Global multispectral imagery at 300m resolution, with a revisit rate of less than two days, from 2016-present.
+
+Sentinel-3 data are in preview; access is granted by request.
+
+* [Source](https://sentinel.esa.int/web/sentinel/missions/sentinel-3)
+* [Documentation](data/sentinel-3-L2.md)
+* [Notebook](data/sentinel-3-L2.ipynb)
+
 ## Sentinel-5P (preview)
 
 Global atmospheric data from 2018-present.
