@@ -103,7 +103,7 @@ Raw reflectance data is not included in the OL_2_LFR product; see the SYN produc
 * `chl_nn.nc`, `chl_oc4me.nc`: chlorophyll concentration (via neural network, oc4me algorithms)
 * `iop_nn.nc`: absorption of colored detrital and dissolved material at 443nm (ADG_443_nn) (neural-network-derived)
 * `iwv.nc`: atmospheric water vapor
-* `Oa0N_reflectance` (N from 1 to 21): surface reflectance values
+* `Oa0N_reflectance` (N from 1 to 21): surface reflectance values ([band documentation](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-olci/resolutions/radiometric))
 * `par.nc`: photosynthetically active radiation from 400nm-700m
 * `trsp.nc`: diffuse attenuation coefficient for down-welling irradiance at 490nm (KD490) (ocean water clarity)
 * `tsm_nn.nc`: total suspended matter concenstration (via neural network)
@@ -146,9 +146,9 @@ This product contains only a single file per scene, called `NTC_AOD.nc`, contain
 * `geolocation.nc`: georeferencing data
 * `Syn_Angstrom_exp550.nc`: aerosol Angstrom exponent
 * `Syn_AOT550.nc`: aerosol optical thickness
-* `Syn_OaNN_reflectance.nc` (NN from 01 to 21): surface reflectance from the OLCI instrument
-* `Syn_SnO_reflectance.nc` (n in [1,2,3,5,6]): surface reflectance from the SLSTR instrument, oblique view
-* `Syn_SnN_reflectance.nc` (n in [1,2,3,5,6]): surface reflectance from the SLSTR instrument, nadir view
+* `Syn_OaNN_reflectance.nc` (NN from 01 to 21): surface reflectance from the OLCI instrument ([band documentation](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-olci/resolutions/radiometric))
+* `Syn_SnO_reflectance.nc` (n in [1,2,3,5,6]): surface reflectance from the SLSTR instrument, oblique view ([band documentation](https://sentinels.copernicus.eu/web/sentinel/user-guides/Sentinel-3-slstr/resolutions/radiometric)
+* `Syn_SnN_reflectance.nc` (n in [1,2,3,5,6]): surface reflectance from the SLSTR instrument, nadir view ([band documentation](https://sentinels.copernicus.eu/web/sentinel/user-guides/Sentinel-3-slstr/resolutions/radiometric)
 * `time.nc`: timestamp
 
 #### Key synergy (combined OLCI/SLSTR) vegetation-like product (SY_2_VGP) data files
@@ -184,7 +184,7 @@ Large-scale processing is best performed in the West Europe Azure region, where 
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/sentinel-3.png" width=400px;><br/><span style='font-size:80%'></span>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/sentinel-3.png" width=400px;><br/><span style='font-size:80%'>RGB composite of OLCI imagery from the Grand Canyon in 2019.</span>
 
 
 ## Contact
