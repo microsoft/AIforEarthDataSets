@@ -51,7 +51,7 @@ Sentinel-1 GRD data are in preview; access is granted by request.
 * [Documentation](data/sentinel-1-grd.md)
 * [Notebook](data/sentinel-1-grd.ipynb)
 
-## Sentinel-3 L2
+## Sentinel-3 L2 (preview)
 
 Global multispectral imagery at 300m resolution, with a revisit rate of less than two days, from 2016-present.
 
