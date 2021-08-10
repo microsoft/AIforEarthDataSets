@@ -9,7 +9,7 @@ Data are stored in blobs in the West Europe Azure region, in the following blob 
 
 Within that container, each scene corresponds to a folder, named according to:
 
-`[level]`/standard/`[sensor]`/`[year]`/`[path]`/`[row]`/[scene name]`
+`[level]`/standard/`[sensor]`/`[year]`/`[path]`/`[row]`/`[scene name]`
 
 * `[level]` is "level-1" or "level-2"
 * `[sensor]` is "oli-tirs" (Landsat 8), "etm" (Landsat 7), or "tm" (Landsat 4/5)

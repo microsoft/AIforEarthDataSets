@@ -8,8 +8,8 @@ Within that folder, data are organized according to one path structure for [glob
 
 This collection includes multiple global flood datasets derived from three different DEMs (`NASA`, `MERIT`, and `LIDAR`) and at different resolutions. Not all DEMs have all resolutions:
 
-- `NASADEM` and `MERITDEM` are available at `90m` and `1km` resolutions
-- `LIDAR` is available at `5km` resolution
+* `NASADEM` and `MERITDEM` are available at `90m` and `1km` resolutions
+* `LIDAR` is available at `5km` resolution
 
 Each global dataset - i.e., each DEM/resolution pair - is in a folder named according to:
 
@@ -20,7 +20,7 @@ Within those folders, all files follow the same naming convention:
 `GFM_global_[DEM][resolution]_[sealevelyear]slr_rp[returnperiod]_masked.nc`
 
 * `DEM` is the name of the DEM, and will match the folder name; valid DEMs are `NASADEM`, `MERITDEM`, and `LIDAR`.
-* `Resolution is `90m`, `1km`, or `5km`, and will match the folder name.
+* `Resolution` is `90m`, `1km`, or `5km`, and will match the folder name.
 * `sealevelyear` is the sea level rise scenario, either `2018` or `2050`.
 * `returnperiod` is the [return period](https://en.wikipedia.org/wiki/Return_period) in years; valid return periods are `0000`, `0002`, `0005`, `0010`, `0025`, `0050`, `0100`, and `0250`.
 
