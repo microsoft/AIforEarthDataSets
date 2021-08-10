@@ -17,7 +17,7 @@ Satellite imagery from the Moderate Resolution Imaging Spectroradiometer (MODIS)
 
 ## National Agriculture Imagery Program
 
-NAIP provides US-wide, high-resolution aerial imagery.  This dataset includes NAIP images from 2010 to the present.
+NAIP provides US-wide, high-resolution aerial imagery.  This data set includes NAIP images from 2010 to the present.
 
 * [Source](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/)
 * [Documentation](data/naip.md)
