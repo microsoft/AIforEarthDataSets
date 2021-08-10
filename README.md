@@ -41,7 +41,7 @@ Global optical imagery at 10m resolution from 2016-present.
 * [Notebook](data/sentinel-2.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a)
 
-## Sentinel-1 GRD (preview)
+## Sentinel-1 GRD
 
 Global synthetic aperture radar (SAR) data from 2017-present.
 
@@ -51,7 +51,7 @@ Sentinel-1 GRD data are in preview; access is granted by request.
 * [Documentation](data/sentinel-1-grd.md)
 * [Notebook](data/sentinel-1-grd.ipynb)
 
-## Sentinel-3 L2 (preview)
+## Sentinel-3 L2
 
 Global multispectral imagery at 300m resolution, with a revisit rate of less than two days, from 2016-present.
 
@@ -61,7 +61,7 @@ Sentinel-3 data are in preview; access is granted by request.
 * [Documentation](data/sentinel-3.md)
 * [Notebook](data/sentinel-3.ipynb)
 
-## Sentinel-5P (preview)
+## Sentinel-5P
 
 Global atmospheric data from 2018-present.
 
@@ -80,7 +80,7 @@ Global optical imagery from the Landsat 8 satellite, which has imaged the Earth 
 * [Notebook](data/landsat-8.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/landsat-8-c2-l2)
 
-## Landsat 7 Collection 2 Level-2  (preview)
+## Landsat 7 Collection 2 Level-2
 
 Global optical imagery from the Landsat 7 satellite, which has imaged the Earth since 1999.
 
