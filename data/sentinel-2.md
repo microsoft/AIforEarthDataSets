@@ -56,35 +56,16 @@ Within a scene folder, recursively listing *.tif will enumerate all images, with
 * `R10m/TCI_10m`: true color image (10m)
 * `R10m/WVP_10m`: water vapor (10m)
 <br/><br/>
-* `R20m/AOT_20m`: aerosol optical thickness (20m)
-* `R20m/BO2_20m`: band 2 (490nm) (blue) (20m)
-* `R20m/BO3_20m`: band 3 (560nm) (green) (20m)
-* `R20m/BO4_20m`: band 4 (665nm) (red) (20m)
 * `R20m/BO5_20m`: band 5 (705nm) (vegetation classification) (20m)
 * `R20m/BO6_20m`: band 6 (740nm) (vegetation classification) (20m)
 * `R20m/BO7_20m`: band 7 (783nm) (vegetation classification) (20m)
-* `R20m/BO8_20m`: band 8 (842nm) (near IR) (20m)
 * `R20m/B8A_20m`: band 8A (865nm) (vegetation classification) (20m)
 * `R20m/B11_20m`: band 11 (1610nm) (snow/ice/cloud classification) (20m)
 * `R20m/B12_20m`: band 12 (2190nm) (snow/ice/cloud classification) (20m)
 * `R20m/SCL_20m`: scene classification (20m)
-* `R20m/TCI_20m`: true color image (20m)
-* `R20m/WVP_20m`: water vapor (20m)
 <br/><br/>
-* `R60m/AOT_60m`: aerosol optical thickness (60m)
-* `R60m/BO2_60m`: band 2 (490nm) (blue) (60m)
-* `R60m/BO3_60m`: band 3 (560nm) (green) (60m)
-* `R60m/BO4_60m`: band 4 (665nm) (red) (60m)
-* `R60m/BO5_60m`: band 5 (705nm) (vegetation classification) (60m)
-* `R60m/BO6_60m`: band 6 (740nm) (vegetation classification) (60m)
-* `R60m/BO7_60m`: band 7 (783nm) (vegetation classification) (60m)
+* `R60m/BO1_60m`: band 1 (443nm) (coastal aerosol (60m)
 * `R60m/BO9_60m`: band 9 (945nm) (water vapor) (60m)
-* `R60m/B8A_60m`: band 8A (865nm) (vegetation classification) (60m)
-* `R60m/B11_60m`: band 11 (1610nm) (snow/ice/cloud classification) (60m)
-* `R60m/B12_60m`: band 12 (2190nm) (snow/ice/cloud classification) (60m)
-* `R60m/SCL_60m`: scene classification (60m)
-* `R60m/TCI_60m`: true color image (60m)
-* `R60m/WVP_60m`: water vapor (60m)
 
 For example, the 10m image for band 2 in the example scene above is at:
 
@@ -127,7 +108,6 @@ This section will provide a short summary of each file within each scene folder.
 * `GRANULE/[scene id]/MTD_TL.xml`: tile metadata (e.g. geometry), following the [Sentinel-2 L2A tile metadata XML schema](https://psd-14.sentinel2.eo.esa.int/PSD/S2_PDI_Level-2A_Tile_Metadata.xsd)
 * `rep_info/*.xsd` (3 files): XML schemas for datastrip and tile metadata (the same schemas used for the .xml files listed above)
 * `INSPIRE.xml`: metadata file indicating compliance with the [INSPIRE schema](https://inspire.ec.europa.eu/XML-Schemas/Data-Specifications/2892)
-
 
 
 ## Sample code
