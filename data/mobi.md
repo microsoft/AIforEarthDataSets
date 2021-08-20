@@ -4,8 +4,7 @@
 
 This data set contains spatial data for the fifteen layers included in the [Map of Biodiversity Importance](https://www.natureserve.org/conservation-tools/projects/map-biodiversity-importance).
 
-MoBI data are not available via anonymous access to Azure storage; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=mobi%20question) to request access, or use the [Planetary Computer querying API](https://planetarycomputer.microsoft.com/docs/quickstarts/reading-stac/).
-
+MoBI data are not available via anonymous access to Azure storage; you can use the Planetary Computer API ([example](https://planetarycomputer.microsoft.com/dataset/mobi)) to access MoBI data.  If your needs preclude the use of the Planetary Computer API, email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=mobi%20question) to request access.
 
 ## About MoBI
 
