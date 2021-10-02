@@ -1,0 +1,47 @@
+AVHRR Aerosol Optical Thickness CDR,aerosol-optical-thickness
+Cloud Properties - ISCCP CDR,cloud-properties-isccp
+Extended AVHRR Polar Pathfinder CDR,polar-pathfinder-extended
+Hydrological Properties CDR,hydrological-properties
+Ocean Heat Fluxes CDR,ocean-heatflux
+Ocean Near-Surface Atmospheric Properties CDR,ocean-nearsurface-atmos-profiles
+Outgoing Longwave Radiation - Daily CDR,outgoing-longwave-radiation-daily
+Outgoing Longwave Radiation - Monthly CDR,outgoing-longwave-radiation-monthly
+Ozone - ESRL CDR,ozone-esrl
+Precipitation - CMORPH CDR,precip-cmorph
+Precipitation - GPCP Daily CDR,precip-gpcp-daily
+Precipitation - GPCP Monthly CDR,precip-gpcp-monthly
+Precipitation - NEXRAD QPE CDR,precip-nexrad-qpe
+Precipitation - PERSIANN CDR,precip-persiann
+Solar Spectral Irradiance CDR,solar-spectral-irradiance
+Total Solar Irradiance CDR,total-solar-irradiance
+Geostationary IR Channel Brightness Temperature - GridSat-B1 CDR,gridsat-b1
+Mean Layer Temperature - NOAA CDR,mean-layer-temp
+Mean Layer Temperature - RSS CDR,mean-layer-temp-rss
+Mean Layer Temperature - UAH CDR,mean-layer-temp-uah
+Mean Layer Temperature - UCAR (Lower Stratosphere) CDR,mean-layer-temp-lower-strat
+Mean Layer Temperature - UCAR (Upper Troposphere and Lower Stratosphere) CDR,mean-layer-temp-upper-trop-lower-strat
+SSM/I(S) Brightness Temperature - CSU CDR,microwave-imager-brit-temp-csu
+SSMI/S Brightness Temperature - RSS CDR,microwave-imager-brit-temp-rss
+Global Ocean Heat Content CDR,ocean-heat-content
+Pathfinder Sea Surface Temperature CDR,sea-surface-temp-pathfinder
+Sea Ice Concentration CDR,sea-ice-concentration
+Sea Surface Temperature - Optimum Interpolation CDR,sea-surface-temp-optimum-interpolation
+Sea Surface Temperature - WHOI CDR,sea-surface-temp-whoi
+Leaf Area Index and FAPAR CDR,leaf-area-index-fapar
+Normalized Difference Vegetation Index CDR,ndvi
+Snow Cover Extent (Northern Hemisphere) CDR,snow-cover-ext-north
+MSU Brightness Temperature - NOAA CDR,msu-brit-temp
+AVHRR Polar Pathfinder CDR,polar-pathfinder-fcdr
+
+AMSU Brightness Temperature-NOAA CDR,unknown
+AMSU-A Brightness Temperature CDR,unknown
+AMSU-B and MHS Brightness Temperature CDR,unknown
+AVHRR Radiances - NASA CDR,unknown
+AVHRR Reflectance - PATMOS-x CDR,unknown
+AVHRR Cloud Properties - NASA CDR,unknown
+AVHRR Cloud Properties - PATMOS-x CDR,unknown
+HIRS CH12 Brightness Temperature CDR,unknown
+AVHRR Surface Reflectance CDR,unknown
+
+
+

@@ -4,7 +4,9 @@
 
 The [Landsat](https://landsat.gsfc.nasa.gov/) program has been imaging the Earth since 1972; it provides a comprehensive, continuous archive of the Earth's surface.
 
-This dataset represents the global archive of Level-2 [Landsat 8](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-8) data from [Landsat Collection 2](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2).  Landsat 4, 5, and 7 data are in progress.  Because there is some latency before Level-2 data is available, a rolling window of recent Level-1 data is available as well.  Images are stored in [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.
+This dataset represents the global archive of Level-2 [Landsat 8](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-8) data from [Landsat Collection 2](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2).   Images are stored in [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.
+
+Landsat 8 data is stored in a container that does not allow anonymous access; you can use the [Planetary Computer search API](https://planetarycomputer.microsoft.com/docs/quickstarts/reading-stac/) ([example](https://planetarycomputer.microsoft.com/dataset/landsat-8-c2-l2#Example-Notebook)) to access Landsat 8 data or the [Planetary Computer token API](https://planetarycomputer.microsoft.com/docs/concepts/sas/) to request tokens.  If your needs preclude the use of the Planetary Computer API, email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=landsat%20question) to request access.
 
 
 ## Storage resources

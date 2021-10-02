@@ -135,21 +135,30 @@ Status and trends on U.S. forest location, health, growth, mortality, and produc
 * [Documentation](data/forest-inventory-and-analysis.md)
 * [Notebook](data/forest-inventory-and-analysis.ipynb)
 
-## NOAA GOES-16
+## NOAA GOES-R
 
-Weather imagery from the GOES-16 satellite.
+Weather imagery from the GOES-16 and GOES-17 satellites.
 
 * [Source](https://www.nesdis.noaa.gov/GOES-R-Series-Satellites)
-* [Documentation](data/goes-16.md)
-* [Notebook](data/goes-16-abi-l2-mcmipf.ipynb)
+* [Documentation](data/goes-r.md)
+* [Notebook](data/goes-r-abi-l2-mcmipf.ipynb)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/goes-cmi)
+
+## NOAA Integrated Surface Data (ISD)
+
+Historical global weather information.
+
+* [Source](https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database)
+* [Documentation](data/noaa-isd.md)
+
+Documentation in progress.
 
 ## NOAA Climate Data Records (CDR)
 
 Historical global climate information.
 
 * [Source](https://www.ncei.noaa.gov/products/climate-data-records)
-
-Documentation in progress.
+* [Documentation](data/noaa-cdr.md)
 
 ## NOAA Global Forecast System (GFS)
 

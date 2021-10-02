@@ -4,7 +4,12 @@
 
 The [Sentinel-2](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) program provides global imagery in thirteen spectral bands at 10m-60m resolution and a revisit time of approximately five days.  This dataset represents the global Sentinel-2 archive, from 2016 to the present, processed to L2A (bottom-of-atmosphere) using [Sen2Cor](https://step.esa.int/main/snap-supported-plugins/sen2cor/) and converted to [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.  The digital elevation model used for terrain correction was [Planet DEM 30](https://planetobserver.com/global-elevation-data/).
 
-Sentinel-2 is stored in a container that does not allow anonymous access; you can use the Planetary Computer API ([example](https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a#Example-Notebook)) to access Sentinel-2 data.  If your needs preclude the use of the Planetary Computer API, email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=sentinel2%20question) to request access.
+Sentinel-2 data is stored in a container that does not allow anonymous access; you can use the [Planetary Computer search API](https://planetarycomputer.microsoft.com/docs/quickstarts/reading-stac/) ([example](https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a#Example-Notebook)) to access Sentinel-2 data or the [Planetary Computer token API](https://planetarycomputer.microsoft.com/docs/concepts/sas/) to request tokens.  If your needs preclude the use of the Planetary Computer API, email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=sentinel2%20question) to request access.
+
+
+## Planetary Computer Collection
+
+This data is also available via our Planetary Computer; also see the [Planetary Computer Sentinel-2 Collection](https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a).
 
 
 ## Storage resources
