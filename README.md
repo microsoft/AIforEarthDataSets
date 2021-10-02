@@ -153,6 +153,13 @@ Historical global weather information.
 
 Documentation in progress.
 
+## NOAA Monthly US Climate Gridded Dataset (NClimGrid)
+
+Gridded climate data for the US from 1895 to the present.
+
+* [Source](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332)
+* [Documentation](data/noaa-nclimgrid.md)
+
 ## NOAA Climate Data Records (CDR)
 
 Historical global climate information.
