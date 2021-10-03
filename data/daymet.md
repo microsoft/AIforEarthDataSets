@@ -137,8 +137,8 @@ The following resources and references may be helpful when working with the Daym
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/daymet.png" width=200px;><br/>
-
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/daymet.png" style="width:200px;">
+<br/>
 <p style="font-size:80%;margin-left:15px;">Average daily maximum temperature in North America in 2009.</p>
 
 

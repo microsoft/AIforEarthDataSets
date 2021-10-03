@@ -48,7 +48,8 @@ This dataset is available under the [CC BY 4.0](https://creativecommons.org/lice
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/pc_thumbnails/io-lulc.png" width=500px;><br/><span style='font-size:80%'>Land cover classification near... actually, the geographic location of this region is a mystery even to us (it looked nice, and we grabbed a screenshot), so if you can identify it, [email us](mailto:aiforearthdatasets@microsoft.com?subject=io-lulc%20question)!</span>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/pc_thumbnails/io-lulc.png" style="width:500px;"><br/>
+<span style='font-size:80%'>Land cover classification near... actually, the geographic location of this region is a mystery even to us (it looked nice, and we grabbed a screenshot), so if you can identify it, [email us](mailto:aiforearthdatasets@microsoft.com?subject=io-lulc%20question)!</span>
 
 
 ## Notices
