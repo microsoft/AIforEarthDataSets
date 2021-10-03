@@ -29,6 +29,7 @@ re_storage = re.compile(pat, re.DOTALL)
     
 custom_encodings = {'gbif':'utf-8'}
 
+
 #%% The doing of the doing
 
 for dataset_name in datasets:
