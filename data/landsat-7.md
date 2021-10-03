@@ -119,11 +119,11 @@ Large-scale processing is best performed in the West Europe Azure region, where 
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/landsat-7_thumb_800w.png" width=500px;><br/><span style='font-size:80%'>Natural-color rendering (Landsat 7 bands 3/2/1) of an area near Auckland, New Zealand, carefully cropped to avoid scan line corrector failure issues that make thumbnails less delightful.</span>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/landsat-7_thumb_800w.png" style="width:500px;"><br/><span style='font-size:80%'>Natural-color rendering (Landsat 7 bands 3/2/1) of an area near Auckland, New Zealand, carefully cropped to avoid scan line corrector failure issues that make thumbnails less delightful.</span>
 
 ## Pretty picture, with 22% of its pixels missing
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/landsat-7_slc_failure_800w.png" width=500px;><br/><span style='font-size:80%'>The area from which the above image was cropped, showing the SLC failure issue.</span>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/landsat-7_slc_failure_800w.png" style="width=500px;"><br/><span style='font-size:80%'>The area from which the above image was cropped, showing the SLC failure issue.</span>
 
 
 ## Contact

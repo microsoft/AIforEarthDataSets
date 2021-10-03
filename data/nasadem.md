@@ -90,7 +90,7 @@ If you are using the COG-formatted files, please attribute to:
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/nasadem.png" width=350px;><br/>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/nasadem.png" style="width:350px;"><br/>
 
 <p style="font-size:80%;margin-left:15px;">Topography in the Mount Fuji area.</p>
 

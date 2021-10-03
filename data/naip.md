@@ -87,7 +87,7 @@ In June of 2020, we updated our entire NAIP archive to improve both coverage and
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/naip_800w.png" width=500px;><br/><span style='font-size:80%'>1m-resolution imagery of Quilcene, WA, on the Olympic Peninsula.</span>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/naip_800w.png" style="width:500px;"><br/><span style='font-size:80%'>1m-resolution imagery of Quilcene, WA, on the Olympic Peninsula.</span>
 
 
 

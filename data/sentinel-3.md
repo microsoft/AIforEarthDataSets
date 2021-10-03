@@ -184,7 +184,7 @@ Large-scale processing is best performed in the West Europe Azure region, where 
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/sentinel-3.png" width=400px;><br/><span style='font-size:80%'>RGB composite of OLCI imagery from the Grand Canyon in 2019.</span>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/sentinel-3.png" style="width:400px;"><br/><span style='font-size:80%'>RGB composite of OLCI imagery from the Grand Canyon in 2019.</span>
 
 
 ## Contact

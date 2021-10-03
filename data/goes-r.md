@@ -108,7 +108,7 @@ GOES-R Series Program, (2019): NOAA GOES-R Series Advanced Baseline Imager (ABI)
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/goes-16.png" width=350px;><br/>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/goes-16.png" style="width:350px;"><br/>
 
 <p style="font-size:80%;margin-left:15px;">Moisture imagery of the Americas on Jan 2, 2020.</p>
 

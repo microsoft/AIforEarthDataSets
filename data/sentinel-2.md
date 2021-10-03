@@ -127,7 +127,7 @@ Large-scale processing is best performed in the West Europe Azure region, where 
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/sentinel-2_800w.png" width=500px;><br/><span style='font-size:80%'>Natural color rendering (Sentinel-2 bands 4/3/2) of an area near Jonah Bay, Alaska, USA.</span>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/sentinel-2_800w.png" style="width:500px;"><br/><span style='font-size:80%'>Natural color rendering (Sentinel-2 bands 4/3/2) of an area near Jonah Bay, Alaska, USA.</span>
 
 
 ## Contact

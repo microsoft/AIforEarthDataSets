@@ -93,7 +93,7 @@ NatureServe reserves all rights in all intellectual property provided.  Distribu
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/mobi_800w.png" width=500px;><br/><span style='font-size:80%'>MoBI vertebrate species richness layer.</span>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/mobi_800w.png" style="width:500px;"><br/><span style='font-size:80%'>MoBI vertebrate species richness layer.</span>
 
 
 ## Notices

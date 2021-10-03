@@ -51,7 +51,7 @@ Spawn, S.A., and H.K. Gibbs. 2020. Global Aboveground and Belowground Biomass Ca
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/hgb.png" width=550px;><br/>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/hgb.png" style="width:550px;"><br/>
 
 <p style="font-size:80%;margin-left:15px;">Global above-ground biomass estimates in 2010.</p>
 

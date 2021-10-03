@@ -6,7 +6,7 @@ The [Global Biodiversity Information Facility](https://www.gbif.org) (GBIF) is a
 
 GBIF currently integrates datasets documenting over 1.6 billion species occurrences illustrated here.
 
-![GBIF world map](data/gbif_header.png)
+![GBIF world map](gbif_header.png)
 
 The GBIF occurrence dataset combines data from a wide array of sources including specimen-related data from natural history museums, observations from citizen science networks and environment recording schemes. While these data are constantly changing at [GBIF.org](https://www.gbif.org), periodic snapshots are taken and made available here.
 

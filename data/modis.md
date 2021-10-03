@@ -101,7 +101,7 @@ A complete Python example of accessing and plotting MODIS  data is available in 
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/modis.png" width=350px;><br/>
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/modis.png" style="width:350px;"><br/>
 
 <p style="font-size:80%;margin-left:15px;">Imagery of the Chicago area on May 15, 2019.</p>
 
