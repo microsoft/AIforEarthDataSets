@@ -225,7 +225,6 @@ Historical global weather information.
 * [Source](https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database)
 * [Documentation](data/noaa-isd.md)
 
-Documentation in progress.
 
 ## NOAA Monthly US Climate Gridded Dataset (NClimGrid)
 

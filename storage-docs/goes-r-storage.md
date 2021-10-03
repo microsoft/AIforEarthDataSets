@@ -14,7 +14,7 @@ Within any of the above, data are named as:
 
 `[product]/[year]/[day]/[hour]/[filename]`
 
-* <i>product</i> is a product name; see above for a list of available products
+* <i>product</i> is a product name, see the [storage resources page](https://github.com/microsoft/AIforEarthDataSets/blob/main/data/goes-r.md#storage-resources) for a list of available products
 * <i>year</i> is a four-digit year
 * <i>day</i> is a three-digit day-of-year code, starting with 001
 * <i>hour</i> is a two-digit hour-of-day code, starting with 00
