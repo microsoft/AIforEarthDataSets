@@ -100,6 +100,8 @@ output_md = ''
 
 for p in products:
     name = p['name']
+    assert ' CDR' in name
+    name = name.replace(' CDR','')
     url = p['url']
     container = p['container']
     
