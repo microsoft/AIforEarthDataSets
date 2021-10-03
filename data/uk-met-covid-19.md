@@ -56,6 +56,11 @@ For detailed information about how this data is generated and the particulars of
 There are some additional post-processed data aggregations over COVID-19 reporting regions in the UK and USA made available as CSV files. More details below.
 
 
+## Sample code
+
+A complete Python example of working with thid data is available in the accompanying [sample notebook](uk-met-covid-19.ipynb).
+
+
 ## Storage location
 
 This dataset is stored in the East US 2 Azure region, in the following blob container:
