@@ -55,7 +55,7 @@ The [ASTER](https://terra.nasa.gov/about/terra-instruments/aster) instrument, la
 
 * [Source](https://terra.nasa.gov/about/terra-instruments/aster)
 * [Documentation](data/aster.md)
-* [Notebook](data/aster.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/aster.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/aster-l1t)
 
 ## Daymet
@@ -64,8 +64,8 @@ Estimates of daily weather parameters in North America on a one-kilometer grid, 
 
 * [Source](https://daymet.ornl.gov/)
 * [Documentation](data/daymet.md)
-* [Notebook (Zarr)](data/daymet-zarr.ipynb)
-* [Notebook (NetCDF)](data/daymet-nc.ipynb)
+* [Notebook (Zarr)](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/daymet-zarr.ipynb)
+* [Notebook (NetCDF)](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/daymet-nc.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/group/daymet)
 
 ## Deltares Global Flood Maps
@@ -74,7 +74,7 @@ Global estimates of coastal inundation under various sea level rise conditions a
 
 * [Source](https://www.deltares.nl/en/)
 * [Documentation](data/deltares-floods.md)
-* [Notebook (NetCDF)](data/deltares-floods.ipynb)
+* [Notebook (NetCDF)](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/deltares-floods.ipynb)
 
 ## Esri 10m Land Cover
 
@@ -82,7 +82,7 @@ Global estimates of 10-class land use/land cover (LULC) for 2020, derived from E
 
 * [Source](https://livingatlas.arcgis.com/landcover/)
 * [Documentation](data/io-lulc.md)
-* [Notebook](data/io-lulc.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/io-lulc.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/io-lulc)
 
 ## Global Biodiversity Information Facility (GBIF)
@@ -91,7 +91,7 @@ Exports of global species occurrence data from the GBIF network.
 
 * [Source](https://www.gbif.org)
 * [Documentation](data/gbif.md)
-* [Notebook](data/gbif.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/gbif.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/gbif)
 
 ## Harmonized Global Biomass
@@ -100,7 +100,7 @@ Global maps of aboveground and belowground biomass carbon density for the year 2
 
 * [Source](https://www.nature.com/articles/s41597-020-0444-4)
 * [Documentation](data/hgb.md)
-* [Notebook](data/hgb.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/hgb.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/hgb)
 
 ## Harmonized Landsat Sentinel-2
@@ -109,7 +109,7 @@ Satellite imagery from the Landsat 8 and Sentinel-2 satellites, aligned to a com
 
 * [Source](https://hls.gsfc.nasa.gov/)
 * [Documentation](data/hls.md)
-* [Notebook](data/hls.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/hls.ipynb)
 
 ## High Resolution Electricity Access (HREA)
 
@@ -117,7 +117,7 @@ Settlement-level measures of electricity access, reliability, and usage derived 
 
 * [Source](http://www-personal.umich.edu/~brianmin/HREA/index.html)
 * [Documentation](data/hrea.md)
-* [Notebook](data/hrea.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/hrea.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/hrea)
 
 ## Labeled Information Library of Alexandria: Biology and Conservation (LILA BC)
@@ -134,7 +134,7 @@ Landsat 7 data are in preview; access is granted by request.
 
 * [Source](https://landsat.gsfc.nasa.gov/)
 * [Documentation](data/landsat-7.md)
-* [Notebook](data/landsat-7.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/landsat-7.ipynb)
 
 ## Landsat 8 Collection 2 Level-2
 
@@ -142,7 +142,7 @@ Global optical imagery from the Landsat 8 satellite, which has imaged the Earth 
 
 * [Source](https://landsat.gsfc.nasa.gov/)
 * [Documentation](data/landsat-8.md)
-* [Notebook](data/landsat-8.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/landsat-8.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/landsat-8-c2-l2)
 
 ## MODIS (40 individual products)
@@ -151,7 +151,7 @@ Satellite imagery from the Moderate Resolution Imaging Spectroradiometer (MODIS)
 
 * [Source](https://modis.gsfc.nasa.gov/)
 * [Documentation](data/modis.md)
-* [Notebook](data/modis.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/modis.ipynb)
 
 ## Monitoring Trends in Burn Severity Mosaics
 
@@ -159,7 +159,7 @@ Annual burn severity mosaics for the continental United States and Alaska.
 
 * [Source](https://www.mtbs.gov/)
 * [Documentation](data/mtbs.md)
-* [Notebook](data/mtbs.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/mtbs.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/mtbs)
 
 ## NASADEM
@@ -168,8 +168,8 @@ Global topographic information from the NASADEM program.
 
 * [Source](https://earthdata.nasa.gov/esds/competitive-programs/measures/nasadem)
 * [Documentation](data/nasadem.md)
-* [Notebook (COG)](data/nasadem-cog.ipynb)
-* [Notebook (NetCDF)](data/nasadem-nc.ipynb)
+* [Notebook (COG)](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/nasadem-cog.ipynb)
+* [Notebook (NetCDF)](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/nasadem-nc.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/nasadem)
 
 ## NOAA Climate Data Records (CDR)
@@ -192,7 +192,7 @@ Weather imagery from the GOES-16 and GOES-17 satellites.
 
 * [Source](https://www.nesdis.noaa.gov/GOES-R-Series-Satellites)
 * [Documentation](data/goes-r.md)
-* [Notebook](data/goes-r-abi-l2-mcmipf.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/goes-r-abi-l2-mcmipf.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/goes-cmi)
 
 ## NOAA Global Forecast System (GFS)
@@ -208,7 +208,7 @@ Global rainfall estimates in 15-minute intervals.
 
 * [Source](https://www.ospo.noaa.gov/Products/atmosphere/ghe/)
 * [Documentation](data/ghe.md)
-* [Notebook](data/ghe.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/ghe.ipynb)
 
 ## NOAA High-Resolution Rapid Refresh (HRRR)
 
@@ -216,7 +216,7 @@ Weather forecasts for North America at 3km spatial resolution and 15 minute temp
 
 * [Source](https://www.nco.ncep.noaa.gov/pmb/products/hrrr/)
 * [Documentation](data/noaa-hrrr.md)
-* [Notebook](data/noaa-hrrr.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/noaa-hrrr.ipynb)
 
 ## NOAA Integrated Surface Data (ISD)
 
@@ -254,7 +254,7 @@ NAIP provides US-wide, high-resolution aerial imagery.  This data set includes N
 
 * [Source](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/)
 * [Documentation](data/naip.md)
-* [Notebook](data/naip.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/naip.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/naip)
 
 ## National Land Cover Database
@@ -263,7 +263,7 @@ US-wide data on land cover and land cover change at a 30m resolution with a 16-c
 
 * [Source](https://www.mrlc.gov/)
 * [Documentation](data/nlcd.md)
-* [Notebook](data/nlcd.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/nlcd.ipynb)
 
 ## NatureServe Map of Biodiversity Importance (MoBI)
 
@@ -271,7 +271,7 @@ Habitat information for 2,216 imperiled species occurring in the conterminous Un
 
 * [Source](https://www.natureserve.org/conservation-tools/projects/map-biodiversity-importance)
 * [Documentation](data/mobi.md)
-* [Notebook](data/mobi.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/mobi.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/mobi)
 
 ## Ocean Observatories Initiative CamHD
@@ -280,7 +280,7 @@ Video data from the [Ocean Observatories Initiative](https://oceanobservatories.
 
 * [Source](https://oceanobservatories.org/instrument-class/camhd/)
 * [Documentation](data/ooi-camhd.md)
-* [Notebook](data/ooi-camhd.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/ooi-camhd.ipynb)
 
 ## Sentinel-1 GRD
 
@@ -290,7 +290,7 @@ Sentinel-1 GRD data are in preview; access is granted by request.
 
 * [Source](https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-1-sar/products-algorithms/level-1-algorithms/ground-range-detected)
 * [Documentation](data/sentinel-1-grd.md)
-* [Notebook](data/sentinel-1-grd.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/sentinel-1-grd.ipynb)
 
 ## Sentinel-2 L2A
 
@@ -298,7 +298,7 @@ Global optical imagery at 10m resolution from 2016-present.
 
 * [Source](https://sentinel.esa.int/web/sentinel/missions/sentinel-2)
 * [Documentation](data/sentinel-2.md)
-* [Notebook](data/sentinel-2.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/sentinel-2.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a)
 
 ## Sentinel-3 L2
@@ -309,7 +309,7 @@ Sentinel-3 data are in preview; access is granted by request.
 
 * [Source](https://sentinel.esa.int/web/sentinel/missions/sentinel-3)
 * [Documentation](data/sentinel-3.md)
-* [Notebook](data/sentinel-3.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/sentinel-3.ipynb)
 
 ## Sentinel-5P
 
@@ -319,7 +319,7 @@ Sentinel-5P data are in preview; access is granted by request.
 
 * [Source](https://sentinel.esa.int/web/sentinel/missions/sentinel-5p)
 * [Documentation](data/sentinel-5p.md)
-* [Notebook](data/sentinel-5p.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/sentinel-5p.ipynb)
 
 ## TerraClimate
 
@@ -327,7 +327,7 @@ Monthly climate and climatic water balance for global terrestrial surfaces from 
 
 * [Source](http://www.climatologylab.org/terraclimate.html)
 * [Documentation](data/terraclimate.md)
-* [Notebook](data/terraclimate.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/terraclimate.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/terraclimate)
 
 ## UK Met Office CSSP China 20CRDS
@@ -343,7 +343,7 @@ Data for COVID-19 researchers exploring relationships between COVID-19 and envir
 
 * [Source](https://medium.com/informatics-lab/met-office-and-partners-offer-data-and-compute-platform-for-covid-19-researchers-83848ac55f5f)
 * [Documentation](data/uk-met-covid-19.md)
-* [Notebook](data/uk-met-covid-19.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/uk-met-covid-19.ipynb)
 
 ## USFS Forest Inventory and Analysis
 
@@ -351,7 +351,7 @@ Status and trends on U.S. forest location, health, growth, mortality, and produc
 
 * [Source](https://www.fia.fs.fed.us/)
 * [Documentation](data/forest-inventory-and-analysis.md)
-* [Notebook](data/forest-inventory-and-analysis.ipynb)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/forest-inventory-and-analysis.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/fia)
 
 ## USGS 3DEP Seamless DEMs
