@@ -39,12 +39,12 @@ Data are available in Blob Storage in the West Europe Azure data center<sup>1</s
 
 NetCDF files (one file per scene) are available in the following containers, for GOES-16 and GOES-17 respectively:
 
-`https://goeseuwest.blob.core.windows.net/noaa-goes16`
+`https://goeseuwest.blob.core.windows.net/noaa-goes16`<br/>
 `https://goeseuwest.blob.core.windows.net/noaa-goes17`
 
 COG files (one file per band) are available in the following folders, for GOES-16 and GOES-17 respectively:
 
-`https://goeseuwest.blob.core.windows.net/noaa-goes-cogs/goes-16/`
+`https://goeseuwest.blob.core.windows.net/noaa-goes-cogs/goes-16/`<br/>
 `https://goeseuwest.blob.core.windows.net/noaa-goes-cogs/goes-17/`
 
 Within any of the above, data are named as:
@@ -85,7 +85,7 @@ Large-scale processing using this dataset is best performed in the West Europe A
 
 Storage containers for this subset are as follows:
 
-`https://goes.blob.core.windows.net/noaa-goes16`
+`https://goes.blob.core.windows.net/noaa-goes16`<br/>
 `https://goes.blob.core.windows.net/noaa-goes17`
 
 
