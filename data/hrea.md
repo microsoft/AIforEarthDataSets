@@ -4,7 +4,7 @@
 
 The [HREA](http://www-personal.umich.edu/~brianmin/HREA/index.html) project aims to provide open access to new indicators of electricity access and reliability across the world. Leveraging satellite imagery with computational methods, these high-resolution data provide new tools to track progress toward reliable and sustainable energy access across the world.
 
-This dataset includes settlement-level measures of electricity access, reliability, and usage for several nations in Africa (plus Ecuador), derived from the complete archive of nightly VIIRS satellite imagery. Specifically, this dataset provides the following annual values at country-level granularity:
+This dataset includes settlement-level measures of electricity access, reliability, and usage for 89 nations, derived from nightly VIIRS satellite imagery. Specifically, this dataset provides the following annual values at country-level granularity:
 
 1. **Access**: Predicted likelihood that a settlement is electrified, based on night-by-night comparisons of each settlement against matched uninhabited areas over a calendar year.
 
@@ -83,29 +83,93 @@ This data set is licensed under [CC BY 4.0](http://creativecommons.org/licenses/
 
 * Algeria
 * Angola
+* Argentina
+* Bangladesh
+* Belize
+* Benin
+* Bhutan
+* Bolivia
 * Botswana
-* Burkina_Faso
+* Burkina Faso
 * Burundi
+* Cambodia
 * Cameroon
-* Central_African_Republic
+* Cape Verde
+* Central African Republic
 * Chad
+* Colombia
 * Comoros
-* Congo_Republic
-* DR_Congo
+* Congo Republic
+* DR Congo
 * Djibouti
+* Dominican Republic
 * Ecuador
 * Egypt
+* El Salvador
+* Eritrea
+* Eswatini
+* Ethiopia
+* Gambia
 * Ghana
-* Ivory_Coast
+* Grenada
+* Guatemala
+* Guinea
+* Guinea-Bissau
+* Guyana
+* Haiti
+* Honduras
+* Hong Kong
+* Indonesia
+* Iraq
+* Ivory Coast
+* Jamaica
+* Jordan
 * Kenya
+* Laos
+* Lesotho
+* Liberia
+* Libya
 * Madagascar
+* Malawi
+* Malaysia
 * Mali
+* Marshall Islands
 * Mauritania
+* Mexico
 * Mozambique
+* Namibia
+* Nepal
+* Nicaragua
+* Niger
 * Nigeria
-* South_Africa
+* Pakistan
+* Panama
+* Papua New Guinea
+* Paraguay
+* Peru
+* Puerto Rico
+* Rwanda
+* Saint Lucia
+* Sao Tome and Principe
+* Senegal
+* Sierra Leone
+* Solomon Islands
+* South Africa
+* South Korea
+* Sri Lanka
+* Suriname
 * Tanzania
+* Thailand
+* Timor-Leste
+* Togo
+* Trinidad and Tobago
+* Tunisia
+* Uganda
+* Uruguay
+* Vanuatu
+* Vietnam
 * Zambia
+* Zimbabwe
 
 
 ## Notices
