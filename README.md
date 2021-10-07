@@ -283,13 +283,22 @@ Video data from the [Ocean Observatories Initiative](https://oceanobservatories.
 
 ## Sentinel-1 GRD
 
-Global synthetic aperture radar (SAR) data from 2017-present.
+Global synthetic aperture radar (SAR) data from 2017-present, projected to ground range.
 
 Sentinel-1 GRD data are in preview; access is granted by request.
 
 * [Source](https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-1-sar/products-algorithms/level-1-algorithms/ground-range-detected)
 * [Documentation](data/sentinel-1-grd.md)
 * [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/sentinel-1-grd.ipynb)
+
+## Sentinel-1 SLC
+
+Global synthetic aperture radar (SAR) data for the last 90 days.
+
+Sentinel-1 SLC data are in preview; access is granted by request.
+
+* [Source](https://sentinels.copernicus.eu/web/sentinel/technical-guides/sentinel-1-sar/products-algorithms/level-1-algorithms/single-look-complex)
+* [Documentation](data/sentinel-1-slc.md)
 
 ## Sentinel-2 L2A
 

@@ -12,7 +12,7 @@ This data is made available under the [Open Government License version 2](http:/
 
 ## About the data
 
-This dataset covers the whole of China for the period 1851 to 2010 at a horizontal resolution of 25 km. For more details see <a href=https://journals.ametsoc.org/view/journals/apme/58/10/jamc-d-19-0083.1.xml> Amato et al, 2019</a>.
+This dataset covers the whole of China for the period 1851 to 2010 at a horizontal resolution of 25 km. For more details see <a href="https://journals.ametsoc.org/view/journals/apme/58/10/jamc-d-19-0083.1.xml">Amato et al, 2019</a>.
 
 The dataset include monthly, daily, three-hourly, and hourly frequencies for the historical period of 1851-2010. Data are stored in <a href="https://zarr.readthedocs.io/en/stable/">Zarr</a> format and contain the following variables:
 

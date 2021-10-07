@@ -2,7 +2,7 @@
 
 ## Overview
 
-The [Sentinel-1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1) program provides global synthetic aperature radar imaging with a revisit time of approximately six days.  The [Ground Range Detected](https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-1-sar/products-algorithms/level-1-algorithms/ground-range-detected) (GRD) product has been detected and projected to ground range.
+The [Sentinel-1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1) program provides global synthetic aperture radar imaging with a revisit time of approximately six days.  The [Ground Range Detected](https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-1-sar/products-algorithms/level-1-algorithms/ground-range-detected) (GRD) product has been detected and projected to ground range.
 
 This dataset represents the global Sentinel-1 GRD archive, from 2017 to the present, converted to [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.
 
@@ -10,6 +10,7 @@ Sentinel-1 data on Azure are maintained by [Sinergise](https://sinergise.com/).
 
 Sentinel-1 GRD imagery is currently in preview on Azure; email [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=sentinel1%20question) to request access.
 
+We also maintain a 90-day rolling window of Sentinel-1 SLC data, see the [SLC documentation](https://aka.ms/ai4edata-sentinel-1-slc).
 
 ## Storage resources
 
