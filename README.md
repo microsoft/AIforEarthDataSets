@@ -36,6 +36,7 @@ If you have feedback about any of this data, or want to request additions to our
 * [NatureServe Map of Biodiversity Importance (MoBI)](#natureserve-map-of-biodiversity-importance-mobi)
 * [Ocean Observatories Initiative CamHD](#ocean-observatories-initiative-camhd)
 * [Sentinel-1 GRD](#sentinel-1-grd)
+* [Sentinel-1 SLC](#sentinel-1-slc)
 * [Sentinel-2 L2A](#sentinel-2-l2a)
 * [Sentinel-3 L2](#sentinel-3-l2)
 * [Sentinel-5P](#sentinel-5p)
