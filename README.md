@@ -16,7 +16,7 @@ If you have feedback about any of this data, or want to request additions to our
 * [Harmonized Landsat Sentinel-2](#harmonized-landsat-sentinel-2)
 * [High Resolution Electricity Access (HREA)](#high-resolution-electricity-access-hrea)
 * [Labeled Information Library of Alexandria: Biology and Conservation (LILA BC)](#labeled-information-library-of-alexandria-biology-and-conservation-lila-bc)
-* [Landsat TM/MSS Collection 2](#landsat-tm-mss-collection-2)
+* [Landsat TM/MSS Collection 2](#landsat-tmmss-collection-2)
 * [Landsat 7 Collection 2 Level-2](#landsat-7-collection-2-level-2)
 * [Landsat 8 Collection 2 Level-2](#landsat-8-collection-2-level-2)
 * [MODIS (40 individual products)](#modis-40-individual-products)
