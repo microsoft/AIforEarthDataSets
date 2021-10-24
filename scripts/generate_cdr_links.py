@@ -29,7 +29,7 @@ with open(input_file,'r') as f:
 
 products = []
 for s in product_list:
-    if len(s.strip()) == 0:
+    if len(s.strip()) <= 1:
         continue
     tokens = s.split(',')
     assert len(tokens) == 2
@@ -46,7 +46,7 @@ from tqdm import tqdm
 for p in tqdm(products):
     
     name = p['name']
-    if name == 'unknown':
+    if name.lower() == 'unknown':
         continue
     
     url = name.lower().replace('cdr','').replace('-','')
@@ -91,7 +91,7 @@ for container in container_iter:
 #%% Map each product ID to a container name
 
 for p in tqdm(products):
-    if ['name'] == 'unknown' or p['container'] == 'unknown':
+    if p['name'].lower() == 'unknown' or p['container'].lower() == 'unknown':
         continue
     else:
         assert p['container'] in container_names
@@ -102,6 +102,10 @@ for p in tqdm(products):
 output_md = ''
 
 for p in products:
+    
+    if p['name'].lower() == 'unknown' or p['container'].lower() == 'unknown':
+        continue
+    
     name = p['name']
     assert ' CDR' in name
     name = name.replace(' CDR','')
