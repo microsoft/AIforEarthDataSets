@@ -32,16 +32,16 @@ Normalized Difference Vegetation Index CDR,ndvi
 Snow Cover Extent (Northern Hemisphere) CDR,snow-cover-ext-north
 MSU Brightness Temperature - NOAA CDR,msu-brit-temp
 AVHRR Polar Pathfinder CDR,polar-pathfinder-fcdr
-
-AMSU Brightness Temperature-NOAA CDR,unknown
-AMSU-A Brightness Temperature CDR,unknown
-AMSU-B and MHS Brightness Temperature CDR,unknown
+HIRS CH12 Brightness Temperature CDR,ir-water-vapor-brit-temp
+AMSU Brightness Temperature - NOAA CDR,microwave-brit-temp
+AMSU-B and MHS Brightness Temperature CDR,microwave-humidity-sounder-brit-temp
+AMSU-A Brightness Temperature CDR,microwave-temp-sounder-brit-temp
+AVHRR Reflectance - PATMOS-x CDR,patmosx-radiances-and-clouds
+,
 AVHRR Radiances - NASA CDR,unknown
-AVHRR Reflectance - PATMOS-x CDR,unknown
 AVHRR Cloud Properties - NASA CDR,unknown
 AVHRR Cloud Properties - PATMOS-x CDR,unknown
-HIRS CH12 Brightness Temperature CDR,unknown
 AVHRR Surface Reflectance CDR,unknown
-
-
-
+,
+Unknown,radiances-and-cloud-properties-polar-orbiter
+,

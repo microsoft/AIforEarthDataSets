@@ -46,6 +46,8 @@ from tqdm import tqdm
 for p in tqdm(products):
     
     name = p['name']
+    if name == 'unknown':
+        continue
     
     url = name.lower().replace('cdr','').replace('-','')
     url = ' '.join(url.split())
@@ -57,7 +59,8 @@ for p in tqdm(products):
     url = base_url + url
 
     response = requests.get(url)
-    assert response.status_code == 200
+    if response.status_code != 200:
+        print('Invalid URL {} for product {}'.format(url,p))
     
     p['url'] = url
     
@@ -88,7 +91,7 @@ for container in container_iter:
 #%% Map each product ID to a container name
 
 for p in tqdm(products):
-    if p['container'] == 'unknown':
+    if ['name'] == 'unknown' or p['container'] == 'unknown':
         continue
     else:
         assert p['container'] in container_names

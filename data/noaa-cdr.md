@@ -74,15 +74,11 @@ Parentheses indicate product short names, which correspond to container names as
 * <a href="https://www.ncei.noaa.gov/products/climate-data-records/snow-cover-extent">Snow Cover Extent (Northern Hemisphere)</a> (snow-cover-ext-north)
 * <a href="https://www.ncei.noaa.gov/products/climate-data-records/msu-brightness-temperature-noaa">MSU Brightness Temperature - NOAA</a> (msu-brit-temp)
 * <a href="https://www.ncei.noaa.gov/products/climate-data-records/avhrr-polar-pathfinder">AVHRR Polar Pathfinder</a> (polar-pathfinder-fcdr)
-* <a href="https://www.ncei.noaa.gov/products/climate-data-records/amsu-brightness-temperature-noaa">AMSU Brightness Temperature-NOAA</a>
-* <a href="https://www.ncei.noaa.gov/products/climate-data-records/amsu-a-brightness-temperature">AMSU-A Brightness Temperature</a>
-* <a href="https://www.ncei.noaa.gov/products/climate-data-records/amsu-b-and-mhs-brightness-temperature">AMSU-B and MHS Brightness Temperature</a>
-* <a href="https://www.ncei.noaa.gov/products/climate-data-records/avhrr-radiances-nasa">AVHRR Radiances - NASA</a>
-* <a href="https://www.ncei.noaa.gov/products/climate-data-records/avhrr-reflectance-patmos">AVHRR Reflectance - PATMOS-x</a>
-* <a href="https://www.ncei.noaa.gov/products/climate-data-records/avhrr-cloud-properties-nasa">AVHRR Cloud Properties - NASA</a>
-* <a href="https://www.ncei.noaa.gov/products/climate-data-records/avhrr-cloud-properties-patmos">AVHRR Cloud Properties - PATMOS-x</a>
-* <a href="https://www.ncei.noaa.gov/products/climate-data-records/hirs-ch12-brightness-temperature">HIRS CH12 Brightness Temperature</a>
-* <a href="https://www.ncei.noaa.gov/products/climate-data-records/avhrr-surface-reflectance">AVHRR Surface Reflectance</a>
+* <a href="https://www.ncei.noaa.gov/products/climate-data-records/hirs-ch12-brightness-temperature">HIRS CH12 Brightness Temperature</a> (ir-water-vapor-brit-temp)
+* <a href="https://www.ncei.noaa.gov/products/climate-data-records/amsu-brightness-temperature-noaa">AMSU Brightness Temperature - NOAA</a> (microwave-brit-temp)
+* <a href="https://www.ncei.noaa.gov/products/climate-data-records/amsu-b-and-mhs-brightness-temperature">AMSU-B and MHS Brightness Temperature</a> (microwave-humidity-sounder-brit-temp)
+* <a href="https://www.ncei.noaa.gov/products/climate-data-records/amsu-a-brightness-temperature">AMSU-A Brightness Temperature</a> (microwave-temp-sounder-brit-temp)
+* <a href="https://www.ncei.noaa.gov/products/climate-data-records/avhrr-reflectance-patmos">AVHRR Reflectance - PATMOS-x</a> (patmosx-radiances-and-clouds)
 
 
 ## Region information
