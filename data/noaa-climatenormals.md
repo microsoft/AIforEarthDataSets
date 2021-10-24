@@ -34,7 +34,7 @@ Large-scale processing is best performed in the East US Azure region, where the 
 
 ## Contact
 
-For any data delivery issues or any questions in general, please contact the NOAA Big Data Program Team at [`noaa.bdp@noaa.gov`](mailto:noaa.bdp@noaa.gov?subject=azure%20rap%20question).
+For questions, please contact the NOAA Big Data Program Team at [`noaa.bdp@noaa.gov`](mailto:noaa.bdp@noaa.gov?subject=azure%20climatenormals%20question).
 
 
 ## Notices

@@ -61,7 +61,7 @@ Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azur
 
 ## Contact
 
-For any data delivery issues or any questions in general, please contact the NOAA Big Data Program Team at [`noaa.bdp@noaa.gov`](mailto:noaa.bdp@noaa.gov?subject=azure%20hrrr%20question).
+For questions, please contact the NOAA Big Data Program Team at [`noaa.bdp@noaa.gov`](mailto:noaa.bdp@noaa.gov?subject=azure%20hrrr%20question).
 
 
 ## Notices

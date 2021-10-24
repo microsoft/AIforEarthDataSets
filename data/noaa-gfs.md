@@ -40,7 +40,7 @@ File format within a folder varies by product; documentation for the primary pro
 
 ## Region information
 
-Large-scale processing is best performed in the East US Azure region, where the data are stored.  If you are using RAP data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
+Large-scale processing is best performed in the East US Azure region, where the data are stored.  If you are using this data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
 
 
 ## Mounting the container
@@ -54,7 +54,7 @@ Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azur
 
 ## Contact
 
-For any data delivery issues or any questions in general, please contact the NOAA Big Data Program Team at [`noaa.bdp@noaa.gov`](mailto:noaa.bdp@noaa.gov?subject=azure%20rap%20question).
+For questions, please contact the NOAA Big Data Program Team at [`noaa.bdp@noaa.gov`](mailto:noaa.bdp@noaa.gov?subject=azure%20gfs%20question).
 
 
 ## Notices

@@ -23,6 +23,7 @@ If you have feedback about any of this data, or want to request additions to our
 * [Monitoring Trends in Burn Severity Mosaics](#monitoring-trends-in-burn-severity-mosaics)
 * [NASADEM](#nasadem)
 * [NOAA Climate Data Records (CDR)](#noaa-climate-data-records-cdr)
+* [NOAA Climate Forecast System (CFS)](#noaa-climate-forecast-system-cfs)
 * [NOAA GFS Warm Start Initial Conditions](#noaa-gfs-warm-start-initial-conditions)
 * [NOAA GOES-R](#noaa-goes-r)
 * [NOAA Global Forecast System (GFS)](#noaa-global-forecast-system-gfs)
@@ -190,6 +191,13 @@ Historical global climate information.
 
 * [Source](https://www.ncei.noaa.gov/products/climate-data-records)
 * [Documentation](data/noaa-cdr.md)
+
+## NOAA Climate Forecast System (CFS)
+
+Model output data from the [NOAA NCEP Climate Forecast System Version 2](https://cfs.ncep.noaa.gov/).
+
+* [Source](https://cfs.ncep.noaa.gov/)
+* [Documentation](data/noaa-cfs.md)
 
 ## NOAA GFS Warm Start Initial Conditions
 
