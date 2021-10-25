@@ -15,6 +15,7 @@ If you have feedback about any of this data, or want to request additions to our
 * [Harmonized Global Biomass](#harmonized-global-biomass)
 * [Harmonized Landsat Sentinel-2](#harmonized-landsat-sentinel-2)
 * [High Resolution Electricity Access (HREA)](#high-resolution-electricity-access-hrea)
+* [High Resolution Ocean Surface Wave Hindcast](#high-resolution-ocean-surface-wave-hindcast)
 * [Labeled Information Library of Alexandria: Biology and Conservation (LILA BC)](#labeled-information-library-of-alexandria-biology-and-conservation-lila-bc)
 * [Landsat TM/MSS Collection 2](#landsat-tmmss-collection-2)
 * [Landsat 7 Collection 2 Level-2](#landsat-7-collection-2-level-2)
@@ -124,6 +125,13 @@ Settlement-level measures of electricity access, reliability, and usage derived 
 * [Documentation](data/hrea.md)
 * [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/hrea.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/hrea)
+
+## High Resolution Ocean Surface Wave Hindcast
+
+Long-term wave hindcast data for the U.S. Exclusive Economic Zone (EEZ), developed by the U.S. Department of Energy's Water Power Technologies Office.
+
+* [Source](https://github.com/openEDI/documentation/blob/main/US_Wave.md)
+* [Documentation](data/doe-wave.md)
 
 ## Labeled Information Library of Alexandria: Biology and Conservation (LILA BC)
 
