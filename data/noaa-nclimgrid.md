@@ -2,7 +2,7 @@
 
 ## Overview
 
-The NOAA [Monthly U.S. Climate Gridded Dataset](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332) (NClimGrid) consists of four climate variables derived from the [Global Historical Climatology Network](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily) daily dataset (GHCN-D): maximum temperature, minimum temperature, average temperature, and precipitation. Each file provides monthly values in a 5x5 lat/lon grid for the Continental United States. Data is available from 1895 to the present, at both daily and monthly temporal resolutions.
+The NOAA [Monthly U.S. Climate Gridded Dataset](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332) (NClimGrid) consists of four climate variables derived from the [Global Historical Climatology Network](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily) daily dataset (GHCN-D): maximum temperature, minimum temperature, average temperature, and precipitation. Each file provides monthly values in a 5x5 lat/lon grid for the Continental United States. Monthly data is available from 1895 to the present; daily data is available from 1951 to the present.
 
 On an annual basis, approximately one year of "final" nClimGrid will be submitted to replace the initially supplied "preliminary" data for the same time period. Users should be sure to ascertain which level of data is required for their research.
 
@@ -10,6 +10,8 @@ This dataset is available on Azure thanks to the [NOAA Big Data Program](https:/
 
 
 ## Storage resources
+
+### Monthly data
 
 Monthly data are stored in [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) format; daily data are stored in NetCDF and .csv formats.  Two identical blob containers are available, one in the West Europe Azure data center, and one in the East US Azure data center:
 
@@ -27,11 +29,13 @@ Within each container, there are four files representing monthly climate history
 * `tmax`: maximum temperature
 * `tmin`: minimum temperature
 
-Each NetCDF file represents the complete climatalogical history for that variable; these files are updated in place once a year.
+Each NetCDF file represents the complete climatalogical history for that variable; these files are updated in place once a month.
+
+### Daily data
 
 Daily files are named as:
 
-`nclimgrid-daily/beta/by-month/[year]/[month]/ncdd-[year][month]-grd-scaled.nc`
+`nclimgrid-daily/beta/by-month/[year]/[month]/[variable]-[year][month]-grd-scaled.nc`
 
 ...for the gridded data, or:
 
@@ -40,12 +44,20 @@ Daily files are named as:
 ...for the un-gridded source data.  For un-gridded data:
 
 * `variable` is one of prcp, tavg, tmin, or tmax
-* `type` is one of cen, cns, cty, div, hc1, nca, reg, ste, wfo, defined as:
+* `type` is the region type, one of:
   * cen: census tract
   * cns: contiguous US
   * cty: counties
   * div: climate divisions
+  * hc1: hydrologic unit code
+  * nca: NCA regions
+  * reg: NCEI regions
+  * ste: state
+  * wfo: weather forecast office
   
+Detailed documentation of the daily data .csv format is here:
+
+<https://www1.ncdc.noaa.gov/pub/data/daily-grids/docs/nclimdiv-description.pdf>
 
 ## Region information
 
