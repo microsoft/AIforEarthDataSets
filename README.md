@@ -26,6 +26,7 @@ If you have feedback about any of this data, or want to request additions to our
 * [NOAA Climate Forecast System (CFS)](#noaa-climate-forecast-system-cfs)
 * [NOAA GFS Warm Start Initial Conditions](#noaa-gfs-warm-start-initial-conditions)
 * [NOAA GOES-R](#noaa-goes-r)
+* [NOAA Global Ensemble Forecast System (GEFS)](#noaa-global-ensemble-forecast-system-gefs)
 * [NOAA Global Forecast System (GFS)](#noaa-global-forecast-system-gfs)
 * [NOAA Global Hydro Estimator](#noaa-global-hydro-estimator-ghe)
 * [NOAA High-Resolution Rapid Refresh (HRRR)](#noaa-high-resolution-rapid-refresh-hrrr)
@@ -214,6 +215,13 @@ Weather imagery from the GOES-16 and GOES-17 satellites.
 * [Documentation](data/goes-r.md)
 * [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/goes-r-abi-l2-mcmipf.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/goes-cmi)
+
+## NOAA Global Ensemble Forecast System (GEFS)
+
+Model output data from the [NOAA Global Ensemble Forecast System](https://www.ncei.noaa.gov/products/weather-climate-models/global-ensemble-forecast).
+
+* [Source](https://www.ncei.noaa.gov/products/weather-climate-models/global-ensemble-forecast)
+* [Documentation](data/noaa-gefs.md)
 
 ## NOAA Global Forecast System (GFS)
 
