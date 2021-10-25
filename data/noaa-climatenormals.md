@@ -45,7 +45,7 @@ Formats vary slightly across the daily, hourly, monthly, and annual/seasonal fol
 
 * The .csv format for the annual/seasonal data is described at:
 
-  <https://noaaisd.blob.core.windows.net/noaa-isd/pub/data/noaa/isd-format-document.pdf>
+  <https://noaanormals.blob.core.windows.net/climate-normals/normals-annualseasonal/doc/NORMAL_ANN_documentation.pdf>
 
 
 ## Region information
