@@ -72,7 +72,7 @@ Both global and historical storm event netCDF files have the same attributes and
 
 ## Sample code
 
-A complete Python example of accessing and plotting inundation data is available in the accompanying [sample notebook](deltares-floods.ipynb).
+A complete Python example of accessing and plotting inundation data is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/deltares-floods.ipynb).
 
 ## Contact
 

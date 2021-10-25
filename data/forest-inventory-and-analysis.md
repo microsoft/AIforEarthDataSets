@@ -2,7 +2,7 @@
 
 ## Overview
 
-Status and trends on U.S. forest location, health, growth, mortality, and production, from the US Forest Service's  [Forest Inventory and Analysis](https://www.fia.fs.fed.us/) (FIA) program.  
+Status and trends on U.S. forest location, health, growth, mortality, and production, from the US Forest Service's  [Forest Inventory and Analysis](https://www.fia.fs.fed.us/) (FIA) program.
 
 The Forest Inventory and Analysis (FIA) dataset is a nationwide survey of the forest assets of the United States. The FIA research program has been in existence since mandated by Congress in 1928. FIA's primary objective is to determine the extent, condition, volume, growth, and use of trees on the nation's forest land.
 
@@ -97,7 +97,7 @@ Large-scale processing is best performed in the West Europe Azure data center, w
 
 ## Sample code
 
-A complete Python example of accessing and plotting FIA data is available in the accompanying [sample notebook](forest-inventory-and-analysis.ipynb).
+A complete Python example of accessing and plotting FIA data is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/forest-inventory-and-analysis.ipynb).
 
 
 ## Contact

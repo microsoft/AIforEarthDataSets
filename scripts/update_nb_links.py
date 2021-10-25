@@ -8,6 +8,7 @@
 #%% Imports and constants
 
 import os
+import re
 
 input_readme_file = r"C:\git\AIforEarthDataSets\README.md"
 output_readme_file = r"C:\git\AIforEarthDataSets\README_nb.md"
@@ -23,9 +24,7 @@ custom_encodings = {'gbif.md':'utf-8','uk-met-20crds.md':'utf-8','uk-met-covid-1
 
 #%% Replacement function
 
-import re
-pat = '\((.*)\.ipynb\)'
-p = re.compile(pat)
+pat = '\(([^\(]*\.ipynb)\)'
 
 def write_list(L,f):
     for s in L:
@@ -57,7 +56,7 @@ def replace_notebook_links(input_file,output_file=None):
                 out_s = s.replace('data/',base_url)
             else:
                 assert fn != 'README.md'
-                out_s = p.sub('(' + base_url+'\\1' + '.ipynb)',s)
+                out_s = re.sub(pat,'(' + base_url + r'\1' + ')',s)                
             print('Replacing:\n{}\n{}\n\n'.format(s,out_s))
             replaced_lines.append(out_s)
         output_lines.append(out_s)
@@ -81,6 +80,7 @@ md_files = os.listdir(input_data_dir)
 md_files = [os.path.join(input_data_dir,s) for s in md_files if s.endswith('.md')]
 
 for s in md_files:
+    # input_file = r'C:\\git\\AIforEarthDataSets\\data\\ooi-camhd.md'; output_file = None
     # input_file = s; output_file = None
     replace_notebook_links(s)
     

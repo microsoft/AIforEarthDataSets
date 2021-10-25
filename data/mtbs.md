@@ -29,7 +29,7 @@ Within that container, data are organized according to:
 
 `year` is four digit year (e.g. 2017).
 
-Images are stored in cloud optimized GeoTIFF format. 
+Images are stored in cloud optimized GeoTIFF format.
 
 We also provide a read-only SAS (<a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview">shared access signature</a>) token to allow access to this data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 
@@ -42,7 +42,7 @@ Large-scale processing is best performed in the West Europe Azure data center, w
 
 ## Sample code
 
-A complete Python example of accessing and plotting MTBS data is available in the accompanying [sample notebook](mtbs.ipynb).
+A complete Python example of accessing and plotting MTBS data is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/mtbs.ipynb).
 
 
 ## Contact
