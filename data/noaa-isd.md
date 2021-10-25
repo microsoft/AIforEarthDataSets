@@ -2,7 +2,7 @@
 
 ## Overview
 
-The NOAA [Integrated Surface Database](https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database) (ISD) is a global database that consists of hourly and synoptic surface observations compiled from numerous sources into a common format and data model. The database incorporates data from over 35,000 stations around the world, and includes observations data from as far back as 1901. There are currently more than 14,000 active ISD stations that are updated daily in the database.
+The NOAA [Integrated Surface Database](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00532) (ISD) is a global database that consists of hourly and synoptic surface observations compiled from numerous sources into a common format and data model. The database incorporates data from over 35,000 stations around the world, and includes observations data from as far back as 1901. There are currently more than 14,000 active ISD stations that are updated daily in the database.
 
 ISD includes numerous parameters such as wind speed and direction, wind gust, temperature, dew point, cloud data, sea level pressure, altimeter setting, station pressure, present weather, visibility, precipitation amounts for various time periods, and snow depth.
 
@@ -15,7 +15,9 @@ Data are stored in the following blob container in the West Europe Azure region:
 
 `https://noaaisd.blob.core.windows.net/noaa-isd`
 
-Detailed documentation is pending.
+Detailed documentation is available at:
+
+`https://noaaisd.blob.core.windows.net/noaa-isd/pub/data/noaa/isd-format-document.pdf`
 
 
 ## Region information
