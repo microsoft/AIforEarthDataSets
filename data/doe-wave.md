@@ -40,7 +40,6 @@ The following regions will be added in future releases:
 * Gulf of Mexico, Puerto Rico, and U.S. Virgin Islands
 * U.S. Pacific Island Territories
 
-
 ## Model
 
 The multi-scale, unstructured-grid modeling approach using [WaveWatch III](https://polar.ncep.noaa.gov/waves/wavewatch/) and [SWAN](https://www.tudelft.nl/en/ceg/about-faculty/departments/hydraulic-engineering/sections/environmental-fluid-mechanics/research/swan) enabled long-term (decades) high-resolution hindcasts in a large regional domain. In particular, the dataset was generated from the unstructured-grid SWAN model output that was driven by a WaveWatch III model with global-regional nested grids. The unstructured-grid SWAN model simulations were performed with a spatial resolution as fine as 200 meters in shallow waters. The dataset has a 3-hour timestep spanning 32 years from 1979 through 2010.
@@ -48,7 +47,7 @@ The multi-scale, unstructured-grid modeling approach using [WaveWatch III](https
 The models were extensively validated not only for the most common wave parameters, but also six IEC resource parameters and 2D spectra with high quality spectral data derived from publicly available buoys. Additional details
 on definitions of the variables found in the dataset, the SWAN and WaveWatch III model configurations and model validation are available in technical report and peer-reviewed publications (see below). This work was funded by the U.S. Department of Energy, Office of Energy Efficiency & Renewable Energy, Water Power Technologies Office under Contract DE-AC05-76RL01830 to Pacific Northwest National Laboratory (PNNL).
 
-## Directory structure
+## Storage resources
 
 High Resolution Ocean Surface Wave Hindcast data is made available as a series of three-hourly .h5 files in Azure Blob Storage in the East US Azure region, in the following folder:
 
@@ -110,7 +109,7 @@ The user is granted the right, without any fee or cost, to use or copy the Data,
 
 ## Contact
 
-For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=nlcd%20question).
+For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=wave%20question).
 
 
 ## Notices

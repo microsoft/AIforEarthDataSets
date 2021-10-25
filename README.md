@@ -22,6 +22,7 @@ If you have feedback about any of this data, or want to request additions to our
 * [Landsat 8 Collection 2 Level-2](#landsat-8-collection-2-level-2)
 * [MODIS (40 individual products)](#modis-40-individual-products)
 * [Monitoring Trends in Burn Severity Mosaics](#monitoring-trends-in-burn-severity-mosaics)
+* [National Solar Radiation Database](#national-solar-radiation-database)
 * [NASADEM](#nasadem)
 * [NOAA Climate Data Records (CDR)](#noaa-climate-data-records-cdr)
 * [NOAA Climate Forecast System (CFS)](#noaa-climate-forecast-system-cfs)
@@ -184,6 +185,13 @@ Annual burn severity mosaics for the continental United States and Alaska.
 * [Documentation](data/mtbs.md)
 * [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/mtbs.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/mtbs)
+
+## National Solar Radiation Database
+
+Hourly and half-hourly values of the three most common measurements of solar radiation – global horizontal, direct normal, and diffuse horizontal irradiance - along with meteorological data.
+
+* [Source](https://nsrdb.nrel.gov/)
+* [Documentation](data/nsrdb.md)
 
 ## NASADEM
 
