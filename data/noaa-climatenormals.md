@@ -24,7 +24,28 @@ Within that container, files are named as:
 
 For example, the hourly data for the 1991-2020 period from station AQW00061705 is in the following file:
 
-https://noaanormals.blob.core.windows.net/climate-normals/normals-hourly/1991-2020/access/AQW00061705.csv
+<https://noaanormals.blob.core.windows.net/climate-normals/normals-hourly/1991-2020/access/AQW00061705.csv>
+
+
+### File formats
+
+Formats vary slightly across the daily, hourly, monthly, and annual/seasonal folders.
+
+* The .csv format for the daily data is described at:
+
+  <https://noaanormals.blob.core.windows.net/climate-normals/normals-daily/doc/NORMAL_DLY_documentation.pdf>
+  
+* The .csv format for the hourly data is described at:
+
+  <https://noaanormals.blob.core.windows.net/climate-normals/normals-hourly/doc/NORMAL_HLY_documentation.pdf>
+  
+* The .csv format for the annual/seasonal data is described at:
+
+  <https://noaanormals.blob.core.windows.net/climate-normals/normals-monthly/doc/NORMAL_MLY_documentation.pdf>
+
+* The .csv format for the annual/seasonal data is described at:
+
+  <https://noaaisd.blob.core.windows.net/noaa-isd/pub/data/noaa/isd-format-document.pdf>
 
 
 ## Region information
