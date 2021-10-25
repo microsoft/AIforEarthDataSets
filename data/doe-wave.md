@@ -33,7 +33,7 @@ Data are divided into the following regions (parentheses indicate region names a
 * West Coast United States (`West_Coast`)
 * East Coast United States (`Atlantic`)
 * Alaskan Coast (`Alaska`)
-* Hawaiian Islands: (`Hawaii`)
+* Hawaiian Islands (`Hawaii`)
 
 The following regions will be added in future releases:
 
@@ -90,13 +90,13 @@ Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azur
 
 Please cite the most relevant publication below when referencing this dataset:
 
-1) [Wu W-C, et al. "Development and validation of a high-resolution regional wave hindcast model for US West Coast wave resource characterization." Renewable Energy 152 (2020): 736-753.](https://www.osti.gov/biblio/1599105)
-2) [Yang Z, García-Medina G, Wu W, Wang T.  Characteristics and variability of the Nearshore Wave Resource on the U.S. West Coast. Energy. 2020.](https://doi.org/10.1016/j.energy.2020.117818)
-3) [Yang Z et al. High-Resolution Regional Wave Hindcast for the US West Coast. No. PNNL-28107. Pacific Northwest National Lab.(PNNL), Richland, WA (United States), 2018.](https://doi.org/10.2172/1573061)
-4) [Ahn S, Neary VS, Allahdadi N, He R. Nearshore wave energy resource characterization along the East Coast of the United States, Renewable Energy, 2021, 172](https://doi.org/10.1016/j.renene.2021.03.037)
-5) [Yang Z, Neary VS. High-resolution hindcasts for U.S. wave energy resource characterization. International Marine Energy Journal, 2020, 3, 65-71](https://doi.org/10.36688/imej.3.65-71)
-6) [Allahdadi MN, He R, Neary VS. Predicting ocean waves along the US East Coast during energetic winter storms: sensitivity to whitecapping parameterizations, Ocean Sci., 2019, 15, 691-715](https://doi.org/10.5194/os-15-691-2019)
-7) [Allahdadi MN, Gunawan J, Lai J, He R, Neary VS. Development and validation of a regional-scale high-resolution unstructured model for wave energy resource characterization along the US East Coast, Renewable Energy, 2019, 136, 500-511](https://doi.org/10.1016/j.renene.2019.01.020)
+* [Wu W-C, et al. Development and validation of a high-resolution regional wave hindcast model for US West Coast wave resource characterization. Renewable Energy 152 (2020): 736-753.](https://www.osti.gov/biblio/1599105)
+* [Yang Z, García-Medina G, Wu W, Wang T.  Characteristics and variability of the Nearshore Wave Resource on the U.S. West Coast. Energy. 2020.](https://doi.org/10.1016/j.energy.2020.117818)
+* [Yang Z et al. High-Resolution Regional Wave Hindcast for the US West Coast. No. PNNL-28107. Pacific Northwest National Lab.(PNNL), Richland, WA (United States), 2018.](https://doi.org/10.2172/1573061)
+* [Ahn S, Neary VS, Allahdadi N, He R. Nearshore wave energy resource characterization along the East Coast of the United States, Renewable Energy, 2021, 172.](https://doi.org/10.1016/j.renene.2021.03.037)
+* [Yang Z, Neary VS. High-resolution hindcasts for U.S. wave energy resource characterization. International Marine Energy Journal, 2020, 3, 65-71.](https://doi.org/10.36688/imej.3.65-71)
+* [Allahdadi MN, He R, Neary VS. Predicting ocean waves along the US East Coast during energetic winter storms: sensitivity to whitecapping parameterizations, Ocean Sci., 2019, 15, 691-715.](https://doi.org/10.5194/os-15-691-2019)
+* [Allahdadi MN, Gunawan J, Lai J, He R, Neary VS. Development and validation of a regional-scale high-resolution unstructured model for wave energy resource characterization along the US East Coast, Renewable Energy, 2019, 136, 500-511.](https://doi.org/10.1016/j.renene.2019.01.020)
 
 
 ## Disclaimer and Attribution
