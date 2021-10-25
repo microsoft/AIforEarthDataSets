@@ -42,7 +42,7 @@ For example, for the file:
 
 ## Sample code
 
-A complete Python example of accessing and plotting HRRR data is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/noaa-hrrr.ipynb).
+A complete Python example of accessing and plotting HRRR data is available in the accompanying [sample notebook](noaa-hrrr.ipynb).
 
 
 ## Region information

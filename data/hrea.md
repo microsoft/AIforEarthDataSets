@@ -50,7 +50,7 @@ The data hosted on Azure is derived from the [source](http://www-personal.umich.
 
 ## Sample code
 
-A complete Python example of accessing and plotting HREA data is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/hrea.ipynb).
+A complete Python example of accessing and plotting HREA data is available in the accompanying [sample notebook](hrea.ipynb).
 
 
 ## Citation

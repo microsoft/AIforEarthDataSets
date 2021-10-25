@@ -33,7 +33,7 @@ The following GOES-R products are available on Azure, for both GOES-16 and GOES-
 * GLM-L2-LCFA (Geostationary Lightning Mapper Level 2 Lightning Detection)
 
 
-## Storage resources
+## Storage resources 
 
 Data are available in Blob Storage in the West Europe Azure data center<sup>1</sup>, in both [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) and [cloud-optimized GeoTIFF](https://www.cogeo.org/) (COG) format.
 
@@ -96,7 +96,7 @@ NetCDF files do not require authentication; COG files require a [Shared Access S
 
 ## Sample code
 
-A complete Python example of accessing and plotting a GOES-16 image is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/goes-r-abi-l2-mcmipf.ipynb).
+A complete Python example of accessing and plotting a GOES-16 image is available in the accompanying [sample notebook](goes-r-abi-l2-mcmipf.ipynb).
 
 
 ## Citation

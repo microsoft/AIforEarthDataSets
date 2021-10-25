@@ -2,7 +2,7 @@
 
 ## Overview
 
-The [National Land Cover Database](https://www.mrlc.gov/national-land-cover-database-nlcd-2016) (NLCD) provides US-wide data on land cover and land cover change at a 30m resolution with a 16-class legend.  This Azure dataset reflects the CONUS and Alaska portions of NLCD 2016, which includes land cover for years 2001, 2003, 2006, 2008, 2011, 2013, and 2016.
+The [National Land Cover Database](https://www.mrlc.gov/national-land-cover-database-nlcd-2016) (NLCD) provides US-wide data on land cover and land cover change at a 30m resolution with a 16-class legend.  This Azure dataset reflects the CONUS and Alaska portions of NLCD 2016, which includes land cover for years 2001, 2003, 2006, 2008, 2011, 2013, and 2016.  
 
 Source: U.S. Geological Survey (USGS)
 
@@ -42,7 +42,7 @@ Large-scale processing is best performed in the West Europe Azure data center, w
 
 ## Sample code
 
-A complete Python example of accessing and plotting NLCD data is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/nlcd.ipynb).
+A complete Python example of accessing and plotting NLCD data is available in the accompanying [sample notebook](nlcd.ipynb).
 
 
 ## Contact

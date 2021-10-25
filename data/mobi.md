@@ -66,7 +66,7 @@ That folder contains the following files:
 
 ## Sample code
 
-A complete Python example of accessing and plotting MoBI data is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/mobi.ipynb).
+A complete Python example of accessing and plotting MoBI data is available in the accompanying [sample notebook](mobi.ipynb).
 
 
 ## Region information
@@ -86,9 +86,9 @@ For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](m
 
 ## License information
 
-This dataset was created by NatureServe in collaboration with NatureServe network partners, Esri, and The Nature Conservancy.
+This dataset was created by NatureServe in collaboration with NatureServe network partners, Esri, and The Nature Conservancy. 
 
-NatureServe reserves all rights in all intellectual property provided.  Distribution of the data or any intellectual property in whole or in part, or any products derived from the data or any intellectual property for commercial purposes is strictly prohibited. To see the full terms of use click [here](http://natureserve.maps.arcgis.com/sharing/rest/content/items/8992236b63184422905ed208f050a12e/data).
+NatureServe reserves all rights in all intellectual property provided.  Distribution of the data or any intellectual property in whole or in part, or any products derived from the data or any intellectual property for commercial purposes is strictly prohibited. To see the full terms of use click [here](http://natureserve.maps.arcgis.com/sharing/rest/content/items/8992236b63184422905ed208f050a12e/data). 
 
 
 ## Pretty picture

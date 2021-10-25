@@ -57,7 +57,7 @@ A copy of NAIP is also available in the East US Azure region, and will be mainta
 
 ## Sample code
 
-A complete Python example of accessing and plotting a NAIP image is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/naip.ipynb).
+A complete Python example of accessing and plotting a NAIP image is available in the accompanying [sample notebook](naip.ipynb).
 
 
 ## Image server
@@ -75,7 +75,7 @@ A list of all NAIP files is available here, as a zipped, tab-delimited text file
 
 `https://naipeuwest.blob.core.windows.net/naip-index/naip-files-2021-04-19.zip`
 
-We also maintain an rtree object to facilitate spatial queries for Python users; see the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/naip.ipynb) for details.
+We also maintain an rtree object to facilitate spatial queries for Python users; see the accompanying [sample notebook](naip.ipynb) for details.
 
 Data can also be browsed [here](https://naipeuwest.blob.core.windows.net/naip/v002/index.html).
 

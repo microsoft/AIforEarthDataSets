@@ -4,9 +4,9 @@
 
 Satellite imagery from the Landsat 8 and Sentinel-2 satellites, aligned to a common grid and processed to compatible color spaces.
 
-The [Harmonized Landsat Sentinel-2](https://hls.gsfc.nasa.gov/) (HLS) product includes data from the Landsat-8 and Sentinel-2 satellites, aligned to a common tiling system at 30m resolution, from 2013 to the present for Landsat and 2015 to the present for Sentinel-2.  HLS is administered by the National Aeronautics and Space Administration (NASA).
+The [Harmonized Landsat Sentinel-2](https://hls.gsfc.nasa.gov/) (HLS) product includes data from the Landsat-8 and Sentinel-2 satellites, aligned to a common tiling system at 30m resolution, from 2013 to the present for Landsat and 2015 to the present for Sentinel-2.  HLS is administered by the National Aeronautics and Space Administration (NASA). 
 
-This dataset is maintained by [Ag-Analytics®](https://analytics.ag). Ag-Analytics® also provides an [API](https://ag-analytics.portal.azure-api.net/docs/services/harmonized-landsat-sentinel-service/operations/hls-service) which accepts an area of interest (AOI) polygon, date range, and other options, and returns processed images for individual MSI bands as well as Normalized Difference Vegetation Index and other metrics, as well as cloud-filtered mosaics.
+This dataset is maintained by [Ag-Analytics®](https://analytics.ag). Ag-Analytics® also provides an [API](https://ag-analytics.portal.azure-api.net/docs/services/harmonized-landsat-sentinel-service/operations/hls-service) which accepts an area of interest (AOI) polygon, date range, and other options, and returns processed images for individual MSI bands as well as Normalized Difference Vegetation Index and other metrics, as well as cloud-filtered mosaics. 
 
 This dataset is updated weekly.
 
@@ -27,7 +27,7 @@ Within that container, data are organized according to:
 * `version` is always `v1.4`
 * `subdataset` is a two-character, 1-indexed string indicating a subdataset (see below)
 
-A mapping from lat/lon to tile IDs can be found [here](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/https://hls.gsfc.nasa.gov/wp-content/uploads/2016/10/S2_TilingSystem2-1.txt); the accompanying [sample notebook](hls.ipynb) demonstrates the use of this table to look up a tile ID by lat/lon.  Tile IDs can also be found using the [Ag-Analytics® API]([API](https://ag-analytics.portal.azure-api.net/docs/services/harmonized-landsat-sentinel-service/operations/hls-service)).
+A mapping from lat/lon to tile IDs can be found [here](https://hls.gsfc.nasa.gov/wp-content/uploads/2016/10/S2_TilingSystem2-1.txt); the accompanying [sample notebook](hls.ipynb) demonstrates the use of this table to look up a tile ID by lat/lon.  Tile IDs can also be found using the [Ag-Analytics® API]([API](https://ag-analytics.portal.azure-api.net/docs/services/harmonized-landsat-sentinel-service/operations/hls-service)).
 
 Data are provided for the United States, northern Mexico, southern Canada, France, Ireland, Germany, Ukraine, South Africa, and southeastern Australia; see the [HLS coverage map](https://hls.gsfc.nasa.gov/wp-content/uploads/2018/10/hls1.4_coverage.jpg) for coverage areas.
 
@@ -72,7 +72,7 @@ HLS data can consume hundreds of terabytes, so large-scale processing is best pe
 
 ## Sample code
 
-A complete Python example of accessing and plotting HLS data is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/hls.ipynb).
+A complete Python example of accessing and plotting HLS data is available in the accompanying [sample notebook](hls.ipynb).
 
 
 ## Contact

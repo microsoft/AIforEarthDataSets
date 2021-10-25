@@ -45,7 +45,7 @@ Within that container, each scene corresponds to a folder, named according to:
 * `PP` is the polarization (SH, SV, DH, DV, HH, HV, VV, or VH)
 * `YYYYMMDDTHHMMSS_YYYYMMDDTHHMMSS` is the scene start and stop capture time
 * `OOOOOO` is an absolute orbit number
-* `DDDDDD` is the "mission data take identifier"
+* `DDDDDD` is the "mission data take identifier" 
 * `CCCC` is a checksum
 
 Putting that all together, a complete scene folder looks like:
@@ -79,7 +79,7 @@ This section will provide a short summary of each file within each scene folder.
 
 ## Sample code
 
-A complete Python example of accessing and plotting Sentinel-1 GRD data - using the Copernicus Open Access Hub API to query for scenes of interest - is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/sentinel-1-grd.ipynb).
+A complete Python example of accessing and plotting Sentinel-1 GRD data - using the Copernicus Open Access Hub API to query for scenes of interest - is available in the accompanying [sample notebook](sentinel-1-grd.ipynb).
 
 
 ## Region information

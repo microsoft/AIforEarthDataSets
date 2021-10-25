@@ -34,24 +34,24 @@ Within that container, each scene corresponds to a folder, named according to:
 
 * `instrument` is one of `OLCI`, `SLSTR`, `SRAL`, or `SYNERGY` (see instrument names above)
 * `product` is a product identifier, one of the following (each appears only in the folder for the corresponding instrument):
-
+   
    * `OL_2_LFR___`: [full-resolution land color (vegetation) and atmosphere parameters](https://sentinels.copernicus.eu/web/sentinel/technical-guides/sentinel-3-olci/level-2/land-products) (from the OLCI instrument)
    * `OL_2_WFR___`: [full-resolution ocean color and atmosphere parameters](https://sentinels.copernicus.eu/web/sentinel/technical-guides/sentinel-3-olci/level-2/ocean-products) (from the OLCI instrument)
-
+   
    * `SL_2_FRP___`: [fire radiative power](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-slstr/product-types/level-2-frp) (from the SLSTR instrument)
    * `SL_2_LST___`: [land surface temperature](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-slstr/product-types/level-2-lst) (from the SLSTR instrument)
    * `SL_2_WST___`: [sea surface temperature](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-slstr/product-types/level-2-wst) (from the SLSTR instrument)
-
+   
    * `SR_2_LAN___`: [land altimetry](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-altimetry/product-types/level-2-sral-mwr) (from the SRAL instrument)
    * `SR_2_WAT___`: [ocean altimetry](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-altimetry/product-types/level-2-sral-mwr) (from the SRAL instrument)
-
+   
    * `SY_2_AOD___`: [aerosol](https://sentinels.copernicus.eu/web/sentinel/level-2-aod)
    * `SY_2_SYN___`: [surface reflectance and aerosol parameters over land](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-synergy/product-types/level-2-syn)
    * `SY_2_V10___`: [10-day surface reflectances and NDVI](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-synergy/product-types/level-2-vg1-v10)
    * `SY_2_VG1___`: [1-day surface reflectances and NDVI](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-synergy/product-types/level-2-vg1-v10)
    * `SY_2_VGP___`: [vegetation-like product](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-synergy/product-types/level-2-vgp)
-
-* `year` is the four-digit year
+   
+* `year` is the four-digit year  
 * `month` is the 1-indexed, zero-padded month
 * `day` is the 1-indexed, zero-padded day of month
 
@@ -152,13 +152,13 @@ This product contains only a single file per scene, called `NTC_AOD.nc`, contain
 * `time.nc`: timestamp
 
 #### Key synergy (combined OLCI/SLSTR) vegetation-like product (SY_2_VGP) data files
-
+   
 B0, B2, B3, and MIR are spectral bands corresponding to 450nm, 645nm, 835nm, and 1665nm, respectively (blue, red, near-infrared, and mid-infrared).
 
 Key files:
 
 * `B0.nc`, `B2.nc`, `B3.nc`, `MIR.nc`: reflectance data for the B0, B2, B3, and MIR bands, respectively (including geometry)
-
+   
 #### Key synergy (combined OLCI/SLSTR) 10-day surface reflectance and NDVI (SY_2_V10) data files
 
 A scene folder for all previous products corresponds to an image with non-geographically-relevant boundaries; for the V10 and VG1 products, a scene folder contains one of AFRICA, NORTH_AMERICA, SOUTH_AMERICA, CENTRAL_AMERICA, NORTH_ASIA, WEST_ASIA, SOUTH_EAST_ASIA, ASIAN_ISLANDS, AUSTRALIASIA, or EUROPE.
@@ -173,10 +173,10 @@ Key files:
 #### Key synergy (combined OLCI/SLSTR) 1-day surface reflectance and NDVI (SY_2_VG1) data files
 
 Same as for SY_2_V10.
-
+   
 ## Sample code
 
-A complete Python example of accessing and plotting Sentinel-3 data is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/sentinel-3.ipynb).
+A complete Python example of accessing and plotting Sentinel-3 data is available in the accompanying [sample notebook](sentinel-3.ipynb).
 
 ## Region information
 

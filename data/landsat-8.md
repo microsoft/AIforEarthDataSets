@@ -92,7 +92,7 @@ Landsat 8 Level-2 scenes include the following derived images:
 * `[sceneID]_MTL.xml`: scene metadata file, in .xml format.  The metadata file includes, among other things, geometry information, a cloud cover percentage, information about sensor saturation, and radiance/reflectance calibration information.
 * `[sceneID]_MTL.txt`: the same information in .txt format
 * `[sceneID]_MTL.json`: the same information in .json format (level-2 only)
-* `[sceneID]_ANG.txt`: [angular coefficients file](https://www.usgs.gov/faqs/what-landsat-collections-angle-coefficient-file-and-how-it-used?qt-news_science_products=0#), which allow users to compute solar and sensor viewing angles on a per-pixel basis
+* `[sceneID]_ANG.txt`: [angular coefficients file](https://www.usgs.gov/faqs/what-landsat-collections-angle-coefficient-file-and-how-it-used?qt-news_science_products=0#), which allow users to compute solar and sensor viewing angles on a per-pixel basis 
 
 #### Landsat 8 quality assessment files
 
@@ -109,7 +109,7 @@ Landsat 8 Level-2 scenes include the following derived images:
 
 ## Sample code
 
-A complete Python example of accessing and plotting Landsat data - using the NASA CMR API to query for scenes of interest - is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/landsat-8.ipynb).
+A complete Python example of accessing and plotting Landsat data - using the NASA CMR API to query for scenes of interest - is available in the accompanying [sample notebook](landsat-8.ipynb).
 
 
 ## Region information
