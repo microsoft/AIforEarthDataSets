@@ -46,6 +46,7 @@ If you have feedback about any of this data, or want to request additions to our
 * [TerraClimate](#terraclimate)
 * [UK Met Office CSSP China 20CRDS](#uk-met-office-cssp-china-20crds)
 * [UK Met Office Global Weather Data for COVID-19 Analysis](#uk-met-office-global-weather-data-for-covid-19-analysis)
+* [University of Miami Coupled Model for Hurricanes Ike and Sandy](#university-of-miami-coupled-model-for-hurricanes-ike-and-sandy)
 * [USFS Forest Inventory and Analysis](#usfs-forest-inventory-and-analysis)
 * [USGS 3DEP Seamless DEMs](#usgs-3dep-seamless-dems)
 * [USGS Gap Land Cover](#usgs-gap-land-cover)
@@ -380,6 +381,13 @@ Data for COVID-19 researchers exploring relationships between COVID-19 and envir
 * [Source](https://medium.com/informatics-lab/met-office-and-partners-offer-data-and-compute-platform-for-covid-19-researchers-83848ac55f5f)
 * [Documentation](data/uk-met-covid-19.md)
 * [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/uk-met-covid-19.ipynb)
+
+## University of Miami Coupled Model for Hurricanes Ike and Sandy
+
+Modeled wind, wave, and current data for Hurricanes Ike and Sandy, produced by the National Renewable Energy Laboratory.
+
+* [Source](https://github.com/openEDI/documentation/blob/main/UMCM_Hurricanes.md)
+* [Documentation](data/umcm-hurricanes.md)
 
 ## USFS Forest Inventory and Analysis
 
