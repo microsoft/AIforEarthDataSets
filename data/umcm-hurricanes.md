@@ -2,7 +2,7 @@
 
 ## Overview
 
-The University of Miami Coupled Model (UMCM) is a coupled model that integrates atmospheric, wave, and ocean components to produce wind, wave, and current data. Atmospheric data is produced using the [Weather Research and Forecasting](https://www.mmm.ucar.edu/weather-research-and-forecasting-model) model (WRF), wave data is produced using the [University of Miami Wave Model](https://umwm.org/)(UMWM), and ocean current data is produced using the
+The University of Miami Coupled Model (UMCM) is a coupled model that integrates atmospheric, wave, and ocean components to produce wind, wave, and current data. Atmospheric data is produced using the [Weather Research and Forecasting](https://www.mmm.ucar.edu/weather-research-and-forecasting-model) model (WRF), wave data is produced using the [University of Miami Wave Model](https://umwm.org/) (UMWM), and ocean current data is produced using the
 [Hybrid Coordinate Ocean Model](https://www.hycom.org/) (HYCOM).
 
 The model was used to study offshore wind conditions during [Hurricane Ike](https://en.wikipedia.org/wiki/Hurricane_Ike) and [Hurricane Sandy](https://en.wikipedia.org/wiki/Hurricane_Sandy); this dataset - provided by the [Open Energy Data Initiative](https://openei.org/wiki/Open_Energy_Data_Initiative_(OEDI)) (OEDI) - represents the output of that modeling run.
@@ -110,6 +110,15 @@ The UMCM data is stored in HDF datasets by variable and depth (when available). 
 * `longitude`
 
 Additional location metadata is available in the `meta` table.
+
+## Mounting the container
+
+We also provide a read-only SAS (shared access signature) token to allow access via, e.g., [BlobFuse](https://github.com/Azure/azure-storage-fuse), which allows you to mount blob containers as drives:
+
+`https://nrel.blob.core.windows.net/oedi?sv=2020-08-04&si=oedi-ro&sr=c&sig=O%2BQvKRV9uYuK36WzVRoCJdFO%2BRifXO8aIGqbS%2F3llPs%3D`
+
+Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
+
 
 ## Citation
 
