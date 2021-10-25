@@ -5,12 +5,12 @@
 Estimates of daily weather parameters in North America on a one-kilometer grid, with monthly and annual summaries.
 
 [Daymet](https://daymet.ornl.gov/) provides measurements of near-surface meteorological conditions; the main purpose of Daymet is provide data estimates where no instrumentation exists.
-This dataset provides Daymet Version 4 data for North America, including the island areas of Hawaii and Puerto Rico (which are available as files separate from the continental land mass). Daymet output variables include minimum temperature, maximum temperature, precipitation, shortwave radiation, vapor pressure, snow water equivalent, and day length. The dataset covers the period from January 1, 1980 to the present. Each year is processed individually at the close of a calendar year. Daymet variables are continuous surfaces provided as individual files, by variable and year, at 1-kilometer spatial resolution and daily temporal resolution. Data are in a Lambert Conformal Conic projection for North America and are distributed in Zarr format and netCDF format compliant with [Climate and Forecast (CF) metadata conventions (version 1.6)](http://cfconventions.org/).  
+This dataset provides Daymet Version 4 data for North America, including the island areas of Hawaii and Puerto Rico (which are available as files separate from the continental land mass). Daymet output variables include minimum temperature, maximum temperature, precipitation, shortwave radiation, vapor pressure, snow water equivalent, and day length. The dataset covers the period from January 1, 1980 to the present. Each year is processed individually at the close of a calendar year. Daymet variables are continuous surfaces provided as individual files, by variable and year, at 1-kilometer spatial resolution and daily temporal resolution. Data are in a Lambert Conformal Conic projection for North America and are distributed in Zarr format and netCDF format compliant with [Climate and Forecast (CF) metadata conventions (version 1.6)](http://cfconventions.org/).
 
 We also provide the [monthly](https://daac.ornl.gov/DAYMET/guides/Daymet_V4_Monthly_Climatology.html) and [annual](https://daac.ornl.gov/DAYMET/guides/Daymet_V4_Annual_Climatology.html) climate summaries.
 
 
-## Storage resources 
+## Storage resources
 
 Data are stored in blobs in the West Europe Azure region, in two formats: [Zarr](https://zarr.readthedocs.io/) and netCDF, in the following blob containers:
 
@@ -22,8 +22,8 @@ If you're downloading an entire block of the data, a specific variable for a spe
 
 Sample notebooks are provided to demonstrate both approaches to accessing Daymet data:
 
-* [Zarr notebok](daymet-zarr.ipynb)
-* [NetCDF notebok](daymet-nc.ipynb)
+* [Zarr notebok](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/daymet-zarr.ipynb)
+* [NetCDF notebok](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/daymet-nc.ipynb)
 
 
 ## Zarr Layout

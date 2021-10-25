@@ -28,7 +28,7 @@ Tiles closely approximate areas corresponding to MGRS three-character prefixes, 
 
 ## Sample code
 
-A complete Python example of accessing and plotting land cover data is available in the accompanying [sample notebook](io-lulc.ipynb).
+A complete Python example of accessing and plotting land cover data is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/io-lulc.ipynb).
 
 
 ## Region information

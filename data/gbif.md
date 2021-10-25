@@ -99,7 +99,7 @@ Additional information may be retrived using the [GBIF API](https://www.gbif.org
 
 ## Sample code
 
-A Python example of accessing and querying the GBIF data is in the accompanying [sample notebook](gbif.ipynb).
+A Python example of accessing and querying the GBIF data is in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/gbif.ipynb).
 
 
 ## License and attribution

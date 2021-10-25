@@ -71,7 +71,7 @@ Listing *.tif will enumerate all images, with suffixes indicating bands accordin
 For all missions:
 
 * `QA_PIXEL.tif`: [quality assessment band](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands)
-* `QA_RADSAT.tif`: [saturation quality assessment image](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands), indicating which sensors 
+* `QA_RADSAT.tif`: [saturation quality assessment image](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands), indicating which sensors
 
 For example, the band 4 image in the example Landsat 1 MSS scene from above is at:
 
@@ -81,7 +81,7 @@ For example, the band 4 image in the example Landsat 1 MSS scene from above is a
 
 * `[sceneID]_MTL.xml`: scene metadata file, in .xml format.  The metadata file includes, among other things, geometry information, a cloud cover percentage, information about sensor saturation, and radiance/reflectance calibration information.
 * `[sceneID]_MTL.txt`: the same information in .txt format
-* `[sceneID]_MTL.json`: the same information in .json format 
+* `[sceneID]_MTL.json`: the same information in .json format
 * `[sceneID]_GCP.txt`: ground control point verification file ([specification](https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/atoms/files/LSDS-286_LandsatMSS-Level1_DFCB-v11.pdf))
 
 #### MSS thumbnails
@@ -111,7 +111,7 @@ Listing *.tif will enumerate all images, with suffixes indicating bands accordin
 For all missions:
 
 * `QA_PIXEL.tif`: [quality assessment band](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands)
-* `QA_RADSAT.tif`: [saturation quality assessment image](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands), indicating which sensors 
+* `QA_RADSAT.tif`: [saturation quality assessment image](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-quality-assessment-bands), indicating which sensors
 
 For example, the band 1 image in the example Landsat 4 TM scene from above is at:
 
@@ -134,8 +134,8 @@ Landsat 4-5 Level-2 scenes include the following derived images:
 
 * `[sceneID]_MTL.xml`: scene metadata file, in .xml format.  The metadata file includes, among other things, geometry information, a cloud cover percentage, information about sensor saturation, and radiance/reflectance calibration information.
 * `[sceneID]_MTL.txt`: the same information in .txt format
-* `[sceneID]_MTL.json`: the same information in .json format 
-* `[sceneID]_ANG.txt`: [angular coefficients file](https://www.usgs.gov/faqs/what-landsat-collections-angle-coefficient-file-and-how-it-used?qt-news_science_products=0#), which allow users to compute solar and sensor viewing angles on a per-pixel basis 
+* `[sceneID]_MTL.json`: the same information in .json format
+* `[sceneID]_ANG.txt`: [angular coefficients file](https://www.usgs.gov/faqs/what-landsat-collections-angle-coefficient-file-and-how-it-used?qt-news_science_products=0#), which allow users to compute solar and sensor viewing angles on a per-pixel basis
 
 #### TM thumbnails
 
@@ -145,7 +145,7 @@ Landsat 4-5 Level-2 scenes include the following derived images:
 
 ## Sample code
 
-A complete Python example of accessing and plotting Landsat data - using the NASA CMR API to query for scenes of interest - is available in the accompanying [sample notebook](landsat-tm-mss.ipynb).
+A complete Python example of accessing and plotting Landsat data - using the NASA CMR API to query for scenes of interest - is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/landsat-tm-mss.ipynb).
 
 
 ## Region information

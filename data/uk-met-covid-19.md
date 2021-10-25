@@ -58,7 +58,7 @@ There are some additional post-processed data aggregations over COVID-19 reporti
 
 ## Sample code
 
-A complete Python example of working with thid data is available in the accompanying [sample notebook](uk-met-covid-19.ipynb).
+A complete Python example of working with thid data is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/uk-met-covid-19.ipynb).
 
 
 ## Storage location
@@ -67,7 +67,7 @@ This dataset is stored in the East US 2 Azure region, in the following blob cont
 
 `https://metdatasa.blob.core.windows.net/covid19-response`
 
-Allocating compute resources in East US 2 is recommended for affinity. 
+Allocating compute resources in East US 2 is recommended for affinity.
 
 
 ## Quick links
@@ -83,7 +83,7 @@ Allocating compute resources in East US 2 is recommended for affinity.
 - Please contact us at [covid19@informaticslab.co.uk](mailto:covid19@informaticslab.co.uk) if you have any questions or requests for additional data.
 
 
-## Data volumes, retention, and update frequency 
+## Data volumes, retention, and update frequency
 
 The gridded data is updated daily for the previous day.
 
@@ -119,7 +119,7 @@ To download the contents of /metoffice_ukv_daily/snow_mean/ to ukv_daily_snow_me
 `azcopy cp 'https://metdatasa.blob.core.windows.net/covid19-response/metoffice_ukv_daily/snow_mean/*' ukv_daily_snow_mean/`
 
 To download all the US state county-averaged meteorology data which match the pattern us_55\*.csv:<br/>
-`azcopy cp  --recursive  --include-pattern 'us_55*.csv' https://metdatasa.blob.core.windows.net/covid19-response/regional_subset_data/us_data/ .` 
+`azcopy cp  --recursive  --include-pattern 'us_55*.csv' https://metdatasa.blob.core.windows.net/covid19-response/regional_subset_data/us_data/ .`
 
 
 ## How the data is organized

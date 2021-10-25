@@ -6,12 +6,12 @@ Video data from the [Ocean Observatories Initiative](https://oceanobservatories.
 
 ## Overview
 
-The [OOICloud Project](https://github.com/ooicloud) is making data from the Ocean Observatories Initiative ([OOI](https://oceanobservatories.org)) publicly available on Azure and accessible through a [Pangeo](http://pangeo.io/) interface. A primary goal of the project is to provide these data to the scientific community using a cloud-performant object storage model, and to provide large-scale data-proximate compute capabilities for research investigations. The OOI sensor network consists of 89 scientific platforms with approximately 830 instruments, and provides nearly 5 TB of data each month for the study of the ocean-atmosphere system from the continental margins to the mid-ocean ridges. A core component of OOI is the [Regional Cabled Array](https://oceanobservatories.org/regional-cabled-array/), which uses a fiber-optic cable to connect and power the largest array of networked oceanographic instruments in the world, delivering data in real-time to shore. 
+The [OOICloud Project](https://github.com/ooicloud) is making data from the Ocean Observatories Initiative ([OOI](https://oceanobservatories.org)) publicly available on Azure and accessible through a [Pangeo](http://pangeo.io/) interface. A primary goal of the project is to provide these data to the scientific community using a cloud-performant object storage model, and to provide large-scale data-proximate compute capabilities for research investigations. The OOI sensor network consists of 89 scientific platforms with approximately 830 instruments, and provides nearly 5 TB of data each month for the study of the ocean-atmosphere system from the continental margins to the mid-ocean ridges. A core component of OOI is the [Regional Cabled Array](https://oceanobservatories.org/regional-cabled-array/), which uses a fiber-optic cable to connect and power the largest array of networked oceanographic instruments in the world, delivering data in real-time to shore.
 
-[CamHD](https://oceanobservatories.org/instrument-class/camhd/) is a high-definition video camera connected to the OOI's fiber optic cable at Axial Seamount and provides data that can support a wide range of oceanographic, biological, and geophysical investigations. Every three hours, the camera scans a hydrothermal vent chimney, imaging the entire chimney over the course of about fifteen minutes. The accompanying [sample notebook](ooi-camhd.ipynb) demonstrates how to load video data from CamHD and demonstrates the basic usage of the pycamhd library, which can be used to extract frames from the ProRes-encoded Quicktime files. 
+[CamHD](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/https://oceanobservatories.org/instrument-class/camhd/) is a high-definition video camera connected to the OOI's fiber optic cable at Axial Seamount and provides data that can support a wide range of oceanographic, biological, and geophysical investigations. Every three hours, the camera scans a hydrothermal vent chimney, imaging the entire chimney over the course of about fifteen minutes. The accompanying [sample notebook](ooi-camhd.ipynb) demonstrates how to load video data from CamHD and demonstrates the basic usage of the pycamhd library, which can be used to extract frames from the ProRes-encoded Quicktime files.
 
 
-## Storage resources 
+## Storage resources
 
 All available video files are listed in a [JSON file](https://ooiopendata.blob.core.windows.net/camhd/dbcamhd.json) that has useful information such as the Unix timestamp (seconds) of the first frame in each video, and the total number of frames in each video. Data are stored as bock blobs on Azure Blob storage in the following  container:
 
@@ -27,7 +27,7 @@ Large-scale processing using this dataset is best performed in the East US Azure
 
 ## Sample code
 
-A complete Python example of accessing and rendering a video is available in the accompanying [sample notebook](ooi-camhd.ipynb).
+A complete Python example of accessing and rendering a video is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/ooi-camhd.ipynb).
 
 
 ## Pretty picture

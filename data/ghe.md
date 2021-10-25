@@ -9,7 +9,7 @@ The NOAA [Global Hydro Estimator](https://www.ospo.noaa.gov/Products/atmosphere/
 This dataset is available on Azure thanks to the [NOAA Big Data Program](https://www.noaa.gov/organization/information-technology/big-data-program).
 
 
-## Storage resources 
+## Storage resources
 
 Data are stored in blobs in gzip'd [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) format in the East US data center, in the following blob container:
 
@@ -46,7 +46,7 @@ Large-scale processing using this dataset is best performed in the East US Azure
 
 ## Sample code
 
-A complete Python example of accessing and plotting a GHE image (i.e., an instantaneous global estimate) is available in the accompanying [sample notebook](ghe.ipynb).
+A complete Python example of accessing and plotting a GHE image (https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/i.e., an instantaneous global estimate) is available in the accompanying [sample notebook](ghe.ipynb).
 
 
 ## Pretty picture

@@ -72,9 +72,9 @@ Large-scale processing is best performed in the West Europe Azure data center, w
 
 ## Sample code
 
-A complete Python example of accessing and plotting NASADEM data in COG format is available in the accompanying [sample notebook (COG)](nasadem-cog.ipynb).
+A complete Python example of accessing and plotting NASADEM data in COG format is available in the accompanying [sample notebook (https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/COG)](nasadem-cog.ipynb).
 
-A complete Python example of accessing and plotting NASADEM data in NetCDF format is available in the accompanying [sample notebook (NetCDF)](nasadem-nc.ipynb).
+A complete Python example of accessing and plotting NASADEM data in NetCDF format is available in the accompanying [sample notebook (https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/NetCDF)](nasadem-nc.ipynb).
 
 
 ## License and attribution information

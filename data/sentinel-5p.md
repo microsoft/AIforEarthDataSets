@@ -4,7 +4,7 @@
 
 The [Sentinel-5P](https://sentinel.esa.int/web/sentinel/missions/sentinel-5p) mission provides daily global atmospheric measurements at a resolution of 3.5km x 7km on most bands.
 
-This dataset represents the global archive of Sentinel-5P [Level 2](http://www.tropomi.eu/data-products/level-2-products) products, from 2018 to the present, in NetCDF format.  
+This dataset represents the global archive of Sentinel-5P [Level 2](http://www.tropomi.eu/data-products/level-2-products) products, from 2018 to the present, in NetCDF format.
 
 Sentinel-5P data on Azure are maintained by [Sinergise](https://sinergise.com/).
 
@@ -40,7 +40,7 @@ Within that container, each scene corresponds to a folder, named according to:
   * `L2__NP_BD3`: Cloud from the [Suomi NPP](https://www.nasa.gov/mission_pages/NPP/main/index.html) mission, band 3
   * `L2__NP_BD6`: Cloud from the [Suomi NPP](https://www.nasa.gov/mission_pages/NPP/main/index.html) mission, band 6
   * `L2__NP_BD7`: Cloud from the [Suomi NPP](https://www.nasa.gov/mission_pages/NPP/main/index.html) mission, band 7
-* `year` is the four-digit year  
+* `year` is the four-digit year
 * `month` is the 1-indexed, zero-padded month
 * `day` is the 1-indexed, zero-padded day of month
 
@@ -74,7 +74,7 @@ Each scene folder contains a single NetCDF file whose name matches the scene nam
 
 ## Sample code
 
-A complete Python example of accessing and plotting Sentinel-5P data is available in the accompanying [sample notebook](sentinel-5p.ipynb).
+A complete Python example of accessing and plotting Sentinel-5P data is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/sentinel-5p.ipynb).
 
 
 ## Region information

@@ -18,7 +18,7 @@ Within that container, data are organized according to:
 
 `product` is the MODIS product name; currently `MCD43A4` is available on Azure.
 
-`htile` and `vtile` refer to tile numbers in the [MODIS sinusoidal grid system](https://modis-land.gsfc.nasa.gov/MODLAND_grid.html).  The accompanying [sample notebook](modis-mcd43a4.ipynb) demonstrates one way to map latitude and longitude into this grid system.
+`htile` and `vtile` refer to tile numbers in the [MODIS sinusoidal grid system](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/https://modis-land.gsfc.nasa.gov/MODLAND_grid.html).  The accompanying [sample notebook](modis-mcd43a4.ipynb) demonstrates one way to map latitude and longitude into this grid system.
 
 `daynum` is a four-digit year plus a three-digit day of year (from 001 to 365), e.g. `2019001` represents January 1, 2019.
 
@@ -47,7 +47,7 @@ MODIS data can consume hundreds of terabytes, so large-scale processing is best 
 
 ## Sample code
 
-A complete Python example of accessing and plotting a MODIS image is available in the notebook provided in the accompanying [sample notebook](modis-mcd43a4.ipynb).
+A complete Python example of accessing and plotting a MODIS image is available in the notebook provided in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/modis-mcd43a4.ipynb).
 
 
 ## Pretty picture

@@ -52,7 +52,7 @@ Large-scale processing is best performed in the West Europe Azure data center, w
 
 ## Sample code
 
-A complete Python example of accessing and plotting TerraClimate data is available in the accompanying [sample notebook](terraclimate.ipynb).
+A complete Python example of accessing and plotting TerraClimate data is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/terraclimate.ipynb).
 
 
 ## Citation

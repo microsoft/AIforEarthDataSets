@@ -44,12 +44,12 @@ A list of all NEXRAD files is available here, as a zipped .txt file:
 
 `https://nexradsa.blob.core.windows.net/nexrad-index/nexrad-index.zip`
 
-We also maintain a SQLite database to facilitate querying images by location and time; see the accompanying [sample notebook](nexrad-l2.ipynb) for details.
+We also maintain a SQLite database to facilitate querying images by location and time; see the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/nexrad-l2.ipynb) for details.
 
 
 ## Sample code
 
-A complete Python example of accessing and plotting a NEXRAD scan is available in the accompanying [sample notebook](nexrad-l2.ipynb)
+A complete Python example of accessing and plotting a NEXRAD scan is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/nexrad-l2.ipynb)
 
 
 ## Pretty picture
