@@ -49,17 +49,19 @@ Data are available as HDF (.h5) files on Azure Blob Storage in the East US Azure
 
 `https://nrel.blob.core.windows.net/nrel-nsrdb`
 
-### CONUS data
+### Americas data
 
-Within the above  container, files for CONUS are named as:
+Within the above  container, files for the Americas (CONUS, Central America, and much of Canada and South America) are named as:
 
 `v3/nsrdb_[year].h5`
 
 `year` is a four-digit year from 1998 to one year behind the present date.
 
-For example, the following file contains solar radiation data for CONUS for 2007:
+For example, the following file contains solar radiation data for the Americas for 2007:
 
 <https://nrel.blob.core.windows.net/nrel-nsrdb/v3/nsrdb_2007.h5>
+
+See the <a href="https://nsrdb.nrel.gov/about/data-coverage-map.html">NSRDB coverage map</a> for more information about the extent of the "Americas" region.
 
 ### Puerto Rico data
 
@@ -84,6 +86,11 @@ The variables mentioned above are provided in two dimensional time-series arrays
 Users of the NSRDB should please cite:
 
 * [Sengupta MY, Xie A, Lopez A, Habte G, Maclaurin G, Shelby J.  The National Solar Radiation Data Base (NSRDB).  Renewable and Sustainable Energy Reviews  89 (June): 51-60. 2018.](https://www.sciencedirect.com/science/article/pii/S136403211830087X?via%3Dihub)
+
+
+## Sample code
+
+A complete Python example of accessing and rendering a video is available in the accompanying [sample notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/nsrdb.ipynb).
 
 
 ## Mounting the container

@@ -192,6 +192,7 @@ Hourly and half-hourly values of the three most common measurements of solar rad
 
 * [Source](https://nsrdb.nrel.gov/)
 * [Documentation](data/nsrdb.md)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/nsrdb.ipynb)
 
 ## NASADEM
 
