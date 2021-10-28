@@ -17,7 +17,7 @@ Data are stored in the following blob container in the West Europe Azure region:
 
 Detailed documentation is available at:
 
-`https://noaaisd.blob.core.windows.net/noaa-isd/pub/data/noaa/isd-format-document.pdf`
+<https://noaaisd.blob.core.windows.net/noaa-isd/pub/data/noaa/isd-format-document.pdf>
 
 
 ## Region information

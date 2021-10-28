@@ -30,14 +30,14 @@ Within that container, files are named as:
 
 For example, for the file:
 
-`rap.20210315/rap.t00z.awip32f00.grib2`
+<https://noaarap.blob.core.windows.net/rap/rap.20211013/rap.t00z.awip32f01.grib2>
 
 * Year: 2021
-* Month: 03
-* Day: 15
+* Month: 10
+* Day: 13
 * CC (cycle run): 00
 * Variable: awip32
-* FH (forecast hour): 00
+* FH (forecast hour): 01
 
 
 ## Region information

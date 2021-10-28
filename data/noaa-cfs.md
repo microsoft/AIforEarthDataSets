@@ -53,7 +53,7 @@ Within each "6hrly" subfolder, data are named according to:
 
 For example, this file:
 
-https://noaacfs.blob.core.windows.net/cfs/cfs.20210821/12/6hrly_grib_01/flxf2021101106.01.2021082112.grb2
+<https://noaacfs.blob.core.windows.net/cfs/cfs.20210821/12/6hrly_grib_01/flxf2021101106.01.2021082112.grb2>
 
 ...contains six-hourly surface/flux information predicted for 2021.10.11:06:00, generated at 2021.08.21:12:00.
 
@@ -70,7 +70,7 @@ Within each "monthly" subfolder, data are named according to:
 
 For example, this file:
 
-https://noaacfs.blob.core.windows.net/cfs/cfs.20210821/00/monthly_grib_01/flxf.01.2021082100.202109.avrg.grib.grb2
+<https://noaacfs.blob.core.windows.net/cfs/cfs.20210821/00/monthly_grib_01/flxf.01.2021082100.202109.avrg.grib.grb2>
 
 ...contains surface/flux information predicted for the month 2021.09, generated at 2021.08.21:00:00.
 

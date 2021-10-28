@@ -65,7 +65,6 @@ Each `wave` folder contains two subfolders:
 Example URLs:
 
 <https://noaagefs.blob.core.windows.net/gefs/gefs.20210827/06/wave/gridded/gefs.wave.t06z.c00.global.0p25.f003.grib2>
-
 <https://noaagefs.blob.core.windows.net/gefs/gefs.20210827/06/wave/station/gefs.wave.t06z.bull_tar>
 <https://noaagefs.blob.core.windows.net/gefs/gefs.20210827/06/wave/station/gefs.wave.t06z.station_tar>
 
