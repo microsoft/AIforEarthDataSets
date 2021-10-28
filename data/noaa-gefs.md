@@ -19,7 +19,7 @@ GRIB files are stored as blobs in the East US Azure region, in the following blo
 
 Within that container, six-hourly forecast folders are named as:
 
-`gfs.[date]/[cycle]`
+`gefs.[date]/[cycle]`
 
 * `date` is the model execution date in YYYYMMDD format
 * `cycle` is a six-hourly cycle, one of [00,06,12,18]
