@@ -19,7 +19,7 @@ Data are stored in blobs in the West Europe Azure region, in the following blob 
 
 `https://nasademeuwest.blob.core.windows.net/nasadem-cog`
 
-Within that container, data are organized according to:
+Within that container, data are named according to:
 
 `v001/NASADEM_HGT_[lat_tile][lon_tile].tif`
 
@@ -63,7 +63,7 @@ We also provide a read-only SAS (shared access signature) token to allow access 
 A full list of NetCDF files is available [here](https://nasademeuwest.blob.core.windows.net/nasadem-nc/v001/index/nasadem_file_list.txt).
 
 
-## Other storage notes
+## Mounting instructions
 
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
