@@ -18,7 +18,7 @@ images/L1T/`[year]`/`[month]`/`[day]`/`[scene name]`
 AST_L1T<span style="background-color:#aaffff;">VVV</span><span style="background-color:#ffaaff;">YYYYMMDHHMMSS</span>_<span style="background-color:#ffffaa;">yyyymmddhhmmss</span>_<span style="background-color:#dddddd;">id</span>
 
 * `VVV` is always "003", for ASTER collection 003
-* `MMDDYYYYHHMMSS` is the acquisition month, day, year, hour, minute, second	
+* `MMDDYYYYHHMMSS` is the acquisition month, day, year, hour, minute, second
 * `mmddyyyyhhmmss` is the processing month, day, year, hour, minute, second
 * `id` is a unique acquisition identifier.
 

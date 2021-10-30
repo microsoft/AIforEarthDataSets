@@ -4,7 +4,7 @@ Data are stored in blobs in the West Europe Azure region, in the following blob 
 
 `https://nasademeuwest.blob.core.windows.net/nasadem-cog`
 
-Within that container, data are organized according to:
+Within that container, data are named according to:
 
 `v001/NASADEM_HGT_[lat_tile][lon_tile].tif`
 

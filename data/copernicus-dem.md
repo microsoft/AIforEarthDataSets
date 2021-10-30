@@ -8,6 +8,7 @@ The [Copernicus DEM](https://spacedata.copernicus.eu/explore-more/news-archive/-
 
 Copernicus DEM is available on Azure in cloud-optimized GeoTIFF (COG) format; COG files were sourced from [OpenTopography](https://portal.opentopography.org/datasetMetadata?otCollectionID=OT.032021.4326.1).
 
+This file documents the storage structure for Copernicus DEM data; you can also use the [Planetary Computer search API](https://planetarycomputer.microsoft.com/docs/quickstarts/reading-stac/) ([example](https://planetarycomputer.microsoft.com/dataset/cop-dem-glo-30#Example-Notebook)) to search for Copernicus DEM data.
 
 ## Storage resources
 
