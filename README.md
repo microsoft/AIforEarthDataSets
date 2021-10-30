@@ -7,8 +7,10 @@ If you have feedback about any of this data, or want to request additions to our
 
 # Table of contents
 
+* [ALOS World 3D](#alos-world-3d)
 * [ASTER L1T (2000-2006)](#aster-l1t-2000-2006)
 * [Daymet](#daymet)
+* [Copernicus DEM](#copernicus-dem)
 * [Deltares Global Flood Maps](#deltares-global-flood-maps)
 * [Esri 10m Land Cover](#esri-10m-land-cover)
 * [Global Biodiversity Information Facility (GBIF)](#global-biodiversity-information-facility-gbif)
@@ -56,6 +58,15 @@ If you have feedback about any of this data, or want to request additions to our
 
 # Data sets
 
+## ALOS World 3D
+
+Global topographic information from the JAXA ALOS PRISM instrument.
+
+* [Source](https://www.eorc.jaxa.jp/ALOS/en/aw3d30/index.htm)
+* [Documentation](data/alos-dem.md)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/alos-dem.ipynb)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/alos-dem)
+
 ## ASTER L1T (2000-2006)
 
 The [ASTER](https://terra.nasa.gov/about/terra-instruments/aster) instrument, launched on-board NASA's [Terra](https://terra.nasa.gov/) satellite in 1999, provides multispectral images of the Earth at 15m-90m resolution.  This data set represents ASTER data from 2000-2006.
@@ -64,6 +75,15 @@ The [ASTER](https://terra.nasa.gov/about/terra-instruments/aster) instrument, la
 * [Documentation](data/aster.md)
 * [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/aster.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/aster-l1t)
+
+## Copernicus DEM
+
+Global topographic information from the Copernicus program.
+
+* [Source](https://spacedata.copernicus.eu/explore-more/news-archive/-/asset_publisher/Ye8egYeRPLEs/blog/id/434960)
+* [Documentation](data/copernicus-dem.md)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/copernicus-dem.ipynb)
+* [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/group/copernicus-dem)
 
 ## Daymet
 
