@@ -22,8 +22,8 @@ Within that container, data are named according to:
 
 * `resolution-m` is the data set resolution in meters (30 for the 30m dataset, 90 for the 90m dataset)
 * `resolution-arc` is the data set resolution in arc-seconds (10 for the 30m dataset, 30 for the 90m dataset)
-* `latitude-string` specifies the lower latitude bound of the tile, as [N|S]nn, e.g. "N03" or "S87"
-* `longitude-string` specifies the lower longitude bound of the tile, as [W|E]nnn, e.g. "W160" or "E059"
+* `latitude-string` specifies the lower latitude bound of the tile, as [N&#124;S]nn, e.g. "N03" or "S87"
+* `longitude-string` specifies the lower longitude bound of the tile, as [W&#124;E]nnn, e.g. "W160" or "E059"
 
 For example, the following file:
 

@@ -21,8 +21,8 @@ Within that container, data are named according to:
 
 `AW3D30_globa/ALPSMLC30_[latitude-string][longitude-string]_DSM.tif`
 
-* `latitude-string` specifies the lower latitude bound of the tile, as [N|S]nnn, e.g. "N016" or "001"
-* `longitude-string` specifies the lower longitude bound of the tile, as [W|E]nnn, e.g. "W011" or "E020"
+* `latitude-string` specifies the lower latitude bound of the tile, as [N&#124;S]nnn, e.g. "N016" or "001"
+* `longitude-string` specifies the lower longitude bound of the tile, as [W&#124;E]nnn, e.g. "W011" or "E020"
 
 For example, the following file:
 
