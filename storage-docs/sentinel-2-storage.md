@@ -77,7 +77,7 @@ This section will provide a short summary of each file within each scene folder.
   * `MASK_SNWPRB_60m.tif`: snow probabilities for each pixel, at 60m resolution
   * `MSK_DDVPXL_20m.tif`: masks indicating pixels that are likely either shadows or "dark dense vegetation", at 20m resolution
   * `MSK_DDVPXL_60m.tif`: masks indicating pixels that are likely either shadows or "dark dense vegetation", at 60m resolution
-  
+
 ...and for the curious mind, the scene folder also contains the following files that most applications are very unlikely to need:
 
 * `scenefilelist.txt`: flat list of all files available in this scene
