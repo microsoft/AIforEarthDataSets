@@ -4,7 +4,7 @@
 
 The NOAA [Climate Forecast System](https://cfs.ncep.noaa.gov/) (CFS) is a model representing the global interaction between Earth's oceans, land, and atmosphere. Produced under guidance from the National Centers for Environmental Prediction (NCEP), this model offers hourly data with a horizontal resolution down to one-half of a degree (approximately 56 km) around Earth for many variables. CFS assimilates observations from data sources including surface observations, upper air balloon observations, aircraft observations, and satellite observations.
 
-Forecasts are generated four times a day - at the 0, 6, 12, and 18 UTC cycles - out to nine months.  Three additional forecasts - out to one season - are generated at the 0 UTC cycle, and three additional forecasts - out to 45 days - are generated at the 6, 12, and 18 UTC cycles, for a total of 16 CFS runs (forecasts) each day.  See [this CFS documentation](https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_docs/CFS%202021%20Documentation.pdf) for a more detailed description of the CFS cycles.
+Forecasts are generated four times a day - at the 0, 6, 12, and 18 UTC cycles - out to nine months.  Three additional forecasts - out to one season - are generated at the 0 UTC cycle, and three additional forecasts - out to 45 days - are generated at the 6, 12, and 18 UTC cycles, for a total of 16 CFS runs (forecasts) each day.  See [this CFS presentation](https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_docs/Operational.CFSv2.info.ppt) for a more detailed description of the CFS cycles.
 
 Data are retained for 30 days.
 
