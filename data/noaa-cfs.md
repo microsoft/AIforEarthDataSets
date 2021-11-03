@@ -4,6 +4,8 @@
 
 The NOAA [Climate Forecast System](https://cfs.ncep.noaa.gov/) (CFS) is a model representing the global interaction between Earth's oceans, land, and atmosphere. Produced under guidance from the National Centers for Environmental Prediction (NCEP), this model offers hourly data with a horizontal resolution down to one-half of a degree (approximately 56 km) around Earth for many variables. CFS assimilates observations from data sources including surface observations, upper air balloon observations, aircraft observations, and satellite observations.
 
+Forecasts are generated four times a day - at the 0, 6, 12, and 18 UTC cycles - out to nine months.  Three additional forecasts - out to one season - are generated at the 0 UTC cycle, and three additional forecasts - out to 45 days - are generated at the 6, 12, and 18 UTC cycles, for a total of 16 CFS runs (forecasts) each day.  See [this CFS documentation](https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_docs/CFS%202021%20Documentation.pdf) for a more detailed description of the CFS cycles.
+
 Data are retained for 30 days.
 
 This dataset is available on Azure thanks to the [NOAA Big Data Program](https://www.noaa.gov/organization/information-technology/big-data-program).
@@ -27,6 +29,12 @@ Each forecast cycle folder contains nine subfolders:
 * 6hrly_grib_[01,02,03,04]
 * time_grib_[01,02,03,04]
 * monthly_grib_01
+
+The `6hrly_grib_YY` folders contain forecasts every 6 hours from model initialization time, out to X months, with X at most 9.
+
+The `time_grib_YY` folders contain the same forecasts as the `6hrly` folders, partitioned differently.  In the `time_grib_YY` folders, data is binned with all forecast valid times (6-hr increments from model initialization time out to X months) present in one file, but for only one output variable per file. For example, z500.01.2021110100.daily.grb2 contains only the 500mb height forecasts from Nov 1 out to May 31, in six-hour increments
+
+The `monthly_grib_YY` folders contain 6-hr averaged across all forecast days within a month. For example, pgbf.01.2021110100.202203.avrg.grib.grb2 contains average of variables, from the Nov 1 model runs, averaged from the individual forecast days for each variable within March 2022.  Averages are created for each of the four valid times each day (00, 06, 12, 18), and a daily average is also created.
 
 01, 02, 03, and 04 indicate an ensemble member.
 
@@ -64,7 +72,7 @@ Within each "monthly" subfolder, data are named according to:
 
 `[variable].[ensemble-member].[yyyymmddhh].[YYMM].avrg.grib.[NN]z.grb2`
 
-* [ensemble-member] is always 01 for monthly data
+* [ensemble-member] is always 01 for monthly data for the 6, 12, and 18 UTC cycles, but may be 01, 02, 03, or 04 for the 0 UTC cycle.
 * yyyymmddhh is the initial hour of the forecast cycle.
 * YYMM is the forecast month
 
