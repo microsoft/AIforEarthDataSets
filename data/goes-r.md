@@ -12,6 +12,10 @@ This dataset is available on Azure thanks to the [NOAA Big Data Program](https:/
 
 GOES-R data is also available as a collection in the [Planetary Computer Data Catalog](https://planetarycomputer.microsoft.com/dataset/goes-cmi).
 
+See these introductory slides for more overview information:
+- [English](https://www.goes-r.gov/downloads/resources/documents/Beginners_Guide_to_GOES-R_Series_Data.pdf)
+- [Spanish](https://github.com/NOAA-Big-Data-Program/bdp-data-docs/blob/main/GOES/QuickGuides/Spanish/Guia%20introductoria%20para%20datos%20de%20la%20serie%20GOES-R%20V1.1%20FINAL2%20-%20Copy.pdf)
+
 
 ## Products available
 
