@@ -31,6 +31,7 @@ If you have feedback about any of this data, or want to request additions to our
   - [NASADEM](#nasadem)
   - [NOAA Climate Data Records (CDR)](#noaa-climate-data-records-cdr)
   - [NOAA Climate Forecast System (CFS)](#noaa-climate-forecast-system-cfs)
+  - [NOAA Digital Coast Imagery](#noaa-digital-coast-imagery)
   - [NOAA GFS Warm Start Initial Conditions](#noaa-gfs-warm-start-initial-conditions)
   - [NOAA GOES-R](#noaa-goes-r)
   - [NOAA Global Ensemble Forecast System (GEFS)](#noaa-global-ensemble-forecast-system-gefs)
@@ -251,6 +252,13 @@ Model output data from the [NOAA NCEP Climate Forecast System Version 2](https:/
 
 * [Source](https://cfs.ncep.noaa.gov/)
 * [Documentation](data/noaa-cfs.md)
+
+## NOAA Digital Coast Imagery
+
+High resolution (1 meter or less) imagery collected by a number of sources and contributed to the NOAA Digital Coast
+
+* [Source](https://coast.noaa.gov/digitalcoast/data/highresortho.html)
+* [Documentation](data/noaa-digital-coast-imagery.md)
 
 ## NOAA GFS Warm Start Initial Conditions
 
