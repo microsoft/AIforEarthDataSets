@@ -29,7 +29,7 @@ Within that folder, data are organized according to:
 
 Images are stored in cloud-optimized GeoTIFF format.  The one and only image channel contains land cover labels according to the [NLCD legend](https://www.mrlc.gov/data/legends/national-land-cover-database-2016-nlcd2016-legend):
 
-<img src="nlcd_color_labels.jpg" style="margin-left:30px;width:300px;"/>
+<img src="https://github.com/microsoft/AIforEarthDataSets/raw/main/data/nlcd_color_labels.jpg" style="margin-left:30px;width:300px;"/>
 
 We also provide a read-only SAS (<a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview">shared access signature</a>) token to allow access to this data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
 
