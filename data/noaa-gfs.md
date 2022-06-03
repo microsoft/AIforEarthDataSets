@@ -40,7 +40,7 @@ File format within a folder varies by product; documentation for the primary pro
 
 ## Region information
 
-Large-scale processing is best performed in the East US Azure region, where the data are stored.  If you are using this data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
+Large-scale processing is best performed in the East US Azure region, where the data are 
 
 
 ## Mounting the container

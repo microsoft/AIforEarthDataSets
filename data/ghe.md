@@ -41,7 +41,7 @@ We also provide a read-only SAS (shared access signature) token to allow access 
 
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
-Large-scale processing using this dataset is best performed in the East US Azure data center, where the data is stored.  If you are using GHE data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
+Large-scale processing using this dataset is best performed in the East US Azure data center, where the data is stored.
 
 
 ## Sample code
@@ -64,4 +64,3 @@ For questions about this dataset, contact [`aiforearthdatasets@microsoft.com`](m
 ## Notices
 
 Microsoft provides this dataset on an "as is" basis.  Microsoft makes no warranties (express or implied), guarantees, or conditions with respect to your use of the dataset.  To the extent permitted under your local law, Microsoft disclaims all liability for any damages or losses - including direct, consequential, special, indirect, incidental, or punitive - resulting from your use of this dataset.  This dataset is provided under the original terms that Microsoft received source data.
-

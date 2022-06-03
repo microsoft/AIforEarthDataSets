@@ -39,7 +39,7 @@ We also provide a read-only SAS (<a href="https://docs.microsoft.com/en-us/azure
 
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
-NAIP data can consume hundreds of terabytes, so large-scale processing is best performed in the West Europe Azure data center, where the images are stored.  If you are using NAIP data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
+NAIP data can consume hundreds of terabytes, so large-scale processing is best performed in the West Europe Azure data center, where the images are stored.
 
 A copy of NAIP is also available in the East US Azure region, and will be maintained there until at least the end of 2021, but we encourage users to migrate to the West Europe copy.  The East US data is in the following container:
 
