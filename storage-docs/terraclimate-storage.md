@@ -29,4 +29,4 @@ We also provide a read-only SAS (<a href="https://docs.microsoft.com/en-us/azure
 
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
-Large-scale processing is best performed in the West Europe Azure data center, where the data are stored.  If you are using this data for environmental science applications, consider applying for an [AI for Earth grant](http://aka.ms/ai4egrants) to support your compute requirements.
+Large-scale processing is best performed in the West Europe Azure data center, where the data are 
