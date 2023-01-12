@@ -14,7 +14,7 @@ Data are stored primarily in [Cloud Optimized GeoTIFF](https://www.cogeo.org/) f
 
 COG files are stored as blobs in the West Europe Azure region in the following blob container.
 
-`https://noaaimagery.blob.core.windows.net/digitalcoast`
+`https://coastalimagery.blob.core.windows.net/digitalcoast`
 
 The blobs are named using the following pattern `{location}_{tide-stage}_{data-type}_{year}_{OCM-id}/{filename}`
 
@@ -33,8 +33,8 @@ where
 * `EEEEEE` is the eastings for the UTM zone
 * `NNNNNN` is the northings for the UTM zone
 
-So an example full file path is `https://noaaimagery.blob.core.windows.net/digitalcoast/SenecaNY_RGB_2019_8967/335000e4730000n.tif`
-        
+So an example full file path is `https://coastalimagery.blob.core.windows.net/digitalcoast/SenecaNY_RGB_2019_8967/335000e4730000n.tif`
+
 Where the information is 3-band RGB imagery from 2019 in Seneca, New York. For more information on this dataset, query the WMS map service at https://maps.coast.noaa.gov/arcgis/rest/services/DAV/ImageryFootprints/MapServer/0 using ID=8967 (the IIII value from the directory).
 
 In addition to the data files, directories will also contain a metadata file (`*_met.xml`) and a tile index shapefile (`tileindex_{LLLLL}{_TTTT}_{tttt}_{YYYY}.zip`).
