@@ -40,6 +40,7 @@ If you have feedback about any of this data, or want to request additions to our
   - [NOAA High-Resolution Rapid Refresh (HRRR)](#noaa-high-resolution-rapid-refresh-hrrr)
   - [NOAA Integrated Surface Data (ISD)](#noaa-integrated-surface-data-isd)
   - [NOAA Monthly US Climate Gridded Dataset (NClimGrid)](#noaa-monthly-us-climate-gridded-dataset-nclimgrid)
+  - [NOAA National Water Model](#noaa-national-water-model)
   - [NOAA Rapid Refresh (RAP)](#noaa-rapid-refresh-rap)
   - [NOAA US Climate Normals](#noaa-us-climate-normals)
   - [National Agriculture Imagery Program](#national-agriculture-imagery-program)
@@ -320,6 +321,14 @@ Gridded climate data for the US from 1895 to the present.
 
 * [Source](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332)
 * [Documentation](data/noaa-nclimgrid.md)
+
+## NOAA National Water Model
+
+Data from the National Water Model.
+
+* [Source](https://water.noaa.gov/about/nwm)
+* [Documentation](data/noaa-nwm.md)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/noaa-nwm-example.ipynb)
 
 ## NOAA Rapid Refresh (RAP)
 
