@@ -145,45 +145,17 @@ where
 ## Example Notebook
 
 This example shows loading a short-range forcast for the Continental United States and plotting the soil saturation.
-```
+
+```python
 >>> import adlfs
 >>> import xarray as xr
 >>> fs = adlfs.AzureBlobFileSystem("noaanwm")
 >>> prefix = "nwm/nwm.20230123"
 >>> ds = xr.open_dataset(fs.open(f"{prefix}/short_range/nwm.t00z.short_range.land.f001.conus.nc"))
->>> print(ds)
-<xarray.Dataset>
-Dimensions:         (time: 1, reference_time: 1, x: 4608, y: 3840)
-Coordinates:
-  * time            (time) datetime64[ns] 2023-01-23T01:00:00
-  * reference_time  (reference_time) datetime64[ns] 2023-01-23
-  * x               (x) float64 -2.303e+06 -2.302e+06 ... 2.303e+06 2.304e+06
-  * y               (y) float64 -1.92e+06 -1.919e+06 ... 1.918e+06 1.919e+06
-Data variables:
-    crs             |S1 ...
-    SNOWH           (time, y, x) float64 ...
-    SNEQV           (time, y, x) float64 ...
-    FSNO            (time, y, x) float64 ...
-    ACCET           (time, y, x) float64 ...
-    SOILSAT_TOP     (time, y, x) float64 ...
-    SNOWT_AVG       (time, y, x) float64 ...
-Attributes:
-    TITLE:                      OUTPUT FROM NWM v2.2
-    model_initialization_time:  2023-01-23_00:00:00
-    model_output_valid_time:    2023-01-23_01:00:00
-    model_total_valid_times:    18
-    Conventions:                CF-1.6
-    code_version:               v5.2.0-beta2
-    NWM_version_number:         v2.2
-    model_output_type:          land
-    model_configuration:        short_range
-    proj4:                      +proj=lcc +units=m +a=6370000.0 +b=6370000.0 ...
-    GDAL_DataType:              Generic
-
 >>> soil_saturation = ds["SOILSAT_TOP"].load()
->>> soil_saturation.coarsen(x=4, y=4, boundary="trim").mean().plot(figsize=(16, 10));
+>>> soil_saturation.coarsen(x=4, y=4, boundary="trim").mean().plot(figsize=(16, 10))
 ```
 
 Which produces the figure
 
-![](...)
+![soil saturation plot](https://ai4edatasetspublicassets.blob.core.windows.net/assets/notebook-output/noaa-nwm-soil-saturation.png)
