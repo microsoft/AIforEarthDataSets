@@ -328,6 +328,7 @@ Data from the National Water Model.
 
 * [Source](https://water.noaa.gov/about/nwm)
 * [Documentation](data/noaa-nwm.md)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/noaa-nwm-example.ipynb)
 
 ## NOAA Rapid Refresh (RAP)
 

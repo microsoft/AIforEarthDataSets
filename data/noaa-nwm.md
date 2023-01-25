@@ -142,7 +142,7 @@ where
 * `mm` is the two-digit minute of the hour
 * `ss` is the two-digit second of the minute
 
-## Example Notebook
+## Example
 
 This example shows loading a short-range forcast for the Continental United States and plotting the soil saturation.
 
@@ -159,3 +159,6 @@ This example shows loading a short-range forcast for the Continental United Stat
 Which produces the figure
 
 ![soil saturation plot](https://ai4edatasetspublicassets.blob.core.windows.net/assets/notebook-output/noaa-nwm-soil-saturation.png)
+
+
+See the [example notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/noaa-nwm-example.ipynb) for more.
