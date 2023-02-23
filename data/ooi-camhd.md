@@ -32,7 +32,7 @@ A complete Python example of accessing and rendering a video is available in the
 
 ## Pretty picture
 
-<img src="https://oceanobservatories.org/wp-content/uploads/2016/01/HD_Camera_Thermisor_OSMO.jpg" style="width:650px;">
+<img alt="Hot spring vent mushroom" src="https://oceanobservatories.org/wp-content/uploads/2016/01/HD_Camera_Thermisor_OSMO.jpg" style="width:650px;">
 <br/>
 
 The HD camera (orange triangular frame) images the fourteen-foot-tall, actively venting hot spring deposit &ldquo;Mushroom&rdquo; located within the caldera for Axial Seamount. The vent rests on an old lava flow. Radiating cracks in the flow are filled with white bacterial mats and small tube worms, marking sites of diffusely flowing fluids that issue from the fractures in the basalt. The 3-D temperature array in the background encloses a tube worm bush, sending 24 temperature measurements live to shore every second.

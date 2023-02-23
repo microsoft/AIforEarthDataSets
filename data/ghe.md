@@ -51,7 +51,7 @@ A complete Python example of accessing and plotting a GHE image (i.e., an instan
 
 ## Pretty picture
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/ghe.png" style="width:350px;"><br/>
+<img alt="ghe plot" src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/ghe.png" style="width:350px;"><br/>
 
 <p style="font-size:80%;margin-left:15px;">Global daily precipitation on April 9, 2020.</p>
 
