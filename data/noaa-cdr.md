@@ -31,7 +31,7 @@ NetCDF structure and file naming conventions vary slightly across data sets; see
 
 For example, the following NetCDF file contains information from the "Leaf Area Index" (leaf-area-index-fapar) product for January 1st, 2003:
 
-[https://noaacdr.blob.core.windows.net/leaf-area-index-fapar/data/2003/AVHRR-Land_v005_AVH15C1_NOAA-16_<span style="background-color:yellow;">20030101</span>_c20180830231613.nc](https://noaacdr.blob.core.windows.net/leaf-area-index-fapar/data/2003/AVHRR-Land_v005_AVH15C1_NOAA-16_20030101_c20180830231613.nc)
+[https://noaacdr.blob.core.windows.net/leaf-area-index-fapar/data/2003/AVHRR-Land_v005_AVH15C1_NOAA-16_<span style="font-weight: bold;">20030101</span>_c20180830231613.nc](https://noaacdr.blob.core.windows.net/leaf-area-index-fapar/data/2003/AVHRR-Land_v005_AVH15C1_NOAA-16_20030101_c20180830231613.nc)
 
 The highlighted text indicates the date, and occurs in most NetCDF file names.
 
