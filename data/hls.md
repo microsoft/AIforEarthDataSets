@@ -61,9 +61,7 @@ Bands are as follows:
 
 For example the following filename, HLS.S30.T16TDL.2019206.v1.4_01.tif  would be located at https://hlssa.blob.core.windows.net/hls/S30/HLS.S30.T16TDL.2019206.v1.4_03.tif and would represent Sentinel-2 (S30) HLS data for tile 16TDL (primary tile 16T, sub-tile DL) for dataset band 03 (MSI Band 3, Green) for the 206th day of 2019.
 
-We also provide a read-only SAS (shared access signature) token to allow access to HLS data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
-
-`?sv=2019-12-12&si=hls-ro&sr=c&sig=g5Pe8pV1%2Fo6ZttXhcnAz66ufwkeGBmwyc2PgnLirl4w%3D`
+Use https://planetarycomputer.microsoft.com/api/sas/v1/token/hlssa/hls to generate read-only SAS tokens to access this data.
 
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
