@@ -29,6 +29,8 @@ If you have feedback about any of this data, or want to request additions to our
   - [Monitoring Trends in Burn Severity Mosaics](#monitoring-trends-in-burn-severity-mosaics)
   - [National Solar Radiation Database](#national-solar-radiation-database)
   - [NASADEM](#nasadem)
+  - [NREL Puerto Rico 100 (PR100)](#nrel-puerto-rico-100-dataset-pr100)
+  - [NREL PV Rooftop Database](#nrel-pv-rooftop-database)
   - [NOAA Climate Data Records (CDR)](#noaa-climate-data-records-cdr)
   - [NOAA Climate Forecast System (CFS)](#noaa-climate-forecast-system-cfs)
   - [NOAA Digital Coast Imagery](#noaa-digital-coast-imagery)
@@ -239,6 +241,22 @@ Global topographic information from the NASADEM program.
 * [Notebook (COG)](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/nasadem-cog.ipynb)
 * [Notebook (NetCDF)](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/nasadem-nc.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/nasadem)
+
+## NREL Puerto Rico 100 Dataset (PR100)
+
+A collection of geospasial data useful for renewable energy development in Puerto Rico. The dataset is curated by the National Renewable Energy Laboratory.
+
+* [Source](https://www.energy.gov/gdo/puerto-rico-grid-resilience-and-transitions-100-renewable-energy-study-pr100)
+* [Documentation](data/PR100.md)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/PR100.ipynb)
+
+## NREL PV Rooftop Database
+
+A lidar-derived, geospatially-resolved dataset of suitable roof surfaces and their PV technical potential for 128 metropolitan regions in the United States. 
+
+* [Source](https://www.nrel.gov/docs/fy16osti/65298.pdf)
+* [Documentation](data/pv_rooftop.md)
+* [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/pv_rooftop.ipynb)
 
 ## NOAA Climate Data Records (CDR)
 
