@@ -288,7 +288,7 @@ Warm start initial conditions for the [NOAA Global Forecast System](https://www.
 
 ## NOAA GOES-R
 
-Weather imagery from the GOES-16 and GOES-17 satellites.
+Weather imagery from the GOES-16, GOES-17, and GOES-18 satellites.
 
 * [Source](https://www.nesdis.noaa.gov/GOES-R-Series-Satellites)
 * [Documentation](data/goes-r.md)

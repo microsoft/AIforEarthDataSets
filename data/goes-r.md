@@ -1,8 +1,10 @@
 # NOAA GOES-R
 
+Some of these datasets are also queryable through the [Planetary Computer's STAC API](https://planetarycomputer.microsoft.com/catalog?filter=goes). We recommend getting the URLs in Blob Storage through the STAC API wherever possible.
+
 ## Overview
 
-Weather imagery from the GOES-16 and GOES-17 satellites.
+Weather imagery from the GOES-16, GOES-17, and GOES-18 satellites.
 
 The [GOES-R](https://www.goes-r.gov/) (Geostationary Operational Environmental Satellite) program images weather phenomena from a set of satellites in geostationary orbits.  The GOES-16 and GOES-17 satellites are the first two of four planned GOES-R satellites.
 
@@ -41,15 +43,17 @@ The following GOES-R products are available on Azure, for both GOES-16 and GOES-
 
 Data are available in Blob Storage in the West Europe Azure data center<sup>1</sup>, in both [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) and [cloud-optimized GeoTIFF](https://www.cogeo.org/) (COG) format.
 
-NetCDF files (one file per scene) are available in the following containers, for GOES-16 and GOES-17 respectively:
+NetCDF files (one file per scene) are available in the following containers, for GOES-16, GOES-17, and GOES-18 respectively:
 
 `https://goeseuwest.blob.core.windows.net/noaa-goes16`<br/>
-`https://goeseuwest.blob.core.windows.net/noaa-goes17`
+`https://goeseuwest.blob.core.windows.net/noaa-goes17`<br/>
+`https://goeseuwest.blob.core.windows.net/noaa-goes18`
 
-COG files (one file per band) are available in the following folders, for GOES-16 and GOES-17 respectively:
+COG files (one file per band) are available in the following folders, for GOES-16, GOES-17, and GOES-18 respectively:
 
 `https://goeseuwest.blob.core.windows.net/noaa-goes-cogs/goes-16/`<br/>
 `https://goeseuwest.blob.core.windows.net/noaa-goes-cogs/goes-17/`
+`https://goeseuwest.blob.core.windows.net/noaa-goes-cogs/goes-18/`
 
 Within any of the above, data are named as:
 
