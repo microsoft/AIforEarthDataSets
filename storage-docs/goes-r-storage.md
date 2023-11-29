@@ -40,6 +40,21 @@ Data channels and wavelengths are described [here](https://www.ncdc.noaa.gov/dat
 
 Large-scale processing using this dataset is best performed in the West Europe Azure data center, where the data is stored.
 
+### Snow and Ice data
+
+The following Snow and Ice products are available in Azure Blob Storage:
+
+- Snow Cover:
+  - ABI-L2-FSCC (CONUS)
+  - ABI-L2-FSCF (Full Disk)
+  - ABI-L2-FSCM (Mesoscale)
+- Ice Concentration:
+  - ABI-L2-AICEF (Full Disk)
+- Ice Thickness:
+  - ABI-L2-AITAF (Full Disk)
+
+See the [example notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/goes-ice.ipynb) for more.
+
 ### East US subset
 
 <sup>1</sup>The following products are also available in the East US Azure data center, in NetCDF format:

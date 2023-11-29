@@ -293,6 +293,7 @@ Weather imagery from the GOES-16, GOES-17, and GOES-18 satellites.
 * [Source](https://www.nesdis.noaa.gov/GOES-R-Series-Satellites)
 * [Documentation](data/goes-r.md)
 * [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/goes-r-abi-l2-mcmipf.ipynb)
+* [Snow / Ice Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/goes-ice.ipynb)
 * [Planetary Computer collection](https://planetarycomputer.microsoft.com/dataset/goes-cmi)
 
 ## NOAA Global Ensemble Forecast System (GEFS)
