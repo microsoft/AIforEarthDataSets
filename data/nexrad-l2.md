@@ -31,7 +31,7 @@ For example, the following file contains one scan from the KHPX station, on July
 
 We also provide an API to get read-only SAS (shared access signature) tokens to allow access via, e.g., [BlobFuse](https://github.com/Azure/azure-storage-fuse), which allows you to mount blob containers as drives:
 
-`https://planetarycomputer.microsoft.com/api/sas/v1/token/nexradsa/nexrad-12`
+`https://planetarycomputer.microsoft.com/api/sas/v1/token/nexradsa/nexrad-l2`
 
 API documentation is at `https://planetarycomputer.microsoft.com/api/sas/v1/docs`.
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
