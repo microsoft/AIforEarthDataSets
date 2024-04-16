@@ -95,10 +95,11 @@ A complete Python example of accessing and rendering a video is available in the
 
 ## Mounting the container
 
-We also provide a read-only SAS (shared access signature) token to allow access via, e.g., [BlobFuse](https://github.com/Azure/azure-storage-fuse), which allows you to mount blob containers as drives:
+We also provide an API to get read-only SAS (shared access signature) tokens to allow access via, e.g., [BlobFuse](https://github.com/Azure/azure-storage-fuse), which allows you to mount blob containers as drives:
 
-`https://nrel.blob.core.windows.net/nrel-nsrdb?sv=2020-08-04&si=nrel-nsrdb-ro&sr=c&sig=H8GUesZmOXzMomMWdrnXQv2ZPI09hANqHIcVrP7Ejl0%3D`
+`https://planetarycomputer.microsoft.com/api/sas/v1/token/nrel/nrel-nsrdb`
 
+API documentation is at `https://planetarycomputer.microsoft.com/api/sas/v1/docs`.
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
 

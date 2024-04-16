@@ -77,10 +77,11 @@ The data is provided in high density data file (.h5) separated by year. The vari
 
 ## Mounting the container
 
-We also provide a read-only SAS (shared access signature) token to allow access via, e.g., [BlobFuse](https://github.com/Azure/azure-storage-fuse), which allows you to mount blob containers as drives:
+We also provide an API to get read-only SAS (shared access signature) tokens to allow access via, e.g., [BlobFuse](https://github.com/Azure/azure-storage-fuse), which allows you to mount blob containers as drives:
 
-`https://nrel.blob.core.windows.net/nrel-wave?sv=2020-08-04&si=nrel-wave-ro&sr=c&sig=VACZ6rXzsE7l2eFQMvYMQCgy8dT23%2Bs1eDPYa%2FBCnEM%3D`
+`https://planetarycomputer.microsoft.com/api/sas/v1/token/nrel/nrel-wave`
 
+API documentation is at `https://planetarycomputer.microsoft.com/api/sas/v1/docs`.
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
 
