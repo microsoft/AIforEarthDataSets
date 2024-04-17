@@ -67,11 +67,11 @@ For example, this file:
 
 ...contains a GFS prediction for tile 3, from hour 12 on January 1, 202021.
 
+We also provide an API to get read-only SAS (shared access signature) tokens to allow access via, e.g., [BlobFuse](https://github.com/Azure/azure-storage-fuse), which allows you to mount blob containers as drives:
 
-We also provide a read-only SAS (shared access signature) token to allow access to GFS Warm Start data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
+`https://planetarycomputer.microsoft.com/api/sas/v1/token/gfswarmstart/gfs-warmstart-v15`
 
-`?sv=2019-12-12&si=gfs-warmstart-noaa-ro&sr=c&sig=Efen5WbiL6gBTjKCH2RbgScCzwdaefM3apytS7ar4M4%3D`
-
+API documentation is at `https://planetarycomputer.microsoft.com/api/sas/v1/docs`.
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
 Large-scale processing using this dataset is best performed in the East US 2 Azure data center, where the data is stored.

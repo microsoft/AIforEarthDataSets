@@ -14,10 +14,11 @@ Within that container, data are named according to:
 
 Images in this container are stored in [cloud-optimized GeoTIFF](https://www.cogeo.org/) format.
 
-We also provide a read-only SAS (shared access signature) token to allow access to NASADEM data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
+We also provide an API to get read-only SAS (shared access signature) tokens to allow access via, e.g., [BlobFuse](https://github.com/Azure/azure-storage-fuse), which allows you to mount blob containers as drives:
 
-`?sv=2020-04-08&si=nasadem-cog-ro&sr=c&sig=RkEC4wi6sOdMEP6uj59wocpwiE4%2BBwrjt5qn5lEFov8%3D`
+`https://planetarycomputer.microsoft.com/api/sas/v1/token/nasademeuwest/nasadem-cog`
 
+API documentation is at `https://planetarycomputer.microsoft.com/api/sas/v1/docs`.
 A full list of COG files is available [here](https://nasademeuwest.blob.core.windows.net/nasadem-cog/v001/index/nasadem_cog_list.txt).
 
 
@@ -41,8 +42,9 @@ For each tile, filenames with three extensions are present:
 
 Images in this container are stored in [NetCDF](https://en.wikipedia.org/wiki/NetCDF) format.
 
-We also provide a read-only SAS (shared access signature) token to allow access to NASADEM data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
+We also provide an API to get read-only SAS (shared access signature) tokens to allow access via, e.g., [BlobFuse](https://github.com/Azure/azure-storage-fuse), which allows you to mount blob containers as drives:
 
-`?sv=2019-12-12&si=nasadem-ro&sr=c&sig=6rAbZIvIjQVTov2bGUpqH9T0fzTipRahkooOSf2XCuo%3D`
+`https://planetarycomputer.microsoft.com/api/sas/v1/token/nasademeuwest/nasadem-nc`
 
+API documentation is at `https://planetarycomputer.microsoft.com/api/sas/v1/docs`.
 A full list of NetCDF files is available [here](https://nasademeuwest.blob.core.windows.net/nasadem-nc/v001/index/nasadem_file_list.txt).

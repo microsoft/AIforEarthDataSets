@@ -35,10 +35,11 @@ Latitude and longitude are not perfectly uniformly sampled, so an additional fil
 
 <https://ghe.blob.core.windows.net/noaa-ghe/NPR.GEO.GHE.v1.Navigation.netcdf.gz>
 
-We also provide a read-only SAS (shared access signature) token to allow access to GHE data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
+We also provide an API to get read-only SAS (shared access signature) tokens to allow access via, e.g., [BlobFuse](https://github.com/Azure/azure-storage-fuse), which allows you to mount blob containers as drives:
 
-`?sv=2020-04-08&si=noaa-ghe-ro&sr=c&sig=q9K1gGIRSmhbDcm27PEXo%2F%2BYGK8%2BkYhuiCJvZbOPdOs%3D`
+`https://planetarycomputer.microsoft.com/api/sas/v1/token/ghe/noaa-ghe`
 
+API documentation is at `https://planetarycomputer.microsoft.com/api/sas/v1/docs`.
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
 Large-scale processing using this dataset is best performed in the East US Azure data center, where the data is stored.

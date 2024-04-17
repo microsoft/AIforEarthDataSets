@@ -17,10 +17,11 @@ All available video files are listed in a [JSON file](https://ooiopendata.blob.c
 
 `https://ooiopendata.blob.core.windows.net/camhd`
 
-We also provide a read-only SAS (<a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview">shared access signature</a>) token to allow access to NAIP data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
+We also provide an API to get read-only SAS (shared access signature) tokens to allow access via, e.g., [BlobFuse](https://github.com/Azure/azure-storage-fuse), which allows you to mount blob containers as drives:
 
-`?sv=2019-12-12&si=camhd-aod-ro&sr=c&sig=zFVfMOqa1YW9mxbEusUsKfPrKjkBFyD2YAUJficSuCo%3D`
+`https://planetarycomputer.microsoft.com/api/sas/v1/token/ooiopendata/camhd`
 
+API documentation is at `https://planetarycomputer.microsoft.com/api/sas/v1/docs`.
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 Large-scale processing using this dataset is best performed in the East US Azure data center, where the data are stored. Computational resources are available at [ooi.pangeo.io](https://ooi.pangeo.io/).
 

@@ -33,10 +33,11 @@ Small thumbnails are also available for each image; substitute &ldquo;.tif&rdquo
 
 https://naipeuwest.blob.core.windows.net/naip/v002/al/2015/al_100cm_2015/30086/m_3008601_ne_16_1_20150804.200.jpg
 
-We also provide a read-only SAS (<a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview">shared access signature</a>) token to allow access to NAIP data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
+We also provide an API to get read-only SAS (shared access signature) tokens to allow access via, e.g., [BlobFuse](https://github.com/Azure/azure-storage-fuse), which allows you to mount blob containers as drives:
 
-`?sv=2019-12-12&si=naip-ro&sr=c&sig=FcKfuLanyuKLA%2BRrFSr%2B5l%2Byp9pEJWyUeHixb%2FpLrig%3D`
+`https://planetarycomputer.microsoft.com/api/sas/v1/token/naip`
 
+API documentation is at `https://planetarycomputer.microsoft.com/api/sas/v1/docs`.
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
 NAIP data can consume hundreds of terabytes, so large-scale processing is best performed in the West Europe Azure data center, where the images are stored.

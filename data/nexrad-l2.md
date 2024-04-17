@@ -29,10 +29,11 @@ For example, the following file contains one scan from the KHPX station, on July
 
 `https://nexradsa.blob.core.windows.net/nexrad-l2/1997/07/07/KHPX/KHPX19970707_000827.gz`
 
-We also provide a read-only SAS (shared access signature) token to allow access to NEXRAD data via, e.g., BlobFuse, which allows you to mount blob containers as drives:
+We also provide an API to get read-only SAS (shared access signature) tokens to allow access via, e.g., [BlobFuse](https://github.com/Azure/azure-storage-fuse), which allows you to mount blob containers as drives:
 
-`?sv=2020-04-08&si=nexrad-l2-ro&sr=c&sig=uAQbYwtg1BZyw%2FPp2DiELzDa9%2FK%2FiFonTM905wag7uI%3D`
+`https://planetarycomputer.microsoft.com/api/sas/v1/token/nexradsa/nexrad-l2`
 
+API documentation is at `https://planetarycomputer.microsoft.com/api/sas/v1/docs`.
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
 NEXRAD data can consume hundreds of terabytes, so large-scale processing is best performed in the East US Azure data center, where the scans are stored.

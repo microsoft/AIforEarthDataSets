@@ -76,10 +76,11 @@ Large-scale processing is best performed in the East US Azure region, where the 
 
 ## Mounting the container
 
-We also provide a read-only SAS (shared access signature) token to allow access via, e.g., [BlobFuse](https://github.com/Azure/azure-storage-fuse), which allows you to mount blob containers as drives:
+We also provide an API to get read-only SAS (shared access signature) tokens to allow access via, e.g., [BlobFuse](https://github.com/Azure/azure-storage-fuse), which allows you to mount blob containers as drives:
 
-`https://noaagefs.blob.core.windows.net/gefs?sv=2020-08-04&si=gefs-ro&sr=c&sig=ZaQx5Zq5GFj8LqXmVYy4KVZ3NttXovbdwVLAQ9%2B57%2Fw%3D`
+`https://planetarycomputer.microsoft.com/api/sas/v1/token/noaagefs/gefs`
 
+API documentation is at `https://planetarycomputer.microsoft.com/api/sas/v1/docs`.
 Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux).
 
 
