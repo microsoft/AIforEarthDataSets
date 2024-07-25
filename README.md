@@ -50,7 +50,6 @@ If you have feedback about any of this data, or want to request additions to our
   - [NatureServe Map of Biodiversity Importance (MoBI)](#natureserve-map-of-biodiversity-importance-mobi)
   - [Ocean Observatories Initiative CamHD](#ocean-observatories-initiative-camhd)
   - [Sentinel-1 GRD](#sentinel-1-grd)
-  - [Sentinel-1 SLC](#sentinel-1-slc)
   - [Sentinel-2 L2A](#sentinel-2-l2a)
   - [Sentinel-3 L2](#sentinel-3-l2)
   - [Sentinel-5P](#sentinel-5p)
@@ -406,15 +405,6 @@ Sentinel-1 GRD data are in preview; access is granted by request.
 * [Source](https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-1-sar/products-algorithms/level-1-algorithms/ground-range-detected)
 * [Documentation](data/sentinel-1-grd.md)
 * [Notebook](https://nbviewer.jupyter.org/github/microsoft/AIforEarthDataSets/blob/main/data/sentinel-1-grd.ipynb)
-
-## Sentinel-1 SLC
-
-Global synthetic aperture radar (SAR) data for the last 90 days.
-
-Sentinel-1 SLC data are in preview; access is granted by request.
-
-* [Source](https://sentinels.copernicus.eu/web/sentinel/technical-guides/sentinel-1-sar/products-algorithms/level-1-algorithms/single-look-complex)
-* [Documentation](data/sentinel-1-slc.md)
 
 ## Sentinel-2 L2A
 
