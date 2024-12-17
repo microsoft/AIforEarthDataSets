@@ -10,7 +10,7 @@ The [GOES-R](https://www.goes-r.gov/) (Geostationary Operational Environmental S
 
 This dataset currently includes eleven level-2 products from the Advanced Baseline Imager (ABI) instrument, and one level-2 product from the Geostationary Lightning Mapper (GLM) instrument.  We may on-board other GOES-16 and GOES-17 products on request; please contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=goes%20question) if you are interested in using additional GOES data on Azure.
 
-This dataset is available on Azure thanks to the [NOAA Big Data Program](https://www.noaa.gov/organization/information-technology/big-data-program).
+This dataset is available on Azure thanks to the [NOAA Open Data Dissemination (NODD)](https://www.noaa.gov/information-technology/open-data-dissemination).
 
 GOES-R data is also available as a collection in the [Planetary Computer Data Catalog](https://planetarycomputer.microsoft.com/dataset/goes-cmi).
 

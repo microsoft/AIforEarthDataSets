@@ -6,7 +6,7 @@ Global rainfall estimates in 15-minute intervals.
 
 The NOAA [Global Hydro Estimator](https://www.ospo.noaa.gov/Products/atmosphere/ghe/index.html) (GHE) program produces estimates of global (between -60° and +60° latitude) precipitation every 15 minutes, at ~4km resolution.  Estimates are derived from satellite imagery and data from NOAA's [Global Forecast System](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs); details about the GHE algorithm are available [here](https://www.ospo.noaa.gov/Products/atmosphere/ghe/algo.html).
 
-This dataset is available on Azure thanks to the [NOAA Big Data Program](https://www.noaa.gov/organization/information-technology/big-data-program).
+This dataset is available on Azure thanks to the [NOAA Open Data Dissemination (NODD)](https://www.noaa.gov/information-technology/open-data-dissemination).
 
 
 ## Storage resources

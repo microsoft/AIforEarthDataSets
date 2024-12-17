@@ -4,7 +4,7 @@
 
 The NOAA [HRRR](https://www.nco.ncep.noaa.gov/pmb/products/hrrr/) is a real-time 3km resolution, hourly updated, cloud-resolving, convection-allowing atmospheric model, initialized by 3km grids with 3km radar assimilation. Radar data is assimilated in the HRRR every 15 min over a 1-hour period adding further detail to that provided by the hourly data assimilation from the 13km radar-enhanced [Rapid Refresh](https://rapidrefresh.noaa.gov/) (RAP) system.
 
-This dataset is available on Azure thanks to the [NOAA Big Data Program](https://www.noaa.gov/organization/information-technology/big-data-program).
+This dataset is available on Azure thanks to the [NOAA Open Data Dissemination (NODD)](https://www.noaa.gov/information-technology/open-data-dissemination).
 
 
 ## Storage resources
@@ -62,7 +62,7 @@ Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azur
 
 ## Contact
 
-For questions, please contact the NOAA Big Data Program Team at [`noaa.bdp@noaa.gov`](mailto:noaa.bdp@noaa.gov?subject=azure%20hrrr%20question).
+For questions, please contact the NOAA Open Data Dissemination (NODD) Team at [`nodd@noaa.gov`](mailto:nodd@noaa.gov?subject=azure%20hrrr%20question).
 
 
 ## Notices
