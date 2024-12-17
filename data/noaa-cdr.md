@@ -13,7 +13,7 @@ CDRs are broken into four categories:
 * [<b>Oceanic</b>](https://www.ncei.noaa.gov/products/climate-data-records/oceanic) CDRs are measurements of oceans and seas, including surface, subsurface, and frozen-state variables.
 * [<b>Terrestrial</b>](https://www.ncei.noaa.gov/products/climate-data-records/terrestrial) CDRs are composed of terrestrial sensor data that have been improved and quality-controlled over time, together with ancillary calibration data.
 
-This dataset is available on Azure thanks to the [NOAA Big Data Program](https://www.noaa.gov/organization/information-technology/big-data-program).
+This dataset is available on Azure thanks to the [NOAA Open Data Dissemination (NODD) Program](https://www.noaa.gov/information-technology/open-data-dissemination).
 
 
 ## Storage resources
@@ -88,7 +88,7 @@ Large-scale processing is best performed in the East US Azure region, where the 
 
 ## Contact
 
-For questions, please contact the NOAA Big Data Program Team at [`noaa.bdp@noaa.gov`](mailto:noaa.bdp@noaa.gov?subject=azure%20cdr%20question).
+For questions, please contact the NOAA Open Data Dissemination (NODD) Program Team at [`nodd@noaa.gov`](mailto:nodd@noaa.gov?subject=azure%20cdr%20question).
 
 
 ## Notices

@@ -6,7 +6,7 @@ Recent level II data from the NEXRAD weather radar system.
 
 [NEXRAD](https://www.nws.noaa.gov/om/marine/nexrad.htm) (Next-Generation Radar) is a network of 159 radar stations across the US that is operated by the [National Oceanic and Atmospheric Administration](https://www.noaa.gov/) (NOAA).  This dataset is used for weather forecasting and climate science.
 
-This dataset is available on Azure thanks to the [NOAA Big Data Program](https://www.noaa.gov/organization/information-technology/big-data-program).
+This dataset is available on Azure thanks to the [NOAA Open Data Dissemination (NODD) Program](https://www.noaa.gov/information-technology/open-data-dissemination).
 
 Data are available for the most recent 90 days; older data are available in archive storage and may be made available on request (contact [`aiforearthdatasets@microsoft.com`](mailto:aiforearthdatasets@microsoft.com?subject=nexrad%20question)).
 

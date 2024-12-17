@@ -6,7 +6,7 @@ The NOAA [Monthly U.S. Climate Gridded Dataset](https://www.ncei.noaa.gov/access
 
 On an annual basis, approximately one year of "final" nClimGrid will be submitted to replace the initially supplied "preliminary" data for the same time period. Users should be sure to ascertain which level of data is required for their research.
 
-This dataset is available on Azure thanks to the [NOAA Big Data Program](https://www.noaa.gov/organization/information-technology/big-data-program).
+This dataset is available on Azure thanks to the [NOAA Open Data Dissemination (NODD) Program](https://www.noaa.gov/information-technology/open-data-dissemination).
 
 
 ## Storage resources
@@ -66,7 +66,7 @@ Large-scale processing is best performed in the West Europe or East US Azure reg
 
 ## Contact
 
-For questions, please contact the NOAA Big Data Program Team at [`noaa.bdp@noaa.gov`](mailto:noaa.bdp@noaa.gov?subject=azure%20nclimgrid%20question).
+For questions, please contact the NOAA Open Data Dissemination (NODD) Program Team at [`nodd@noaa.gov`](mailto:nodd@noaa.gov?subject=azure%20nclimgrid%20question).
 
 
 ## Notices

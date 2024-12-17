@@ -6,7 +6,7 @@ The [U.S. Climate Normals](https://www.ncei.noaa.gov/products/land-based-station
 
 The [National Centers for Environmental Information](https://www.ncei.noaa.gov/) (NCEI) generates the official U.S. normals every 10 years in keeping with the needs of our user community and the requirements of the World Meteorological Organization (WMO) and National Weather Service (NWS). The 1991–2020 U.S. Climate Normals are the latest in a series of decadal normals first produced in the 1950s. These data allow travelers to pack the right clothes, farmers to plant the best crop varieties, and utilities to plan for seasonal energy usage. Many other important economic decisions that are made beyond the predictive range of standard weather forecasts are either based on or influenced by climate normals.
 
-This dataset is available on Azure thanks to the [NOAA Big Data Program](https://www.noaa.gov/organization/information-technology/big-data-program).
+This dataset is available on Azure thanks to the [NOAA Open Data Dissemination (NODD) Program](https://www.noaa.gov/information-technology/open-data-dissemination).
 
 
 ## Storage resources
@@ -55,7 +55,7 @@ Large-scale processing is best performed in the East US Azure region, where the 
 
 ## Contact
 
-For questions, please contact the NOAA Big Data Program Team at [`noaa.bdp@noaa.gov`](mailto:noaa.bdp@noaa.gov?subject=azure%20climatenormals%20question).
+For questions, please contact the NOAA Open Data Dissemination (NODD) Program Team at [`nodd@noaa.gov`](mailto:nodd@noaa.gov?subject=azure%20climatenormals%20question).
 
 
 ## Notices

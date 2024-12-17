@@ -6,7 +6,7 @@ This dataset contains high resolution (1 meter or less) imagery collected by a n
 
 For more information, see the [project's documentation](https://coast.noaa.gov/digitalcoast/data/highresortho.html).
 
-This dataset is available on Azure thanks to the [NOAA Big Data Program](https://www.noaa.gov/organization/information-technology/big-data-program).
+This dataset is available on Azure thanks to the [NOAA Open Data Dissemination (NODD) Program](https://www.noaa.gov/information-technology/open-data-dissemination).
 
 ## Storage resources
 
@@ -45,7 +45,7 @@ Large-scale processing is best performed in the West Europe Azure region, where 
 
 ## Contact
 
-For questions, please contact the NOAA Big Data Program Team at [`noaa.bdp@noaa.gov`](mailto:noaa.bdp@noaa.gov?subject=azure%20gefs%20question).
+For questions, please contact the NOAA Open Data Dissemination (NODD) Program Team at [`nodd@noaa.gov`](mailto:nodd@noaa.gov?subject=azure%20gefs%20question).
 
 ## Notices
 
