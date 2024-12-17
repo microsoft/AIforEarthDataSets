@@ -6,7 +6,7 @@ The NOAA [Rapid Refresh](https://www.nco.ncep.noaa.gov/pmb/products/rap/) (RAP) 
 
 Data are retained for 30 days.
 
-This dataset is available on Azure thanks to the [NOAA Open Data Dissemination (NODD)](https://www.noaa.gov/information-technology/open-data-dissemination).
+This dataset is available on Azure thanks to the [NOAA Open Data Dissemination (NODD) Program](https://www.noaa.gov/information-technology/open-data-dissemination).
 
 
 ## Storage resources
@@ -57,7 +57,7 @@ Mounting instructions for Linux are [here](https://docs.microsoft.com/en-us/azur
 
 ## Contact
 
-For questions, please contact the NOAA Open Data Dissemination (NODD) Team at [`nodd@noaa.gov`](mailto:nodd@noaa.gov?subject=azure%20rap%20question).
+For questions, please contact the NOAA Open Data Dissemination (NODD) Program Team at [`nodd@noaa.gov`](mailto:nodd@noaa.gov?subject=azure%20rap%20question).
 
 
 ## Notices

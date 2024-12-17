@@ -6,7 +6,7 @@ The NOAA [Integrated Surface Database](https://www.ncei.noaa.gov/access/metadata
 
 ISD includes numerous parameters such as wind speed and direction, wind gust, temperature, dew point, cloud data, sea level pressure, altimeter setting, station pressure, present weather, visibility, precipitation amounts for various time periods, and snow depth.
 
-This dataset is available on Azure thanks to the [NOAA Open Data Dissemination (NODD)](https://www.noaa.gov/information-technology/open-data-dissemination).
+This dataset is available on Azure thanks to the [NOAA Open Data Dissemination (NODD) Program](https://www.noaa.gov/information-technology/open-data-dissemination).
 
 
 ## Storage resources
@@ -27,7 +27,7 @@ Large-scale processing is best performed in the West Europe Azure region, where 
 
 ## Contact
 
-For questions, please contact the NOAA Open Data Dissemination (NODD) Team at [`nodd@noaa.gov`](mailto:nodd@noaa.gov?subject=azure%20isd%20question).
+For questions, please contact the NOAA Open Data Dissemination (NODD) Program Team at [`nodd@noaa.gov`](mailto:nodd@noaa.gov?subject=azure%20isd%20question).
 
 
 ## Notices
